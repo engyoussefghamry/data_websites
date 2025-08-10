@@ -1,0 +1,120 @@
+
+/*  */
+.corporate-website-design-page .art-website-design-Process{
+position: relative;
+}
+
+.corporate-section.shopify-vs-wordpress-section .text-box h2{
+font-size: 100px ;
+margin-bottom: 40px !important;
+}
+.corporate-section.shopify-vs-wordpress-section .text-box h3{
+margin-bottom: 0px !important;
+}
+/* .corporate-design-section .text-box h3 span{
+font-family: 'gooddogregular';
+font-size: 55px;
+} */
+
+.art-website-design-case-arrow{
+margin-right: -120px;
+}
+
+/* stars  */
+.star2{
+background:url(../image/ecommerce-website-development-delhi-ncr-shining-left-star.png) no-repeat;
+    width: 85px;
+    height: 120px;
+}
+.star2.thrd{
+    left: 4%;
+    top: 160px;
+
+}
+.star2.frth{
+background:url(../image/ecommerce-website-development-delhi-ncr-shining-right-star.png) no-repeat;
+
+       right: 4%;
+    top: 150px;
+
+
+}
+
+.art-website-design-Process .title-box h2 span,.corporate-section .text-box h2 span{
+    background-size: 100% 100%;
+
+}
+.corporate-design-section .text-box h3 span{
+    background-size: 100% 100%;
+
+}
+.corporate-section .text-box h2 span{
+font-size: 50px;
+    background-size: 100% 100%;
+
+}
+.corporate-section .text-box h3 span::before{
+    content: '';
+    position: absolute;
+    background: url(../image/ecommerce-website-development-delhi-ncr-star.png) no-repeat center;
+    width: 47px;
+    height: 42px;
+    top: 3px;
+    left: -50px;
+}
+
+.corporate-section .text-box h3 span::after{
+            content: '';
+            position: absolute;
+            background: url(../image/ecommerce-website-development-delhi-ncr-star.png) no-repeat center;
+            width: 47px;
+            height: 42px;
+            top: 3px;
+            right: -50px;
+}
+
+.corporate-design-section .corporate-design-img img{
+margin-bottom: 120px;
+}
+ul.point-list li{
+width:calc(100%/2);
+    padding: 0 20px;
+    padding-left: 70px;
+}
+.point-list.shopify-vs-wordpress-list li{
+width: 100%;
+}
+
+.corporate-design-list{
+margin-top: 0;
+}
+
+.corporate-price-section.shopify-price h2{
+margin-bottom: 0 !important;
+}
+.corporate-price-section.shopify-price h3{
+margin-bottom: 40px !important;
+}
+
+
+
+
+/* Start- shoe page style */
+.corporate-website-design-page .art-website-design-Process.pt-0{
+padding-top: 0;
+}
+.corporate-website-design-page .art-website-design-Process.pt-0 .title-box{
+padding-bottom: 60px;
+}
+
+.mt-0{
+margin-top: 0;
+}
+.mb-80{
+margin-bottom: 80px;
+}
+.corporate-design-list .corporate-design-box.full-width:last-child{
+margin-bottom: 45px;
+}
+
+/* Start- shoe page style */

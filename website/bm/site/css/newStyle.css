@@ -1,0 +1,1287 @@
+.design-finger {
+  position: absolute;
+  left: -50%;
+  top: 0; }
+
+  @media all and (max-width: 1200px) {
+    .design-finger {
+      display: none; } }
+
+.learn-page a {
+  color: #69c291; }
+.learn-page .contentContainer .contentLeft p {
+  line-height: 1.633; }
+.learn-page .underline {
+  text-decoration: underline; }
+.learn-page ul.point-list li {
+  margin: 15px 0; }
+.learn-page .titleBox h1, .learn-page .titleBox h2 {
+  font-size: 70px;
+  font-family: comic_zine_otregular;
+  line-height: 1;
+  text-align: left; }
+  @media all and (max-width: 1366px) {
+    .learn-page .titleBox h1, .learn-page .titleBox h2 {
+      font-size: 55px; } }
+  @media all and (max-width: 979px) {
+    .learn-page .titleBox h1, .learn-page .titleBox h2 {
+      font-size: 42px; } }
+.learn-page .titleBox p {
+  font-family: 'comic_relief';
+  line-height: 1.633;
+  font-size: 18px; }
+@media all and (max-width: 979px) {
+  .learn-page .titleBox h2, .learn-page .titleBox h1 {
+    text-align: center; } }
+.learn-page .learn-page-banner {
+  padding-top: 50px; }
+  .learn-page .learn-page-banner hr.sm-social-media-banner-border {
+    padding-bottom: 100px; }
+    @media all and (max-width: 979px) {
+      .learn-page .learn-page-banner hr.sm-social-media-banner-border {
+        padding-bottom: 70px; } }
+  .learn-page .learn-page-banner .titleBox {
+    padding-top: 100px; }
+  .learn-page .learn-page-banner .banner-img-box {
+    margin: 60px 0; }
+    .learn-page .learn-page-banner .banner-img-box img {
+      max-width: 100%;
+      width: 100%; }
+  .learn-page .learn-page-banner .text-box {
+    padding-top: 40px; }
+    @media all and (max-width: 979px) {
+      .learn-page .learn-page-banner .text-box {
+        text-align: center; } }
+    .learn-page .learn-page-banner .text-box h5 {
+      font-family: comic_zine_otregular;
+      font-size: 50px;
+      margin: 10px 0;
+      font-weight: 500;
+      line-height: 1.1; }
+      @media all and (max-width: 1200px) {
+        .learn-page .learn-page-banner .text-box h5 {
+          font-size: 40px; } }
+  @media all and (max-width: 767px) {
+    .learn-page .learn-page-banner .titleBox {
+      padding-top: 70px; } }
+  @media all and (max-width: 767px) {
+    .learn-page .learn-page-banner .titleBox {
+      padding-top: 40px; } }
+.learn-page hr.sm-social-media-banner-border {
+  width: 100%; }
+.learn-page .color-green {
+  color: #69c291; }
+.learn-page .point-list.fullwidth li {
+  width: 100%;
+  color: #69c291;
+  padding-bottom: 0; }
+  .learn-page .point-list.fullwidth li strong {
+    color: #000; }
+.learn-page .yellow-bg {
+  background: url(../image/digital-mark-content.png) no-repeat;
+  background-size: cover;
+  padding: 0 8px;
+  color: #000; }
+.learn-page .specialise-container {
+  margin-top: 0;
+  margin-bottom: 100px; }
+  .learn-page .specialise-container img {
+    max-width: 510px;
+    width: 100%;
+    margin: 15px 0; }
+  .learn-page .specialise-container hr.sm-social-media-banner-border {
+    padding-top: 100px; }
+  .learn-page .specialise-container .titleBox {
+    position: relative; }
+    .learn-page .specialise-container .titleBox p {
+      font-size: 18px !important; }
+  .learn-page .specialise-container .specialise-panel {
+    position: relative; }
+    .learn-page .specialise-container .specialise-panel > h5 {
+      display: block; }
+      .learn-page .specialise-container .specialise-panel > h5 span {
+        padding: 0; }
+    .learn-page .specialise-container .specialise-panel h6 {
+      font-family: 'comic_relief';
+      font-weight: bold;
+      font-size: 22px; }
+      @media all and (max-width: 1366px) {
+        .learn-page .specialise-container .specialise-panel h6 {
+          font-size: 20px; } }
+      @media all and (max-width: 1200px) {
+        .learn-page .specialise-container .specialise-panel h6 {
+          font-size: 18px; } }
+  @media all and (max-width: 1200px) {
+    .learn-page .specialise-container h5 {
+      font-size: 40px; } }
+  @media all and (max-width: 767px) {
+    .learn-page .specialise-container {
+      margin-bottom: 0px; }
+      .learn-page .specialise-container .specialise-panel {
+        margin-top: 0; } }
+  @media all and (max-width: 500px) {
+    .learn-page .specialise-container .contentLeft {
+      padding: 0; }
+    .learn-page .specialise-container form {
+      margin-top: 40px; } }
+
+@font-face {
+  font-family: "Denne_Shuffle_Euro_Hollow";
+  src: url(../fonts/Denne_Shuffle_Euro_Hollow.html) format("truetype");
+  font-style: normal; }
+html {
+  font-size: 10px; }
+
+@media all and (max-width: 1366px) {
+  .corporate-website-design-page .art-website-design-Process {
+    padding-top: 100px; } }
+@media all and (max-width: 767px) {
+  .corporate-website-design-page .art-website-design-Process {
+    padding-top: 60px; } }
+
+.performance-marketing-page h2 {
+  display: block; }
+.performance-marketing-page .art-design-banner-content h1 {
+  font-size: 68px;
+  line-height: 0.936; }
+  .performance-marketing-page .art-design-banner-content h1 span {
+    background: url(../image/website-design-delhi-delhi-bg.png) 0 center no-repeat;
+    background-size: 100% 133%;
+    padding: 6px 9px 8px; }
+  @media all and (max-width: 1024px) {
+    .performance-marketing-page .art-design-banner-content h1 {
+      font-size: 55px; } }
+.performance-marketing-page .art-website-design-banner .flex-box {
+  align-items: center; }
+.performance-marketing-page .art-website-design-banner .container {
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+.performance-marketing-page .art-website-design-banner .art-design-banner-image {
+  position: static; }
+.performance-marketing-page .art-website-design-banner .art-banner-cloud-left {
+  bottom: 90px; }
+@media all and (max-width: 1024px) {
+  .performance-marketing-page .art-website-design-banner .container {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem; }
+  .performance-marketing-page .art-website-design-banner .col-3,
+  .performance-marketing-page .art-website-design-banner .col-7 {
+    width: 100%; }
+  .performance-marketing-page .art-website-design-banner .art-design-banner-content {
+    width: 100%; } }
+@media all and (max-width: 767px) {
+  .performance-marketing-page .art-website-design-banner .container {
+    padding-top: 0rem;
+    padding-bottom: 0rem; } }
+.performance-marketing-page .performance-achieve-section .title-box h2 {
+  line-height: 1; }
+.performance-marketing-page .performance-achieve-section ul.help-list {
+  justify-content: space-between;
+  margin-bottom: 13rem;
+  margin-top: -6rem; }
+  .performance-marketing-page .performance-achieve-section ul.help-list li {
+    max-width: 451px;
+    width: 50%;
+    margin-top: 8.5rem; }
+  .performance-marketing-page .performance-achieve-section ul.help-list .card-box {
+    padding: 50px;
+    box-shadow: 0px 0px 55px #00000010;
+    border-radius: 10px;
+    height: 100%; }
+    .performance-marketing-page .performance-achieve-section ul.help-list .card-box img {
+      height: 190px; }
+    .performance-marketing-page .performance-achieve-section ul.help-list .card-box .text-box {
+      position: relative; }
+      .performance-marketing-page .performance-achieve-section ul.help-list .card-box .text-box::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 55px;
+        height: 2px;
+        background: #000; }
+    .performance-marketing-page .performance-achieve-section ul.help-list .card-box h6 {
+      font-size: 2.6rem;
+      font-family: comic_relief;
+      line-height: 1.346;
+      margin-top: 30px;
+      padding-top: 20px; }
+@media all and (max-width: 1024px) {
+  .performance-marketing-page .performance-achieve-section ul.help-list {
+    margin-bottom: 8rem; } }
+@media all and (max-width: 767px) {
+  .performance-marketing-page .performance-achieve-section ul.help-list li {
+    padding: 0 2rem; }
+  .performance-marketing-page .performance-achieve-section ul.help-list .card-box img {
+    height: 150px;
+    object-fit: contain; }
+  .performance-marketing-page .performance-achieve-section ul.help-list .card-box h6 {
+    font-size: 2rem; } }
+@media all and (max-width: 767px) {
+  .performance-marketing-page .performance-achieve-section ul.help-list li {
+    width: 100%; }
+  .performance-marketing-page .performance-achieve-section ul.help-list .card-box {
+    padding: 40px 30px; }
+    .performance-marketing-page .performance-achieve-section ul.help-list .card-box img {
+      height: 160px;
+      object-fit: contain; } }
+.performance-marketing-page .performance-medium-section .text-box {
+  padding-top: 80px; }
+  .performance-marketing-page .performance-medium-section .text-box h2 {
+    font-size: 90px !important; }
+    .performance-marketing-page .performance-medium-section .text-box h2 span {
+      font-size: 5.4rem;
+      background: url(../image/ecommerce-website-development-delhi-ncr-eco-text-bg.png) 0 center no-repeat; }
+      .performance-marketing-page .performance-medium-section .text-box h2 span::after, .performance-marketing-page .performance-medium-section .text-box h2 span::before {
+        display: none; }
+    @media all and (max-width: 1024px) {
+      .performance-marketing-page .performance-medium-section .text-box h2 {
+        font-size: 75px !important; } }
+  .performance-marketing-page .performance-medium-section .text-box h3 {
+    margin-top: 20px; }
+.performance-marketing-page .performance-medium-section ul.marketing-list {
+  margin: 0 -5rem; }
+  .performance-marketing-page .performance-medium-section ul.marketing-list li {
+    width: calc(100%/4);
+    padding: 0 2.5rem; }
+    .performance-marketing-page .performance-medium-section ul.marketing-list li h3 {
+      font-family: "Denne_Shuffle_Euro_Hollow";
+      font-size: 6.4rem;
+      color: #1a1a1a;
+      line-height: 0.469; }
+    .performance-marketing-page .performance-medium-section ul.marketing-list li h5 {
+      font-size: 3.2rem;
+      font-family: comic_relief;
+      line-height: 1;
+      margin: 15px 0;
+      font-weight: 400; }
+@media all and (max-width: 1024px) {
+  .performance-marketing-page .performance-medium-section ul.marketing-list {
+    margin: 0 -2rem; }
+    .performance-marketing-page .performance-medium-section ul.marketing-list li {
+      padding: 0 2rem; }
+      .performance-marketing-page .performance-medium-section ul.marketing-list li h5 {
+        font-size: 2.6rem; } }
+@media all and (max-width: 767px) {
+  .performance-marketing-page .performance-medium-section ul.marketing-list {
+    margin: 0 -2rem; }
+    .performance-marketing-page .performance-medium-section ul.marketing-list li {
+      width: calc(100%/3);
+      padding: 0 2rem; }
+      .performance-marketing-page .performance-medium-section ul.marketing-list li h5 {
+        font-size: 2.9rem; } }
+@media all and (max-width: 550px) {
+  .performance-marketing-page .performance-medium-section ul.marketing-list li {
+    width: 50%;
+    padding: 0 2rem; }
+    .performance-marketing-page .performance-medium-section ul.marketing-list li h5 {
+      font-size: 2.6rem; } }
+.performance-marketing-page .corporate-section h2 span,
+.performance-marketing-page .corporate-section h3 span,
+.performance-marketing-page .performance-goals-section h2 span,
+.performance-marketing-page .performance-goals-section h3 span {
+  background: url(../image/website-design-delhi-process-text-bg.png) 0 center no-repeat;
+  padding: 6px 15px 13px;
+  color: #fff;
+  margin-bottom: -4px;
+  top: 6px;
+  position: relative;
+  background-size: 100%;
+  display: inline-block;
+  font-family: 'comic_zine_otregular';
+  font-size: 90%; }
+  .performance-marketing-page .corporate-section h2 span::after, .performance-marketing-page .corporate-section h2 span::before,
+  .performance-marketing-page .corporate-section h3 span::after,
+  .performance-marketing-page .corporate-section h3 span::before,
+  .performance-marketing-page .performance-goals-section h2 span::after,
+  .performance-marketing-page .performance-goals-section h2 span::before,
+  .performance-marketing-page .performance-goals-section h3 span::after,
+  .performance-marketing-page .performance-goals-section h3 span::before {
+    display: none; }
+.performance-marketing-page .corporate-section ul.goal-list,
+.performance-marketing-page .performance-goals-section ul.goal-list {
+  margin: 0 -30px; }
+  .performance-marketing-page .corporate-section ul.goal-list li,
+  .performance-marketing-page .performance-goals-section ul.goal-list li {
+    width: calc(100%/3);
+    padding: 20px 30px 0; }
+    .performance-marketing-page .corporate-section ul.goal-list li h5,
+    .performance-marketing-page .performance-goals-section ul.goal-list li h5 {
+      font-family: gooddogregular;
+      font-size: 3.5rem;
+      font-weight: 400;
+      color: #1a1a1a;
+      line-height: 0.914;
+      margin: 15px 0; }
+@media all and (max-width: 600px) {
+  .performance-marketing-page .corporate-section ul.goal-list,
+  .performance-marketing-page .performance-goals-section ul.goal-list {
+    margin: 0 -15px; }
+    .performance-marketing-page .corporate-section ul.goal-list li,
+    .performance-marketing-page .performance-goals-section ul.goal-list li {
+      width: 50%;
+      padding: 15px 10px 0; }
+      .performance-marketing-page .corporate-section ul.goal-list li h5,
+      .performance-marketing-page .performance-goals-section ul.goal-list li h5 {
+        font-size: 3rem; } }
+.performance-marketing-page .performance-strategy-section ul.strategy-list {
+  margin: 0 -4rem; }
+  .performance-marketing-page .performance-strategy-section ul.strategy-list li {
+    width: calc(100%/3);
+    padding: 30px 40px 0;
+    text-align: left; }
+    .performance-marketing-page .performance-strategy-section ul.strategy-list li h4 {
+      font-size: 3.9rem;
+      font-family: comic_relief;
+      color: #1a1a1a;
+      line-height: 0.821;
+      font-weight: 400;
+      margin-bottom: 15px; }
+      .performance-marketing-page .performance-strategy-section ul.strategy-list li h4 span {
+        font-size: 4rem;
+        font-family: denne_shuffle_euro_hollow;
+        color: #1a1a1a;
+        font-weight: 400;
+        line-height: 0.75; }
+@media all and (max-width: 1024px) {
+  .performance-marketing-page .performance-strategy-section ul.strategy-list {
+    margin: 0 -2rem; }
+    .performance-marketing-page .performance-strategy-section ul.strategy-list li {
+      padding: 0 2rem; } }
+@media all and (max-width: 767px) {
+  .performance-marketing-page .performance-strategy-section ul.strategy-list li {
+    width: 50%; }
+    .performance-marketing-page .performance-strategy-section ul.strategy-list li h4 {
+      font-size: 3.4rem; }
+      .performance-marketing-page .performance-strategy-section ul.strategy-list li h4 span {
+        font-size: 3.5rem; } }
+
+.hosting-services-page h2 {
+  display: block; }
+.hosting-services-page .art-website-design-banner > .container {
+  padding-bottom: 160px; }
+  .hosting-services-page .art-website-design-banner > .container .col-7 {
+    width: 85%; }
+  .hosting-services-page .art-website-design-banner > .container .col-3 {
+    width: 15%; }
+@media all and (max-width: 1024px) {
+  .hosting-services-page .art-website-design-banner > .container .col-7, .hosting-services-page .art-website-design-banner > .container .col-3 {
+    width: 100%; } }
+@media all and (max-width: 767px) {
+  .hosting-services-page .art-website-design-banner > .container {
+    padding-bottom: 405px; } }
+@media all and (max-width: 500px) {
+  .hosting-services-page .art-website-design-banner > .container {
+    padding-bottom: 0; } }
+.hosting-services-page .art-design-banner-image {
+  right: 280px;
+  bottom: -50px; }
+  .hosting-services-page .art-design-banner-image img {
+    height: 500px; }
+  @media all and (max-width: 1024px) {
+    .hosting-services-page .art-design-banner-image {
+      right: 0px; }
+      .hosting-services-page .art-design-banner-image img {
+        max-width: 100%; } }
+.hosting-services-page .art-banner-cloud.art-wd-auto {
+  max-width: 137px; }
+.hosting-services-page .hosting-service-section {
+  padding-top: 150px; }
+  .hosting-services-page .hosting-service-section .title-box h2 {
+    line-height: 1.1; }
+  .hosting-services-page .hosting-service-section ul.corporate-design-list {
+    margin-top: 100px;
+    margin-bottom: 130px; }
+    .hosting-services-page .hosting-service-section ul.corporate-design-list li {
+      max-width: 100%;
+      width: 100%;
+      position: relative; }
+      .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(odd) .corporate-design-box {
+        float: left; }
+      .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(even) .corporate-design-box {
+        float: right; }
+      .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(even) .corporate-design-box {
+        float: right; }
+      .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(1)::after {
+        content: "";
+        position: absolute;
+        top: -23px;
+        right: 162px;
+        background: url(../image/curve-1.png) 0 center no-repeat;
+        width: 531px;
+        height: 294px; }
+      .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(1) .corporate-design-box h4 {
+        top: -19px;
+        right: 90px; }
+      .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(2)::after {
+        content: "";
+        position: absolute;
+        top: 104px;
+        right: 287px;
+        background: url(../image/curve-2.png) 0 center no-repeat;
+        width: 534px;
+        height: 170px; }
+      .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(2) .corporate-design-box h4 {
+        top: -80px;
+        right: 143px; }
+      .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(3)::after {
+        content: "";
+        position: absolute;
+        top: 112px;
+        right: 159px;
+        background: url(../image/curve-3.png) 0 center no-repeat;
+        width: 590px;
+        height: 152px; }
+      .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(3) .corporate-design-box h4 {
+        top: -70px;
+        right: 195px; }
+      .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(4) .corporate-design-box h4 {
+        top: -70px;
+        right: 150px; }
+    .hosting-services-page .hosting-service-section ul.corporate-design-list .corporate-design-box {
+      max-width: 450px;
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 0;
+      padding: 0;
+      position: relative; }
+      .hosting-services-page .hosting-service-section ul.corporate-design-list .corporate-design-box h4 {
+        position: absolute; }
+      .hosting-services-page .hosting-service-section ul.corporate-design-list .corporate-design-box p {
+        font-family: gooddogregular;
+        font-size: 36px;
+        font-weight: 400;
+        text-align: center; }
+        @media all and (max-width: 1024px) {
+          .hosting-services-page .hosting-service-section ul.corporate-design-list .corporate-design-box p {
+            font-size: 26px; } }
+      .hosting-services-page .hosting-service-section ul.corporate-design-list .corporate-design-box img {
+        max-width: 110px;
+        height: auto; }
+  @media all and (max-width: 1024px) {
+    .hosting-services-page .hosting-service-section {
+      padding-top: 100px; } }
+  @media all and (max-width: 767px) {
+    .hosting-services-page .hosting-service-section {
+      padding-top: 50px; }
+      .hosting-services-page .hosting-service-section ul.corporate-design-list {
+        margin-top: 50px;
+        margin-bottom: 50px; }
+        .hosting-services-page .hosting-service-section ul.corporate-design-list li {
+          max-width: 50%;
+          padding: 40px 15px; }
+          .hosting-services-page .hosting-service-section ul.corporate-design-list li::after {
+            display: none; }
+          .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(even) .corporate-design-box, .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(odd) .corporate-design-box {
+            float: none; }
+          .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(1) .corporate-design-box h4, .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(2) .corporate-design-box h4, .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(3) .corporate-design-box h4, .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(4) .corporate-design-box h4 {
+            top: -80px; }
+          .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(4) {
+            padding-bottom: 0; }
+            .hosting-services-page .hosting-service-section ul.corporate-design-list li:nth-child(4) .corporate-design-box {
+              margin-bottom: 0; }
+        .hosting-services-page .hosting-service-section ul.corporate-design-list .corporate-design-box {
+          margin: 20px auto; }
+          .hosting-services-page .hosting-service-section ul.corporate-design-list .corporate-design-box h4 {
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%); } }
+  @media all and (max-width: 500px) {
+    .hosting-services-page .hosting-service-section ul.corporate-design-list li {
+      max-width: 100%; } }
+.hosting-services-page .hosting-expertise-section .corporate-design-list {
+  text-align: left;
+  margin-bottom: 50px; }
+@media all and (max-width: 1024px) {
+  .hosting-services-page .hosting-expertise-section .corporate-design-list {
+    margin-bottom: 0px; } }
+@media all and (max-width: 500px) {
+  .hosting-services-page .hosting-expertise-section .corporate-design-list {
+    text-align: center; } }
+.hosting-services-page .hosting-partners-section .title-box h3 {
+  font-size: 75px;
+  font-family: comic_zine_otregular;
+  line-height: .9;
+  color: #000;
+  font-weight: 400; }
+  @media all and (max-width: 1024px) {
+    .hosting-services-page .hosting-partners-section .title-box h3 {
+      font-size: 60px !important; } }
+  @media all and (max-width: 1024px) {
+    .hosting-services-page .hosting-partners-section .title-box h3 {
+      font-size: 50px !important; } }
+.hosting-services-page .hosting-partners-section .title-box h2 {
+  font-size: 125px !important;
+  margin: 0; }
+  @media all and (max-width: 1024px) {
+    .hosting-services-page .hosting-partners-section .title-box h2 {
+      font-size: 100px !important; } }
+  @media all and (max-width: 767px) {
+    .hosting-services-page .hosting-partners-section .title-box h2 {
+      font-size: 85px !important; } }
+.hosting-services-page .hosting-partners-section .art-design-and-delhi-block {
+  align-items: center; }
+.hosting-services-page .hosting-partners-section .art-design-and-delhi-contentblock {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 0; }
+  .hosting-services-page .hosting-partners-section .art-design-and-delhi-contentblock h3 {
+    font-family: comic_zine_otregular;
+    font-size: 50px;
+    line-height: 0.9; }
+.hosting-services-page .hosting-partners-section .art-design-and-delhi-imgblock img {
+  max-width: 100%;
+  width: 100%; }
+.hosting-services-page .hosting-partners-section .art-design-and-delhi-block:nth-child(odd) {
+  flex-direction: row; }
+  .hosting-services-page .hosting-partners-section .art-design-and-delhi-block:nth-child(odd) .art-design-and-delhi-contentblock {
+    text-align: right;
+    padding-left: 0; }
+.hosting-services-page .hosting-partners-section .art-design-and-delhi-block:nth-child(even) {
+  flex-direction: row-reverse;
+  text-align: left; }
+  .hosting-services-page .hosting-partners-section .art-design-and-delhi-block:nth-child(even) .art-design-and-delhi-contentblock {
+    padding-right: 0; }
+@media all and (max-width: 500px) {
+  .hosting-services-page .hosting-partners-section .col-3 {
+    display: block;
+    width: 100%; }
+  .hosting-services-page .hosting-partners-section .art-design-and-delhi-imgblock {
+    text-align: center; }
+    .hosting-services-page .hosting-partners-section .art-design-and-delhi-imgblock img {
+      max-width: 80%;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+  .hosting-services-page .hosting-partners-section .art-design-and-delhi-block:nth-child(odd) .art-design-and-delhi-contentblock {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0; }
+  .hosting-services-page .hosting-partners-section .art-design-and-delhi-block:nth-child(even) .art-design-and-delhi-contentblock {
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0; } }
+
+.video-editing-page .art-website-design-banner .container {
+  padding-bottom: 130px; }
+.video-editing-page .art-website-design-banner .art-banner-cloud.art-wd-auto {
+  max-width: 165px; }
+.video-editing-page .art-website-design-banner .art-design-banner-image,
+.video-editing-page .art-website-design-banner .art-banner-cloud.art-wd-auto {
+  bottom: 45px; }
+@media all and (max-width: 1440px) {
+  .video-editing-page .art-website-design-banner .container {
+    padding-bottom: 100px; }
+  .video-editing-page .art-website-design-banner .art-banner-cloud.art-wd-auto {
+    max-width: 115px; } }
+@media all and (max-width: 1200px) {
+  .video-editing-page .art-website-design-banner .art-design-banner-image {
+    right: 150px; }
+    .video-editing-page .art-website-design-banner .art-design-banner-image img {
+      max-width: 85%; } }
+@media all and (max-width: 1024px) {
+  .video-editing-page .art-website-design-banner .container {
+    padding-bottom: 60px; }
+  .video-editing-page .art-website-design-banner .art-design-banner-image {
+    right: 60px; }
+    .video-editing-page .art-website-design-banner .art-design-banner-image img {
+      max-width: 85%; } }
+@media all and (max-width: 767px) {
+  .video-editing-page .art-website-design-banner .col-7, .video-editing-page .art-website-design-banner .col-3 {
+    width: 100%; }
+  .video-editing-page .art-website-design-banner .container {
+    padding-bottom: 0px; }
+  .video-editing-page .art-website-design-banner .art-design-banner-image {
+    position: static;
+    margin-top: 20px; } }
+.video-editing-page .video-whyUs-section .container {
+  max-width: 1024px; }
+.video-editing-page .video-whyUs-section .icon-list {
+  margin: 80px -20px 51px;
+  margin-bottom: 130px; }
+  .video-editing-page .video-whyUs-section .icon-list li img {
+    max-width: 122px;
+    width: 100%;
+    margin-bottom: 15px; }
+@media all and (max-width: 1200px) {
+  .video-editing-page .video-whyUs-section .icon-list {
+    margin: 80px -20px 51px; }
+    .video-editing-page .video-whyUs-section .icon-list li img {
+      max-width: 90px; } }
+@media all and (max-width: 1024px) {
+  .video-editing-page .video-whyUs-section .container {
+    width: 96%;
+    margin: 0 auto; } }
+@media all and (max-width: 767px) {
+  .video-editing-page .video-whyUs-section .container {
+    width: 100%; }
+  .video-editing-page .video-whyUs-section .icon-list {
+    margin: 60px -20px 51px; } }
+.video-editing-page .video-software-section {
+  padding-top: 80px; }
+  .video-editing-page .video-software-section .container {
+    max-width: 1024px; }
+    .video-editing-page .video-software-section .container > .flex-box {
+      flex-wrap: nowrap;
+      align-items: center;
+      margin-bottom: 80px; }
+  .video-editing-page .video-software-section .title-box {
+    max-width: 377px;
+    flex: 0 0 100%; }
+    .video-editing-page .video-software-section .title-box h2,
+    .video-editing-page .video-software-section .title-box p {
+      text-align: left; }
+    .video-editing-page .video-software-section .title-box h2 {
+      margin-bottom: 25px; }
+      .video-editing-page .video-software-section .title-box h2 span {
+        font-family: gooddogregular;
+        font-size: 51px;
+        line-height: 2.6;
+        padding: 0 42px 18px; }
+  .video-editing-page .video-software-section .flex-box > .img-box {
+    max-width: 200px;
+    flex: 0 0 100%;
+    margin-top: 120px; }
+    .video-editing-page .video-software-section .flex-box > .img-box img {
+      transform: scaleY(-1); }
+  .video-editing-page .video-software-section ul.icon-list {
+    justify-content: space-between;
+    align-items: space-between;
+    margin: 0;
+    margin-right: -30px;
+    max-width: 450px;
+    flex: 0 0 100%; }
+    .video-editing-page .video-software-section ul.icon-list li {
+      width: 50%; }
+      .video-editing-page .video-software-section ul.icon-list li .img-box {
+        width: 140px;
+        height: 140px;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: url(../image/social-media-delhi-counter.png) 0 0 no-repeat;
+        background-size: cover;
+        margin-bottom: 15px; }
+      .video-editing-page .video-software-section ul.icon-list li img {
+        width: 50px;
+        height: 50px; }
+  @media all and (max-width: 1024px) {
+    .video-editing-page .video-software-section {
+      padding-top: 80px; }
+      .video-editing-page .video-software-section .container {
+        width: 96%;
+        margin: 0 auto; }
+        .video-editing-page .video-software-section .container > .flex-box {
+          flex-direction: column;
+          margin-bottom: 80px; }
+          .video-editing-page .video-software-section .container > .flex-box > .img-box {
+            margin: 20px 0; }
+            .video-editing-page .video-software-section .container > .flex-box > .img-box img {
+              transform: none; }
+      .video-editing-page .video-software-section .title-box, .video-editing-page .video-software-section ul.icon-list {
+        max-width: 100%;
+        width: 100%;
+        margin-right: 0; }
+      .video-editing-page .video-software-section .title-box h2, .video-editing-page .video-software-section .title-box p {
+        text-align: center; }
+      .video-editing-page .video-software-section ul.icon-list li {
+        width: calc(100%/4); } }
+  @media all and (max-width: 767px) {
+    .video-editing-page .video-software-section {
+      padding-top: 60px; }
+      .video-editing-page .video-software-section .container {
+        width: 100%; } }
+  @media all and (max-width: 500px) {
+    .video-editing-page .video-software-section ul.icon-list li {
+      width: calc(100%/2); } }
+.video-editing-page .video-services-section {
+  padding-top: 80px;
+  padding-bottom: 0; }
+  .video-editing-page .video-services-section .title-box h2 span {
+    font-family: comic_zine_otregular;
+    font-size: inherit;
+    background-size: 100% 100%; }
+  .video-editing-page .video-services-section .ecommerce-store-website-slider {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px; }
+    .video-editing-page .video-services-section .ecommerce-store-website-slider .ecommerce-store-website-slide {
+      width: calc(100%/3); }
+    .video-editing-page .video-services-section .ecommerce-store-website-slider .ecommerce-store-website-slide-inner {
+      height: 95%; }
+      .video-editing-page .video-services-section .ecommerce-store-website-slider .ecommerce-store-website-slide-inner h4 {
+        font-weight: 500;
+        font-size: 28px; }
+      .video-editing-page .video-services-section .ecommerce-store-website-slider .ecommerce-store-website-slide-inner .ecommerce-store-website-ico {
+        height: auto; }
+        .video-editing-page .video-services-section .ecommerce-store-website-slider .ecommerce-store-website-slide-inner .ecommerce-store-website-ico img {
+          max-width: 65px;
+          width: 100%;
+          height: 65px;
+          margin: 0; }
+  @media all and (max-width: 1024px) {
+    .video-editing-page .video-services-section .ecommerce-store-website-slider {
+      padding-bottom: 80px; } }
+  @media all and (max-width: 767px) {
+    .video-editing-page .video-services-section .title-box h2 {
+      font-size: 60px !important; }
+    .video-editing-page .video-services-section .ecommerce-store-website-slider .ecommerce-store-website-slide {
+      width: calc(100%/2); } }
+  @media all and (max-width: 500px) {
+    .video-editing-page .video-services-section .ecommerce-store-website-slider {
+      padding-bottom: 60px; }
+      .video-editing-page .video-services-section .ecommerce-store-website-slider .ecommerce-store-website-slide {
+        width: 100%; } }
+.video-editing-page .video-future-section .container {
+  max-width: 1024px; }
+.video-editing-page .video-future-section .title-box h2 {
+  text-align: left;
+  font-size: 62px;
+  margin-bottom: 20px; }
+  .video-editing-page .video-future-section .title-box h2 span {
+    font-family: comic_zine_otregular;
+    font-size: inherit;
+    position: relative;
+    padding: 11px 20px 15px; }
+    .video-editing-page .video-future-section .title-box h2 span::after {
+      content: "";
+      position: absolute;
+      top: -50px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: url(../image/ecommerce-website-development-delhi-ncr-star.png) 0 0 no-repeat;
+      width: 47px;
+      height: 42px; }
+@media all and (max-width: 1024px) {
+  .video-editing-page .video-future-section {
+    padding-top: 0; }
+    .video-editing-page .video-future-section .container {
+      width: 96%;
+      margin: 0 auto; }
+    .video-editing-page .video-future-section .title-box h2 {
+      font-size: 58px !important; }
+      .video-editing-page .video-future-section .title-box h2 span::after {
+        display: none; } }
+@media all and (max-width: 767px) {
+  .video-editing-page .video-future-section {
+    padding-bottom: 60px; }
+    .video-editing-page .video-future-section .container {
+      width: 100%; }
+    .video-editing-page .video-future-section .title-box {
+      text-align: center; } }
+
+.media-buying-page .art-website-design-banner .container > .flex-box {
+  justify-content: space-between; }
+.media-buying-page .art-website-design-banner .col-7 {
+  width: 65%; }
+.media-buying-page .art-website-design-banner .art-design-banner-image,
+.media-buying-page .art-website-design-banner .art-banner-cloud.art-wd-auto {
+  bottom: -40px; }
+@media all and (max-width: 1600px) {
+  .media-buying-page .art-website-design-banner .art-design-banner-image img {
+    width: 85%; } }
+@media all and (max-width: 1441px) {
+  .media-buying-page .art-website-design-banner .container {
+    padding-bottom: 60px; }
+  .media-buying-page .art-website-design-banner .art-design-banner-image img {
+    width: 95%; } }
+@media all and (max-width: 1366px) {
+  .media-buying-page .art-website-design-banner .container {
+    padding-bottom: 10px; }
+  .media-buying-page .art-website-design-banner .col-7, .media-buying-page .art-website-design-banner .col-3 {
+    width: 50%; } }
+@media all and (max-width: 1366px) {
+  .media-buying-page .art-website-design-banner .art-design-banner-image {
+    right: auto; } }
+@media all and (max-width: 1024px) {
+  .media-buying-page .art-website-design-banner .art-design-banner-image {
+    width: 50%; }
+    .media-buying-page .art-website-design-banner .art-design-banner-image img {
+      width: 95%; } }
+@media all and (max-width: 767px) {
+  .media-buying-page .art-website-design-banner .col-7,
+  .media-buying-page .art-website-design-banner .col-3 {
+    width: 100%; }
+  .media-buying-page .art-website-design-banner .art-design-banner-image {
+    width: 100%; } }
+.media-buying-page .media-our-media-section {
+  padding-top: 130px; }
+  .media-buying-page .media-our-media-section .title-box p {
+    margin-top: 20px; }
+  .media-buying-page .media-our-media-section ul.buying-list {
+    margin-top: 80px;
+    justify-content: space-between; }
+    .media-buying-page .media-our-media-section ul.buying-list li {
+      width: 50%;
+      max-width: 430px; }
+    .media-buying-page .media-our-media-section ul.buying-list img, .media-buying-page .media-our-media-section ul.buying-list h6 {
+      margin-bottom: 20px; }
+    .media-buying-page .media-our-media-section ul.buying-list h6 {
+      font-family: kbzipadeedoodahmedium;
+      font-size: 42px;
+      font-weight: 400;
+      line-height: 1.2; }
+      @media all and (max-width: 1440px) {
+        .media-buying-page .media-our-media-section ul.buying-list h6 {
+          font-size: 38px; } }
+      @media all and (max-width: 1200px) {
+        .media-buying-page .media-our-media-section ul.buying-list h6 {
+          font-size: 33px; } }
+      @media all and (max-width: 1200px) {
+        .media-buying-page .media-our-media-section ul.buying-list h6 {
+          font-size: 29px; } }
+    .media-buying-page .media-our-media-section ul.buying-list p {
+      text-align: left;
+      margin-bottom: 100px; }
+  @media all and (max-width: 1441px) {
+    .media-buying-page .media-our-media-section {
+      padding-top: 100px; } }
+  @media all and (max-width: 1366px) {
+    .media-buying-page .media-our-media-section {
+      padding-top: 80px; } }
+  @media all and (max-width: 767px) {
+    .media-buying-page .media-our-media-section {
+      padding-top: 60px;
+      padding-bottom: 0; }
+      .media-buying-page .media-our-media-section br {
+        display: none; }
+      .media-buying-page .media-our-media-section ul.buying-list p {
+        margin-bottom: 60px; } }
+  @media all and (max-width: 500px) {
+    .media-buying-page .media-our-media-section ul.buying-list li {
+      max-width: 100%;
+      width: 100%;
+      text-align: center; }
+    .media-buying-page .media-our-media-section ul.buying-list p {
+      text-align: center; } }
+.media-buying-page .media-our-core-section .title-box p {
+  margin-top: 40px; }
+.media-buying-page .media-our-core-section .ecommerce-store-website-slider .ecommerce-store-website-slide-inner {
+  position: relative;
+  padding: 50px 30px 50px 30px;
+  padding-bottom: 140px; }
+  .media-buying-page .media-our-core-section .ecommerce-store-website-slider .ecommerce-store-website-slide-inner .ecommerce-store-website-ico {
+    text-align: center; }
+    .media-buying-page .media-our-core-section .ecommerce-store-website-slider .ecommerce-store-website-slide-inner .ecommerce-store-website-ico img {
+      max-width: 100%;
+      width: auto;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      height: 101px; }
+  .media-buying-page .media-our-core-section .ecommerce-store-website-slider .ecommerce-store-website-slide-inner h4 {
+    font-size: 23px;
+    font-weight: 600; }
+  .media-buying-page .media-our-core-section .ecommerce-store-website-slider .ecommerce-store-website-slide-inner a {
+    position: absolute;
+    bottom: 60px;
+    left: 40px; }
+@media all and (max-width: 500px) {
+  .media-buying-page .media-our-core-section .ecommerce-store-website-slider .ecommerce-store-website-slide-inner .ecommerce-store-website-ico img {
+    height: 90px; } }
+@media all and (max-width: 767px) {
+  .media-buying-page .media-faq-section {
+    padding-top: 0px; } }
+
+.who-created-bbt-page span.color-red {
+  background: none;
+  color: #ff4747;
+  font-size: 70px; }
+.who-created-bbt-page .titleBox h2 {
+  color: #000; }
+.who-created-bbt-page .art-website-design-banner h1 {
+  position: relative; }
+.who-created-bbt-page .art-website-design-banner .col-7 {
+  width: 70%; }
+  @media all and (max-width: 1366px) {
+    .who-created-bbt-page .art-website-design-banner .col-7 {
+      width: 50%; } }
+  @media all and (max-width: 767px) {
+    .who-created-bbt-page .art-website-design-banner .col-7 {
+      width: 100%; } }
+.who-created-bbt-page .art-website-design-banner h1::after {
+  content: url("../images/ques-mark-img.png"); }
+.who-created-bbt-page .art-website-design-banner .art-design-banner-image,
+.who-created-bbt-page .art-website-design-banner .art-banner-cloud.art-wd-auto {
+  bottom: 5px; }
+.who-created-bbt-page .art-website-design-banner .art-banner-cloud.art-wd-auto {
+  max-width: 204px;
+  bottom: 30px; }
+  @media all and (max-width: 1300px) {
+    .who-created-bbt-page .art-website-design-banner .art-banner-cloud.art-wd-auto {
+      display: none; } }
+.who-created-bbt-page .text-left h2,
+.who-created-bbt-page .text-left p {
+  text-align: left !important; }
+  @media all and (max-width: 768px) {
+    .who-created-bbt-page .text-left h2,
+    .who-created-bbt-page .text-left p {
+      text-align: center !important; } }
+.who-created-bbt-page .bbt-our-design-section {
+  padding-top: 130px;
+  padding-bottom: 50px; }
+  .who-created-bbt-page .bbt-our-design-section .flex-box {
+    align-items: center; }
+  .who-created-bbt-page .bbt-our-design-section .title-box h2 {
+    margin-bottom: 50px;
+    font-size: 75px; }
+  .who-created-bbt-page .bbt-our-design-section p {
+    font-family: gooddogregular;
+    line-height: 1.176;
+    font-size: 34px; }
+  .who-created-bbt-page .bbt-our-design-section .title-box h2 span {
+    background: url(../images/red-box.jpg) 0 center no-repeat;
+    font-family: comic_zine_otregular;
+    font-size: 67px; }
+  @media all and (max-width: 1380px) {
+    .who-created-bbt-page .bbt-our-design-section {
+      padding-top: 100px; }
+      .who-created-bbt-page .bbt-our-design-section p {
+        font-size: 30px; } }
+  @media all and (max-width: 768px) {
+    .who-created-bbt-page .bbt-our-design-section {
+      padding-top: 60px; }
+      .who-created-bbt-page .bbt-our-design-section .flex-box {
+        flex-direction: column; }
+      .who-created-bbt-page .bbt-our-design-section p {
+        font-size: 26px; } }
+  @media all and (max-width: 540px) {
+    .who-created-bbt-page .bbt-our-design-section .title-box h2, .who-created-bbt-page .bbt-our-design-section .title-box span {
+      font-size: 55px !important; } }
+.who-created-bbt-page .bbt-slider {
+  max-width: 1600px;
+  width: 100%;
+  margin-left: auto;
+  padding-left: 7%;
+  padding-top: 120px; }
+  .who-created-bbt-page .bbt-slider .slide .slide-inner {
+    margin: 0 20px; }
+    .who-created-bbt-page .bbt-slider .slide .slide-inner img {
+      width: 100%; }
+  @media all and (max-width: 1600px) {
+    .who-created-bbt-page .bbt-slider {
+      padding-left: 15%; } }
+  @media all and (max-width: 1466px) {
+    .who-created-bbt-page .bbt-slider .slide .slide-inner img {
+      max-height: 600px; } }
+  @media all and (max-width: 1380px) {
+    .who-created-bbt-page .bbt-slider {
+      padding-left: 11%; } }
+  @media all and (max-width: 1080px) {
+    .who-created-bbt-page .bbt-slider {
+      padding-bottom: 0; }
+      .who-created-bbt-page .bbt-slider .slide .slide-inner img {
+        max-height: 500px; } }
+  @media all and (max-width: 768px) {
+    .who-created-bbt-page .bbt-slider {
+      padding-left: 0; } }
+.who-created-bbt-page .bbt-slider-arrow button.slick-prev, .who-created-bbt-page .bbt-slider-arrow button.slick-next {
+  top: 0 !important;
+  left: auto;
+  right: 20%; }
+.who-created-bbt-page .bbt-slider-arrow button.slick-prev {
+  right: 24%; }
+@media all and (max-width: 1199px) {
+  .who-created-bbt-page .bbt-slider-arrow button.slick-prev {
+    right: 25%; } }
+@media all and (max-width: 768px) {
+  .who-created-bbt-page .bbt-slider-arrow button.slick-prev,
+  .who-created-bbt-page .bbt-slider-arrow button.slick-next {
+    right: 60px; }
+  .who-created-bbt-page .bbt-slider-arrow button.slick-prev {
+    right: 120px; } }
+.who-created-bbt-page .bbt-design-challenge-section {
+  margin: 0; }
+  .who-created-bbt-page .bbt-design-challenge-section .title-box h2 {
+    margin-bottom: 40px; }
+  .who-created-bbt-page .bbt-design-challenge-section .happy-client-slide-inner {
+    padding: 70px;
+    margin-bottom: 0; }
+  .who-created-bbt-page .bbt-design-challenge-section .client-reviews-deciption h5 {
+    font-weight: 400; }
+  .who-created-bbt-page .bbt-design-challenge-section .client-reviews-deciption h3 {
+    color: #ff4747;
+    font-size: 42px;
+    font-family: kbzipadeedoodahmedium;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    line-height: 1.3; }
+  .who-created-bbt-page .bbt-design-challenge-section .client-reviews-deciption p {
+    font-size: 22px;
+    line-height: 1.455;
+    margin-bottom: 10px; }
+    .who-created-bbt-page .bbt-design-challenge-section .client-reviews-deciption p::after {
+      left: auto;
+      right: 0; }
+  @media all and (max-width: 600px) {
+    .who-created-bbt-page .bbt-design-challenge-section {
+      padding: 60px 0; }
+      .who-created-bbt-page .bbt-design-challenge-section .happy-client-slide-inner {
+        padding: 0 40px 70px; } }
+.who-created-bbt-page .bbt-our-solution-section {
+  margin-top: 20px; }
+  .who-created-bbt-page .bbt-our-solution-section .text-box h2 {
+    display: block;
+    margin-bottom: 20px !important; }
+    .who-created-bbt-page .bbt-our-solution-section .text-box h2 span {
+      background: url(../images/red-box2.png) 0 center no-repeat; }
+  .who-created-bbt-page .bbt-our-solution-section .video-box {
+    border: 1px solid #000;
+    border-radius: 14px;
+    padding: 20px;
+    width: 88%;
+    margin: 50px auto 0; }
+    .who-created-bbt-page .bbt-our-solution-section .video-box img {
+      width: 100%; }
+  .who-created-bbt-page .bbt-our-solution-section .corporate-design-list {
+    padding: 0 60px;
+    width: 100%; }
+  .who-created-bbt-page .bbt-our-solution-section .corporate-design-box.full-width {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 10px; }
+    .who-created-bbt-page .bbt-our-solution-section .corporate-design-box.full-width:first-child {
+      margin-top: 0; }
+    .who-created-bbt-page .bbt-our-solution-section .corporate-design-box.full-width > h4 {
+      flex: 1 1 10%;
+      background: url(../images/red-counter.png) 60% 81% no-repeat; }
+    .who-created-bbt-page .bbt-our-solution-section .corporate-design-box.full-width .text-box {
+      text-align: left;
+      flex: 1 1 90%;
+      padding-bottom: 0; }
+  @media all and (max-width: 768px) {
+    .who-created-bbt-page .bbt-our-solution-section .corporate-design-list {
+      padding: 0px; } }
+  @media all and (max-width: 540px) {
+    .who-created-bbt-page .bbt-our-solution-section .text-box h2 span {
+      font-size: 40px; }
+    .who-created-bbt-page .bbt-our-solution-section .corporate-design-box.full-width h4 {
+      flex: 0 0 50px; }
+    .who-created-bbt-page .bbt-our-solution-section .corporate-design-box.full-width .text-box {
+      flex: 0 0 100%; } }
+
+/*lead generation css*/
+.art-banner-cloud.lead-art-cloud-bird {
+    bottom: 0;
+}
+.lead-for-email-marketing .text-box {
+    margin: 200px 0 100px;
+}
+.lead-generation-banner .flex-box {
+    align-items: center;
+}
+.lead-for-email-marketing .text-box h3{
+  padding-right: 140px;
+}
+.lead-for-email-marketing .text-box h3, .leads-email-marketing-services .text-box h3 {
+    font-size: 70px;
+    line-height: 1.046;
+}
+.lead-generation-page hr.art-wd-banner-border {
+    width: 100%;
+}
+.lead-for-email-marketing .text-box h3 span, .leads-email-marketing-services .text-box h3 span {
+    background: url(../image/black-rectangle.png) 0 center no-repeat;
+    padding: 0 12px 11px;
+    color: #fff;
+    background-size: cover;
+}
+.leads-email-marketing-services .text-box h3 span{
+    background: url(../image/email-services-content-shape.png) 0 center no-repeat;
+    background-size: 100%;
+}
+.lead-generation-banner .art-banner-cloud.art-banner-cloud-birds {
+    transform: translate(0, 70%);
+}
+.art-website-design-banner.lead-generation-banner {
+    height: 420px;
+}
+.art-website-design-banner.lead-generation-banner .art-design-banner-image {
+    margin-top: 40px;
+    position: relative;
+}
+.lead-generation-page h1 span {
+    background: url(../image/lead-banner-content-shape.png) 0 center no-repeat;
+    background-size: 100%;
+}
+.art-website-design-Process.leads-email-marketing .title-box h2 span {
+    background: url(../image/email-marketing-content-shape.png) 0 center no-repeat;
+    background-size: 100%;
+}
+.corporate-design-box.leads-email-marketing-box h3 {
+    font-size: 26px;
+    font-family: comic_relief;
+    margin: 30px 0 20px;
+}
+.corporate-design-box.leads-email-marketing-box h4 {
+    background: url(../image/circle-border-shape.png) 60% 81% no-repeat;
+    color: #1a1a1a;
+    font-size: 38px;
+    font-family: comic_zine_otregular;
+    width: 58px;
+    height: 58px;
+}
+.art-website-design-Process.leads-email-marketing, .leads-email-marketing-services {
+    padding-top: 100px;
+}
+.leads-email-marketing-services-box h4 {
+    font-family: gooddogregular;
+    font-size: 35px;
+    font-weight: normal;
+}
+.leads-email-marketing-services-list {
+    justify-content: space-between;
+    margin: 60px 0 100px;
+}
+.leads-email-marketing-services-box {
+    width: 27%;
+    text-align: center;
+}
+.lead-generation-page .sm-social-contact-form .sm-contact-area {
+    margin-top: 170px;
+}
+.lead-for-email-marketing p {
+    line-height: 1.667;
+}
+@media (max-width: 1280px){
+  .art-website-design-banner.lead-generation-banner .art-design-banner-image {
+      margin-left: -70px;
+      right: auto;
+  }
+}
+@media (max-width: 1200px){
+  .lead-for-email-marketing .text-box h3, .leads-email-marketing-services .text-box h3 {
+      font-size: 65px;
+  }
+}
+@media (max-width: 1080px){
+  .lead-art-cloud-bird {
+      display: none;
+  }
+}
+@media (max-width: 800px){
+  .lead-generation-banner .col-7, .lead-generation-banner .col-3 {
+      width: 100%;
+      display: block;
+  }
+  .lead-generation-banner .flex-box {
+      align-items: center;
+      flex-direction: column;
+  }
+  .art-website-design-banner.lead-generation-banner .art-design-banner-image {
+      position: relative;
+      margin-left: 0;
+  }
+  .art-website-design-banner.lead-generation-banner {
+      height: 100%;
+  }
+  .leads-email-marketing-services-box {
+      width: 29%;
+  }
+  .leads-email-marketing-services-box h4 {
+      font-size: 30px;
+  }
+  .lead-for-email-marketing .text-box {
+      margin-top: 100px;
+  }
+  .leads-email-marketing-services-box {
+      width: 100%;
+      max-width: 70%;
+      margin: 0 auto 60px;
+  }
+  .leads-email-marketing-services-box:last-child {
+      margin-bottom: 0;
+  }
+  .lead-for-email-marketing .text-box h3 {
+      padding-right: 0;
+  }
+}
+@media (max-width: 500px){
+  .lead-generation-banner .art-design-banner-image img {
+      max-width: 70%;
+  }
+  .art-website-design-banner.lead-generation-banner .art-design-banner-image {
+      margin-top: 0;
+      padding-top: 0;
+  }
+  .lead-for-email-marketing .text-box, .review-section {
+      margin: 70px 0;
+  }
+  .lead-generation-page .sm-social-contact-form .sm-contact-area {
+      margin-top: 100px;
+  }
+  .review-section .text-box, .leads-email-marketing-services-list {
+      margin-bottom: 70px;
+  }
+  .art-website-design-Process.leads-email-marketing, .leads-email-marketing-services {
+      padding-top: 70px;
+  }
+  .lead-generation-banner .art-design-banner-content .v-center {
+      padding-bottom: 0;
+  }
+}
+@media all and (max-width: 1440px) {
+  .hosting-services-page .art-design-banner-image{right: 0;}
+}
+/* problematic-page css */
+.problematic-page.video-editing-page .art-website-design-banner .container{padding-bottom: 0;}
+.problematic-page.media-buying-page .art-website-design-banner .art-design-banner-image{
+  bottom: -20px !important;
+}
+.problematic-page .col-55{
+  width: 55%;
+}
+.advertisement-strategy-section.corporate-section.mt-0.performance-medium-section {
+  position: relative;
+  margin-bottom: 0;
+}
+.performance-marketing-page.problematic-page .art-website-design-banner .art-design-banner-image{position: absolute;}
+.terms-section .ecommerce-store-website-slide-inner{padding-bottom: 50px !important;}
+
+.performance-marketing-page.problematic-page .art-design-banner-content h1 span{
+  background: url(../image/problematic-bg.png) 0 center no-repeat;
+}
+/* .problematic-page .review-section{margin-bottom: 100px;} */
+
+
+.terms-section .text-box h2 span::before {
+  content: '';
+  position: absolute;
+  background: url(../image/ecommerce-website-development-delhi-ncr-star.png) no-repeat center;
+  width: 47px;
+  height: 42px;
+  top: 3px;
+  left: -50px;
+}
+.terms-section .text-box h2 span::after {
+  content: '';
+  position: absolute;
+  background: url(../image/ecommerce-website-development-delhi-ncr-star.png) no-repeat center;
+  width: 47px;
+  height: 42px;
+  top: 3px;
+  right: -50px;
+}
+.terms-section .text-box h2 span{
+  background: url(../image/Rounded-Rectangle-1-copy.png) 0 center no-repeat;
+}
+.advertisement-strategy-section.corporate-section.mt-0.performance-medium-section .text-box{padding-bottom: 0 !important;}
+
+.performance-marketing-page.problematic-page .performance-medium-section .text-box h2{
+  font-size: 75px !important;
+  margin-bottom: 40px !important;
+}
+@media all and (max-width: 1370px) {
+  .problematic-page.media-buying-page .art-website-design-banner .col-3{width: 30%;}
+}
+@media all and (max-width: 1030px){
+  .problematic-page .col-55 {
+    width: 100%;
+  }
+  .problematic-page .art-design-banner-image{width: 100% !important;}
+  .problematic-page.media-buying-page .art-website-design-banner .col-3{width: 50%;margin: 0 auto;}
+  .performance-marketing-page.problematic-page .art-website-design-banner .art-design-banner-image{position: static;}
+}
+.corporate-website-design-page .art-website-design-Process{position: relative;}
