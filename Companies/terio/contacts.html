@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terio - contacts</title>
+  <link rel="icon" href="assets/img/logo-icon.png">
+ 
+   <!-- CSS only -->
+   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+   <!-- Font Awesome 6 -->
+   <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+   <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+   <!-- swiper -->
+   <link rel="stylesheet" href="assets/css/swiper.css">
+   <!-- style -->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <!-- responsive -->
+   <link rel="stylesheet" href="assets/css/responsive.css">
+   <!-- color -->
+   <link rel="stylesheet" href="assets/css/color.css">
+ </head>
+<body>
+  <!-- preloader start -->
+    <div class="preloader"> 
+      <div>
+      <div class="container">
+      <div class="squarebox one"></div>
+      <div class="squarebox two"></div>
+      <div class="squarebox three"></div>
+      <div class="squarebox two"></div>
+      <div class="squarebox three"></div>
+      <div class="squarebox four"></div>
+      <div class="squarebox three"></div>
+      <div class="squarebox four"></div>
+      <div class="squarebox five"></div>
+      </div>
+      </div>
+    </div>
+  <!-- preloader end -->
+<header>
+  <div class="container">
+      <div class="nav">
+        <div class="d-flex align-items-center">
+          <div class="logo">
+            <a href="index.html">
+              <img alt="logo" src="assets/img/logo.png">
+            </a>
+          </div>
+          <ul class="menu">
+            <li>
+              <a href="index.html">Home</a>
+              <ul class="sub-menu">
+                <li><a href="index.html">homepage 1</a></li>
+                <li><a href="index-2.html">homepage 2</a></li>
+                <li><a href="index-3.html">homepage 3</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="about.html">Pages</a>
+              <ul class="sub-menu">
+                <li><a href="about.html">about</a></li>
+                <li><a href="team.html">team</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="pricing.html">pricing</a></li>
+                <li><a href="404error.html">404 error</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="portfolio-grid.html">Portfolio</a>
+              <ul class="sub-menu">
+                <li><a href="portfolio-grid.html">portfolio grid</a></li>
+                <li><a href="portfolio-masonry.html">portfolio masonry</a></li>
+                <li><a href="portfolio-metro.html">portfolio metro</a></li>
+                <li><a href="portfolio-single-v1.html">portfolio single v1</a></li>
+                <li><a href="portfolio-single-v2.html">portfolio single v2</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="blog-grid.html">Blog</a>
+              <ul class="sub-menu">
+                <li><a href="blog-grid.html">blog grid</a></li>
+                <li><a href="blog-single-post.html">blog single post 1</a></li>
+                <li><a href="blog-single-post-2.html">blog single post 2</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="contacts.html">contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+           <form id="content">
+              <input type="text" name="input" class="input" id="search-input">
+              <button type="reset" class="search" id="search-btn"></button>
+            </form>
+            <a href="contacts.html" class="themebtu">Get Started</a>
+        </div>
+        <div class="bar-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+  </div>
+  <div class="mobile-nav hmburger-menu" id="mobile-nav" style="display:block;">
+      <div class="res-log">
+        <a href="index.html">
+          <img src="assets/img/logo.png" alt="Responsive Logo">
+        </a>
+      </div>
+        <ul>
+
+          <li class="menu-item-has-children"><a href="JavaScript:void(0)">Home</a>
+            <ul class="sub-menu">
+
+              <li><a href="index.html">homepage 1</a></li>
+              <li><a href="index-2.html">homepage 2</a></li>
+              <li><a href="index-3.html">homepage 3</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children"><a href="JavaScript:void(0)">Pages</a>
+            <ul class="sub-menu">
+              <li><a href="about.html">about</a></li>
+                <li><a href="team.html">team</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="pricing.html">pricing</a></li>
+                <li><a href="404error.html">404 error</a></li>
+            </ul>
+          </li>
+          
+          <li class="menu-item-has-children"><a href="JavaScript:void(0)">portfolio</a>
+
+          <ul class="sub-menu">
+
+            <li><a href="portfolio-grid.html">portfolio grid</a></li>
+                <li><a href="portfolio-masonry.html">portfolio masonry</a></li>
+                <li><a href="portfolio-metro.html">portfolio metro</a></li>
+                <li><a href="portfolio-single-v1.html">portfolio single v1</a></li>
+                <li><a href="portfolio-single-v2.html">portfolio single v2</a></li>
+          </ul>
+
+          </li>
+          <li class="menu-item-has-children"><a href="JavaScript:void(0)">blog</a>
+
+          <ul class="sub-menu">
+
+                <li><a href="blog-grid.html">blog grid</a></li>
+                <li><a href="blog-single-post.html">blog single post 1</a></li>
+                <li><a href="blog-single-post-2.html">blog single post 2</a></li>
+          </ul>
+
+          </li>
+
+          <li><a href="contacts.html">contacts</a></li>
+
+          </ul>
+
+          <a href="JavaScript:void(0)" id="res-cross"></a>
+      </div>
+</header>
+<section class="splash-area-section" style="background-image: url(assets/img/background.jpg)">
+  <div class="container">
+    <div class="splash-area">
+      <h2>Let Us Know What 
+          You're Looking For</h2>
+      <a href="#">Get in Touch</a>
+    </div>
+  </div>
+</section>
+<section class="contact-page gap">
+  <div class="container">
+    <div class="heading">
+      <h6>Start Your Project With Us.</h6>
+      <h2>Let's Talk</h2>
+      <img alt="line" src="assets/img/headingline.png">
+    </div>
+    <div class="row">
+      <div class="col-xl-6 col-lg-6">
+        <form class="content-form">
+          <div class="row">
+            <div class="col-lg-6">
+              <input type="text" name="name" placeholder="Your Name *">
+            </div>
+            <div class="col-lg-6">
+              <input type="text" name="name" placeholder="Your Company *">
+            </div>
+          </div>
+          <input type="text" name="name" placeholder="Your Email *">
+          <textarea placeholder="Your Message *"></textarea>
+          <button class="themebtu">Submit</button>
+        </form>
+      </div>
+      <div class="offset-lg-1 col-xl-5 col-lg-5">
+        <ul class="sidebar">
+          <li>
+            <h4>Address : </h4>
+            <span>418 Orange Street<br>
+                    Portsmouth, VA 23703</span>
+          </li>
+          <li>
+            <h4>Phone :</h4>
+            <a href="callto:0987123456678"><span>0987 123 456 678</span></a>
+          </li>
+          <li>
+            <h4>Email :</h4>
+            <a href="mailto:contact@terio.com"><span>contact@terio.com</span></a>
+          </li>
+          <li>
+            <h4>Find us :</h4>
+            <ul class="brandicon">
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.27988214366!2d-74.25986540376853!3d40.69767006922205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1672222515624!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+<section class="offices gap" style="background-color:#f3f8fb;">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-4">
+        <div class="heading">
+          <h2>Offices</h2>
+          <p>Donec nec justo eget felis facilisis fermentum. 
+              Aliquam porttitor mauris sit amet orci. Aenean 
+              dignissim pellentesque felis.</p>
+        </div>
+      </div>
+      <div class="col-xl-8">
+        <div class="swiper-container studiesswiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="view-map hoverstyle">
+                <figure>
+                    <img alt="img" class="w-100" src="assets/img/view-map-1.jpg">
+                </figure>
+                <div class="view-map-data">
+                  <i class="fa-solid fa-user"></i>
+                    <h5>New York</h5>
+                    <p>92 Greenwich St, New York, NY 10006, United States</p>
+                    <a href="#">view map</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="view-map hoverstyle">
+                <figure>
+                    <img alt="img" class="w-100" src="assets/img/view-map-2.jpg">
+                </figure>
+                <div class="view-map-data">
+                  <i class="fa-solid fa-user"></i>
+                    <h5>Roma</h5>
+                    <p>Via Carlo Alberto, 26a, 00185 Roma RM, Italy</p>
+                    <a href="#">view map</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="view-map hoverstyle">
+                <figure>
+                    <img alt="img" class="w-100" src="assets/img/view-map-3.jpg">
+                </figure>
+                <div class="view-map-data">
+                  <i class="fa-solid fa-user"></i>
+                    <h5>Barcelona</h5>
+                    <p>d'Aragó, 284, 08009 Barcelona, Spain</p>
+                    <a href="#">view map</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tp-hero__shapes">
+        <div class="style-shapes-5">
+          <img alt="dots1" src="assets/img/shap-2.png">
+        </div>
+        <div class="style-shapes-6">
+          <img alt="dots1" src="assets/img/shap-2.png">
+        </div>
+        <div class="style-shapes-7">
+          <img alt="dots1" src="assets/img/shap-5.png">
+        </div>
+     </div>
+</section>
+<footer class="gap no-bottom" style="background-color: #222 ;">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="footer-logo">
+          <a href="index.html"><img alt="img" src="assets/img/logo.png"></a>
+          <p>
+            Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare.
+          </p>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="links">
+          <h6>Additional links</h6>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="team.html">team</a></li>
+            <li><a href="blog-grid.html">News</a></li>
+            <li class="pb-0"><a href="contacts.html">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="latest-news">
+          <h6>Latest news</h6>
+          <ul>
+            <li>
+                <p>Quisque volutpat mattis eros. Nullam malesuadarat ut turpis.</p>
+                <span>dec 10, 2019 / 0 comments</span>
+            </li>
+            <li class="pt-4">
+              <p>Aliquam porttitor mauris sit amet orci.</p>
+              <span>dec 10, 2019 / 0 comments</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="latest-news">
+          <h6>Subscribe</h6>
+            <p>Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.</p>
+            <form>
+              <input type="text" name="email" placeholder="your email address">
+              <button>go</button>
+            </form>
+        </div>
+       </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2023 Terio Theme - All Rights Reserved   | Design by upifix</p>
+      <ul>
+        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-m"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!-- Back to top button -->
+  <a id="button"></a>
+<!-- Back to top button end -->
+<!-- jQuery -->
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<!-- Bootstrap Js -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- fancybox -->
+<script src="assets/js/jquery.fancybox.min.js"></script>
+<!-- swiper -->
+<script src="assets/js/swiper.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
