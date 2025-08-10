@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- Mirrored from uitheme.net/rally-html/contact-eight.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Mar 2023 00:15:39 GMT -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Rally - Responsive Multi-purpose HTML5 Template</title>
+	<meta name="description" content="Cabe - Responsive Multi-purpose HTML5 Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+
+	<!-- STYLESHEETS -->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+	 
+
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="blog-personal bg-bluelight">
+	<!--Preloader-->
+	<div class="rally-loader-wrapper"></div>
+	<div class="rally-preloader-wrapper">
+        <span>
+            <span class="rally-dot start-animation"></span>
+            <span class="rally-dot start-animation"></span>
+            <span class="rally-dot start-animation"></span>
+        </span>
+	    <div class="rally-preloader">
+	        <span>
+	            <span class="rally-dot start-animation"></span>
+	            <span class="rally-dot start-animation"></span>
+	            <span class="rally-dot start-animation"></span>
+	        </span>
+	    </div>
+	</div>
+	<!--Preloader-->
+
+	<!-- search wrapper -->
+	<div class="search-wrapper has-transition">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<form action="#" class="search-form pad-25">
+						<input type="text" placeholder="Search here...">
+					</form>
+					<a href="#" class="close-icon"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- search wrapper -->
+
+	<section class="header-wrapper pad-35 bg-white">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-xs-6">
+					<a href="home-eight.html" class="logo"><img src="images/logo-black.png" alt="logo"></a>
+					<a href="#" class="menu-click float-right"><span></span><span></span><span></span></a>
+				</div>
+				<div class="col-sm-8 col-xs-6">
+					<a href="#" class="sreach-icon pull-right"><i class="fa fa-search"></i></a>
+					<a href="#" class="open-nav"><span class="hamburger"></span><span class="text">Menu</span></a>
+					<ul class="menu-nav pull-right pad-right-30">
+						<li><a href="home-eight.html">Home</a></li>
+						<li><a href="categories-eight.html">Lifestyle</a></li>
+						<li><a href="#">Travel</a></li>
+						<li><a href="about-eight.html">About</a></li>
+						<li><a href="contact-eight.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact-wrapper">
+		<div id="map" style="height: 500px;"></div>
+			<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCOdKtT5fapH3_OfhV3HFeZjqFs4OfNIew&amp;callback=mapinitialize" type="text/javascript"></script>
+            <script type="text/javascript">
+                function mapinitialize() {
+                    var latlng = new google.maps.LatLng(40.7128,-74.0060);
+                    var myOptions = {
+                        zoom: 10,
+                        center: latlng,
+                        scrollwheel: false,
+                        scaleControl: false,
+                        disableDefaultUI: false,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP,
+                        // Google Map Color Styles
+                        styles: [
+						    {
+						        "featureType": "administrative",
+						        "elementType": "all",
+						        "stylers": [
+						            {
+						                "saturation": "-100"
+						            }
+						        ]
+						    },
+						    {
+						        "featureType": "administrative.province",
+						        "elementType": "all",
+						        "stylers": [
+						            {
+						                "visibility": "off"
+						            }
+						        ]
+						    },
+						    {
+						        "featureType": "landscape",
+						        "elementType": "all",
+						        "stylers": [
+						            {
+						                "saturation": -100
+						            },
+						            {
+						                "lightness": 65
+						            },
+						            {
+						                "visibility": "on"
+						            }
+						        ]
+						    },
+						    {
+						        "featureType": "poi",
+						        "elementType": "all",
+						        "stylers": [
+						            {
+						                "saturation": -100
+						            },
+						            {
+						                "lightness": "50"
+						            },
+						            {
+						                "visibility": "simplified"
+						            }
+						        ]
+						    },
+						    {
+						        "featureType": "road",
+						        "elementType": "all",
+						        "stylers": [
+						            {
+						                "saturation": "-100"
+						            }
+						        ]
+						    },
+						    {
+						        "featureType": "road.highway",
+						        "elementType": "all",
+						        "stylers": [
+						            {
+						                "visibility": "simplified"
+						            }
+						        ]
+						    },
+						    {
+						        "featureType": "road.arterial",
+						        "elementType": "all",
+						        "stylers": [
+						            {
+						                "lightness": "30"
+						            }
+						        ]
+						    },
+						    {
+						        "featureType": "road.local",
+						        "elementType": "all",
+						        "stylers": [
+						            {
+						                "lightness": "40"
+						            }
+						        ]
+						    },
+						    {
+						        "featureType": "transit",
+						        "elementType": "all",
+						        "stylers": [
+						            {
+						                "saturation": -100
+						            },
+						            {
+						                "visibility": "simplified"
+						            }
+						        ]
+						    },
+						    {
+						        "featureType": "water",
+						        "elementType": "geometry",
+						        "stylers": [
+						            {
+						                "hue": "#ffff00"
+						            },
+						            {
+						                "lightness": -25
+						            },
+						            {
+						                "saturation": -97
+						            }
+						        ]
+						    },
+						    {
+						        "featureType": "water",
+						        "elementType": "labels",
+						        "stylers": [
+						            {
+						                "lightness": -25
+						            },
+						            {
+						                "saturation": -100
+						            }
+						        ]
+						    }
+						]
+                    };
+                    var map = new google.maps.Map(document.getElementById("map"),myOptions);
+                    
+                    var image = "images/icon17.png";
+                    var image = new google.maps.MarkerImage("images/icon17.png", null, null, null, new google.maps.Size(50,50));
+                    var marker = new google.maps.Marker({
+                        map: map, 
+                        icon: image,
+                        position: map.getCenter()
+                    });
+                    
+                    var contentString = '<b>Office</b><br>Streetname 13<br>50001 Sydney';
+                    var infowindow = new google.maps.InfoWindow({
+                        content: contentString
+                    });
+                                
+                    google.maps.event.addListener(marker, 'click', function() {
+                      infowindow.open(map,marker);
+                    });
+                                    
+                        
+                }
+                mapinitialize();
+             
+
+    		</script>
+
+		
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 offset-sm-1 top-div ">
+					<div class="page-title">
+						<h2 class="mb-1">Lets keep in touch</h2>
+					</div>
+					<div class="comment-leave">
+					<form>
+						<div class="row">
+							<div class="col-sm-6 has-animation">
+								<div class="form-field pull-left">
+									<label for="comment-name">Name</label>
+									<input type="text" name="comment-name" id="comment-name" placeholder="Your name">
+								</div>
+							</div>
+							<div class="col-sm-6 has-animation">
+								<div class="form-field pull-left">
+									<label for="comment-email">Email</label>
+									<input type="text" name="comment-email" id="comment-email" placeholder="Your email">
+								</div>
+							</div>
+							<div class="col-sm-12 has-animation">
+								<div class="form-field">
+									<label for="comment-text">Comment</label>
+									<textarea name="comment-text" id="comment-text" placeholder="Write a comment here..."></textarea>
+								</div>
+							</div>
+						</div>
+						
+						<button class="bg-bluedeep">Send</button>
+					</form>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+
+	<section class="footer-wrapper bg-bluedeep pad-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center"><a href="home-eight.html" class="logo"><img src="images/logo-white.png" alt="logo"></a></div>
+				<div class="col-sm-12 text-center mt35 mb35"> <p>Copyright © 2019 <br>Made with Love by <b> uttam.</b></p></div>
+				<div class="col-sm-12 text-center">
+					<ul class="social-icons-two light list-inline">
+						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	 
+
+
+	
+
+		 
+	<!-- SCRIPTS -->
+	
+	<script src="js/plugin.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+
+<!-- Mirrored from uitheme.net/rally-html/contact-eight.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Mar 2023 00:15:39 GMT -->
+</html>
