@@ -1,0 +1,80 @@
+
+                <div class="col-12 col-lg-auto text-center center ">
+
+                    <a href="https://www.fb.com/YGBrandMaker" target="_blank" class="social-icon si-colored si-small si-rounded si-facebook" title="Facebook">
+                        <i class="icon-facebook"></i>
+                        <i class="icon-facebook"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/ygbrandmaker/" target="_blank" class="social-icon si-colored si-small si-rounded si-instagram" title="Instagram">
+                        <i class="icon-instagram"></i>
+                        <i class="icon-instagram"></i>
+                    </a>
+
+                    <a href="https://twitter.com/YGBrandMaker"  target="_blank" class="social-icon si-colored si-small si-rounded si-twitter" title="Twitter">
+                        <i class="icon-twitter"></i>
+                        <i class="icon-twitter"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/ygbmchannel/UCShukQ8kxMKFx0HziiEdjww"  target="_blank" class="social-icon si-colored si-small si-rounded si-youtube" title="youtube">
+                        <i class="icon-youtube"></i>
+                        <i class="icon-youtube"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/ygbrandmaker"  target="_blank" class="social-icon si-colored si-small si-rounded si-linkedin" title="linkedin">
+                        <i class="icon-linkedin"></i>
+                        <i class="icon-linkedin"></i>
+                    </a>
+
+                    <a href="https://wa.me/201030459067" target="_blank" class="social-icon si-colored si-small si-rounded si-whatsapp" title="whatsapp">
+                        <i class="icon-whatsapp"></i>
+                        <i class="icon-whatsapp"></i>
+                    </a>
+					-----------------------------------------
+----------------------------
+
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend\assets\custom.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\css\animate.css
+
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\css\bootstrap.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\css\colors8b24.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\css\custom.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\css\dark.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\css\font-icons.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\css\magnific-popup.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\demos\interior-design\css\fonts.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\demos\interior-design\interior-design.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\include\rs-plugin\css\settings.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\include\rs-plugin\css\layers.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\include\rs-plugin\css\navigation.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\style.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\videos_category\assets\css\bootstrap.min.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\videos_category\assets\css\icofont.min.css
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\videos_category\assets\css\media.css
+
+
+
+
+
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\include\rs-plugin\js\extensions\revolution.extension.layeranimation.min.js
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\include\rs-plugin\js\extensions\revolution.extension.navigation.min.js
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\include\rs-plugin\js\extensions\revolution.extension.slideanims.min.js
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\include\rs-plugin\js\extensions\revolution.extension.video.min.js
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\include\rs-plugin\js\jquery.themepunch.revolution.min.js
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\include\rs-plugin\js\jquery.themepunch.tools.min.js
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\js\functions.js
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\js\jquery.js
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\frontend2\js\plugins.min.js
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\videos_category\assets\js\bootstrap.min.js
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\videos_category\assets\js\countdown.js
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\videos_category\assets\js\jquery-3.2.1.min.js
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\videos_category\assets\js\main.js
+C:\My Web Sites\https___aburaghad.com_\aburaghad.com\videos_category\assets\js\popper.min.js
+
+
+
+
+
+-----------------------------------------------------
+<!-- MAIN IMAGE -->
+                <img src="images/Sliders/1.png"  alt="تصميم المواقع" >
