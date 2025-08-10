@@ -1,0 +1,92 @@
+/*
+Copyright (c) 2017 Webvillee.
+------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Lawyer
+Version:	1.0.1
+Assigned to:	Themeforest
+Primary use:	Lawyers, Attorneys, Advocates, Barristers, Legal Advisers 
+-------------------------------------------------------------------*/
+
+/*
+[Table of contents]
+
+1. Body
+2. Preloader / .circular
+3. HEADER-SECTION / .top_header
+4. Navigation / .side-nav
+5. SLIDER-SECTION 
+6. SHORT-PRACTICE-SECTION / .practice_area_slider
+7. WHO-WE-ARE-SECTION / .who_we_are
+8. PRACTICE-AREA-SECTION / .practice_full
+9. LATEST-NEWS / .latest-news-main 
+10. STATICS / .Statics
+11. PRICE-TABLE-SECTION / .title-price-top
+12. ATTORNEY-SECTION / .attorney_info
+13. BLOG-SECTION / .home-blog
+14. TESTIMONIAL-SECTION / .client-testimonials-main
+15. ABOUT-ORGANIZATION-SECTION / .about-organization
+16. FACT-COUNTER-SECTION / .fact-counter
+17. OUR-PARTNER-SECTION / .our-partners
+18. FOOTER-SECTION / .upper-footer 
+
+******************Inner Pages*******************
+
+19. PRACTICE-AREA-INNER / .practice_area_inner
+20. ATTORNEY-ALL-INNER / .attorney-all-main
+21. ACCORDION / .panel-group
+22. TABS / .tab-content
+23. BLOG-ALL-INNER/ .blog-grid-all
+24. PAGINATION-INNER / .pagination
+25. REPLY-INNER / .leave-comments
+26. SIDEBAR-INNER
+27. CLIENT-LOGIN / .client-login
+28. CONTACT-PAGE-INNER / .contact-area
+-------------------------------------------------------------------*/
+
+/*
+[Color codes]
+
+Background:	#ffffff (white)
+Content:	#595959 (light black)
+Header h1:	#000/#0e0e0e (black and drak gray touch)
+Header h2:	#000/#0e0e0e (black and drak gray touch)
+Footer:		#828282 (dark gray)
+
+
+a (standard):	#fff/#171717 (white or light black)
+a (visited):	#fff/#171717 (white or light black)
+a (active):		#f55e45 (bright red)
+
+Hover :		#f55e45 (bright red)
+--------------------------------------------*/
+
+/* Font Awesome Icons */
+@import url("assets/plugin/font-awesome/css/font-awesome.min.css");
+/* Bootstrap core CSS*/
+@import url("assets/plugin/bootstrap/css/bootstrap.min.css");
+
+/*SLIDER REVOLUTION CSS SETTINGS */
+@import url("assets/plugin/revslider/css/extralayers.css");
+@import url("assets/plugin/revslider/css/settings.css");
+
+/*Defaults CSS SETTINGS */
+@import url("assets/css/hover-dropdown-menu.css");		
+@import url("assets/css/style.css");
+@import url("assets/css/responsive.css");
+@import url("assets/css/color.css");
+@import url("assets/css/footer.css");
+@import url("assets/css/header.css");
+@import url("assets/css/slider.css");
+@import url("assets/css/error.css");
+@import url("assets/css/countdown.css");
+@import url("assets/css/animate.min.css");
+
+
+/*Important Owl stylesheet*/
+@import url("assets/plugin/owl-carousel/css/owl.carousel.css");
+@import url("assets/plugin/owl-carousel/css/owl.theme.css");
+@import url("assets/css/owl/owl.transitions.css");
+
+

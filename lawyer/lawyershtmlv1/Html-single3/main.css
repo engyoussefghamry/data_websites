@@ -1,0 +1,72 @@
+/*
+Copyright (c) 2017 Webvillee.
+------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Lawyer
+Version:	1.0.1
+Assigned to:	Themeforest
+Primary use:	Lawyers, Attorneys, Advocates, Barristers, Legal Advisers 
+-------------------------------------------------------------------*/
+
+/*
+[Table of contents]
+
+1. BODY
+2. PRELOADER / .circular
+3. HEADER-SECTION / .top_header
+4. SLIDER-SECTION / .chat_text_box
+5. SUCCESS-STORY-SECTION / .success_content
+6. PRACTICE-AREA-SECTION / .practice-area
+7. VIDEO-PLAY-SECTION / .video_play
+8. WHO-WE-ARE-SECTION / .who_right_text
+9. FUNFACTOR-SECTION / .fact_icon 
+10. TESTIMONIAL-SECTION / .client-testimonial-row
+11. BLOG-SECTION / .blogs_content
+12. ATTORNEY-SECTION / .section-title_white
+13. BUY-SECTION / .buy_add
+14. MAP-WITH-CONSULTATION-SECTION / .query_form
+15. FOOTER-SECTION / .footer_accordian
+
+-------------------------------------------------------------------*/
+
+/*
+[Color codes]
+
+Background:	#ffffff (white)
+Content:	#595959 (light black)
+Header h1:	#000/#4b4b4b (black and drak gray touch)
+Header h2:	#000/#4b4b4b (black and drak gray touch)
+Footer:		#2a2a2a (dark gray)
+
+
+a (standard):	#fff/#171717 (white or light black)
+a (visited):	#fff/#171717 (white or light black)
+a (active):		#f55e45 (bright red)
+
+Hover :		#f55e45 (bright red)
+--------------------------------------------*/
+
+/* Font Awesome Icons */
+@import url("assets/plugin/font-awesome/css/font-awesome.min.css");
+/* Bootstrap core CSS*/
+@import url("assets/plugin/bootstrap/css/bootstrap.min.css");
+
+/*SLIDER REVOLUTION CSS SETTINGS */
+@import url("assets/plugin/revslider/css/extralayers.css");
+@import url("assets/plugin/revslider/css/settings.css");
+
+/*Defaults CSS SETTINGS */
+@import url("assets/css/hover-dropdown-menu.css");		
+@import url("assets/css/style.css");
+@import url("assets/css/responsive.css");
+@import url("assets/css/color.css");
+@import url("assets/css/animate.min.css");
+
+
+/*Important Owl stylesheet*/
+@import url("assets/plugin/owl-carousel/css/owl.carousel.css");
+@import url("assets/plugin/owl-carousel/css/owl.theme.css");
+@import url("assets/css/owl/owl.transitions.css");
+
+

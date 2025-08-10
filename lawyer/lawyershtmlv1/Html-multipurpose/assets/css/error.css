@@ -1,0 +1,225 @@
+.error_short {
+    margin: 50px 0px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+/******** 404 Error-one ********/
+
+.error_one {
+    background-image: url(../img/error1_bg.jpg);
+    padding: 200px 0px 200px 0px;
+}
+.error_one h2 {
+    font-size: 400px;
+    line-height: 350px;
+    font-weight: 900;
+    letter-spacing: -10px;
+    opacity: 0.8;
+    margin-bottom: 0px;
+}
+.error_one h3 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.error_one p {
+    color: #fff;
+    margin-bottom: 35px;
+}
+.error-one-button a {
+    font-size: 12px;
+    color: #fff;
+    padding: 12px 40px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/******** 404 Error-two ********/
+
+.error_two {
+    background-color: #232323;
+}
+.error_two .error404-main {
+    padding: 120px 0px;
+    text-align: center;
+}
+.error_two .error404-main h3 {
+    font-size: 65px;
+    line-height: 60px;
+    margin: 40px 30px 110px;
+    color: #fff;
+}
+.error_two .error404-main h2 {
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    word-spacing: -2px;
+    color: #fff;
+}
+.error_two .error404-row p {
+    padding-bottom: 40px;
+    color: #fff;
+}
+.error_two .search-btn {
+    position: absolute;
+    top: 1px;
+    right: 15px;
+    height: 60px;
+    padding: 0px 15px;
+    color: #fff;
+    width: 80px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+.error_two .error404-main input.form-control {
+    font-size: 21px;
+    padding: 29px 40px;
+    font-weight: 300;
+    min-height: 82px;
+    font-family: 'Martel Sans', sans-serif;
+    background-color: #fff;
+}
+.error_two .error404-main .search-btn {
+    min-height: 80px;
+}
+.error_two .error404-main::-webkit-input-placeholder {
+    color: #c3c3c3;
+    padding: 8px 0px;
+}
+.error_two .error404-main:-moz-placeholder {
+    /* Firefox 18- */
+    
+    color: #c3c3c3;
+    padding: 8px 0px;
+}
+.error_two .error404-main::-moz-placeholder {
+    /* Firefox 19+ */
+    
+    color: #c3c3c3;
+    padding: 8px 0px;
+}
+.error_two .error404-main:-ms-input-placeholder {
+    color: #c3c3c3;
+    padding: 8px 0px;
+}
+/******** 404 Error-three ********/
+
+.error_three {
+    background-image: url(../img/404-Error1.png);
+    padding: 250px 0px 250px 0px;
+}
+.error_three h2 {
+    font-size: 350px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 300px;
+    margin-bottom: 0px;
+}
+.error_three .search-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 65px;
+    padding: 0px 15px;
+    color: #fff;
+    width: 120px;
+    font-size: 24px;
+    font-weight: lighter;
+    border-radius: 0px 20px 20px 0px;
+}
+.error_three .error404-main1 input.form-control {
+    font-size: 21px;
+    padding: 22px 40px;
+    font-weight: 300;
+    min-height: 65px;
+    font-family: 'Martel Sans', sans-serif;
+    background-color: #fff;
+    width: 100%;
+    display: inline-block;
+    border: 0px;
+    border-radius: 20px;
+}
+.error3_button {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    margin-top: 30px;
+}
+.error_three h3 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #0e0e0e;
+    margin-bottom: 30px;
+}
+.error_three p {
+    color: #0e0e0e;
+}
+.error_three i {
+    padding-top: 12px;
+}
+/******** 404 Error-four ********/
+
+.error_four {
+    background-image: url(../img/error2_bg.jpg);
+    padding: 200px 0px 200px 0px;
+}
+.error_four h2 {
+    font-size: 350px;
+    color: #e4b855;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 300px;
+    margin-bottom: 0px;
+}
+.error_four .search-btn {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    height: 65px;
+    padding: 0px 15px;
+    color: #fff;
+    width: 120px;
+    font-size: 24px;
+    font-weight: lighter;
+    border-radius: 0px 20px 20px 0px;
+}
+.error_four .error404-main1 input.form-control {
+    font-size: 21px;
+    padding: 22px 40px;
+    font-weight: 300;
+    min-height: 65px;
+    font-family: 'Martel Sans', sans-serif;
+    background-color: #fff;
+    width: 100%;
+    display: inline-block;
+    border: 0px;
+    border-radius: 20px;
+}
+.error_four {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.error_four h3 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    line-height: 20px;
+}
+.error_four p {
+    color: #fff;
+    margin-bottom: 70px;
+}
+.error4_button {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 35px;
+    width: 70%;
+}
+.error_four i {
+    padding-top: 12px;
+}

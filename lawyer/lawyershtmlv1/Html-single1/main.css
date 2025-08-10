@@ -1,0 +1,72 @@
+/*
+Copyright (c) 2017 Webvillee.
+------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Lawyer
+Version:	1.0.1
+Assigned to:	Themeforest
+Primary use:	Lawyers, Attorneys, Advocates, Barristers, Legal Advisers 
+-------------------------------------------------------------------*/
+
+/*
+[Table of contents]
+
+1. BODY
+2. PRELOADER / .circular
+3. TOP HEADER SECTION / .top_header
+4. MAIN SLIDER
+5. PRACTICE AREA SECTION / .practice-area
+6. WHO WE ARE SECTION / .who
+7. KNOWLEDGE SECTION / .knowledge
+8. ATTORNEY SECTION / .attorney-title
+9. NEWS SECTION / .news_content 
+10. PRICE TABLE SECTION / .price_table_title
+11. TESTINOMIAL SECTION / .client-testimonial-wrapper
+12. PARTNERS SECTION / .partner-logo
+13. TWITTER SECTION / .tweeter_text
+13. FOOTER SECTION / .upper-footer
+
+-----------------------------------------------------------------
+--*/
+
+/*
+[Color codes]
+
+Background:	#ffffff (white)
+Content:	#595959 (light black)
+Header h1:	#000/#0e0e0e (black and drak gray touch)
+Header h2:	#fff/#0e0e0e (black and drak gray touch)
+Footer:		#7b7b7b (dark gray)
+
+
+a (standard):	#fff/#b4b4b4 (white or light black)
+a (visited):	#fff/#b4b4b4 (white or light black)
+a (active):		#e4b855 (bright yellow)
+
+Hover :		#e4b855 (bright yellow)
+--------------------------------------------*/
+
+/* Font Awesome Icons */
+@import url("assets/plugin/font-awesome/css/font-awesome.min.css");
+@import url("assets/plugin/iconfont/iconfont.css");
+/* Bootstrap core CSS*/
+@import url("assets/plugin/bootstrap/css/bootstrap.min.css");
+
+/*SLIDER REVOLUTION CSS SETTINGS */
+@import url("assets/plugin/revslider/css/extralayers.css");
+@import url("assets/plugin/revslider/css/settings.css");
+
+/*Defaults CSS SETTINGS */
+@import url("assets/css/hover-dropdown-menu.css");		
+@import url("assets/css/style.css");
+@import url("assets/css/responsive.css");
+@import url("assets/css/color.css");
+@import url("assets/css/animate.min.css");
+
+/*Important Owl stylesheet*/
+@import url("assets/plugin/owl-carousel/css/owl.carousel.css");
+@import url("assets/plugin/owl-carousel/css/owl.theme.css");
+@import url("assets/css/owl/owl.transitions.css");
+
+

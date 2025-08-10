@@ -1,0 +1,93 @@
+/****css****/
+body {
+    font-family: 'Martel Sans', sans-serif;
+    height: 100%;
+    line-height: 1.8;
+    font-style: normal;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background: #FFFFFF !important;
+}
+/* Heading */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    font-family: 'Lora', serif;
+}
+.opensans {
+    font-family: 'Open Sans', sans-serif !important;
+}
+.lora{
+	font-family: 'Lora', serif;
+}
+a:hover,
+a:focus,
+a:active{
+	text-decoration:none;
+}
+.page_single {
+    background-color: #e8e8e8;
+}
+.wa-heading-style1 h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 40px 0px 10px 0px;
+}
+.wa-heading-style1 em {
+    font-size: 15px;
+    font-weight: 500;
+	margin-bottom: 40px;
+    display: inline-block;
+	font-style: initial;
+}
+.dark-theme {
+    background-color: #fff;
+    margin-bottom: 75px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.35);
+    box-shadow: 0px 5px 21px 1px rgba(0,0,0,0.15);
+}
+.figure-caption h3 {
+    margin: 15px 0px 0px 0px;
+}
+.figure-caption a {
+    color: #0e0e0e;
+    font-weight: 500;
+	margin-bottom: 10px;
+    display: inline-block;
+}
+.contact-widget img {
+    width: 190px;
+	margin: 25px 0px 10px 0px;
+}
+.contact_button {
+    background-color: #f55e45;
+    padding: 4px 20px;
+    color: #fff;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+    display: inline-block;
+}
+.dark-footer {
+    background-color: #2a2a2a;
+}
+.contact-widget h3 {
+    color: #fff;
+}
+.copy-right p {
+    color: #fff;
+}
+.wa-theme-bg {
+    background-color: #f5f5f5;
+    padding: 10px 0px;
+}
+img{
+    width:100%;
+}

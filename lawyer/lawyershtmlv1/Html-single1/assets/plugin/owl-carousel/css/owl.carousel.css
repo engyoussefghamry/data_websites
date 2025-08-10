@@ -1,0 +1,225 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+.owl-controls .owl-buttons div {
+  color: #FFF;
+  display: inline-block;
+  zoom: 1;
+  margin: 5px;
+  padding: 3px 10px;
+  font-size: 12px;
+  text-indent: -9999px !important;
+  /*background-color:#d6d6d6 !important;*/
+  width:87px;
+  height:40px;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  background-position:0px 0px;
+  opacity: 1;
+  border-radius:0px !important;
+    -webkit-transition: all 350ms ease-in-out 0s;
+  -moz-transition: all 350ms ease-in-out 0s;
+  -ms-transition: all 350ms ease-in-out 0s;
+  -o-transition: all 350ms ease-in-out 0s;
+  transition: all 350ms ease-in-out 0s;
+}
+
+.owl-buttons .owl-next{
+	background-image:url('../img/right.png');
+}
+.owl-buttons .owl-prev{
+background-image:url('../img/left.png');
+}
+.owl-theme .owl-controls.clickable .owl-buttons div.owl-prev:hover{
+background-image:url('../img/left-hover.png');
+}
+.owl-theme .owl-controls.clickable .owl-buttons div.owl-next:hover{
+background-image:url('../img/right-hover.png');
+}
+
+/****************change botton position******************/
+
+
+
+/********************for latest news********************/
+
+.car_button .owl-buttons {
+    position: absolute;
+    top: 34%;
+    width: 100%;
+}
+.car_button .owl-prev{
+    left: -100px;
+}
+.car_button .owl-next{
+    right: -100px;
+}
+/******************** for who_we_are ********************/
+
+.car_button4 .owl-buttons {
+    position: absolute;
+    top: 110%;
+    width: 100%;
+}
+.car_button4 .owl-prev {
+    left: 41.75%;
+}
+.car_button4 .owl-next {
+    right: 41.75%;
+}
+
+/********************for attorney********************/
+.car_button1 .owl-buttons {
+    position: absolute;
+    top: 110%;
+    width: 100%;
+}
+.car_button1 .owl-prev {
+    left: 45%;
+}
+.car_button1 .owl-next {
+    right: 45%;
+}
+/********************our partners********************/
+.car_button2 .owl-buttons {
+    position: absolute;
+    top: 130%;
+    width: 100%;
+}
+.car_button2 .owl-prev {
+    left: 45%;
+}
+.car_button2 .owl-next {
+    right: 45%;
+}
+
+/********************our testimonial********************/
+.car_button3 .owl-buttons div {
+  color: #FFF;
+  display: inline-block;
+  zoom: 1;
+  margin: 5px;
+  padding: 3px 10px;
+  font-size: 12px;
+  text-indent: -9999px !important;
+  /*background-color:#d6d6d6 !important;*/
+  width:22px;
+  height:47px;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  background-position:0px 0px;
+  opacity: 1;
+  border-radius:0px !important;
+    -webkit-transition: all 350ms ease-in-out 0s;
+  -moz-transition: all 350ms ease-in-out 0s;
+  -ms-transition: all 350ms ease-in-out 0s;
+  -o-transition: all 350ms ease-in-out 0s;
+  transition: all 350ms ease-in-out 0s;
+}
+
+.car_button3 .owl-buttons .owl-next{
+	background-image:url('../img/right1.png');
+}
+.car_button3 .owl-buttons .owl-prev{
+background-image:url('../img/left1.png');
+}
+.car_button3 .owl-controls.clickable .owl-buttons div.owl-prev:hover{
+background-image:url('../img/left1-hover.png');
+}
+.car_button3 .owl-controls.clickable .owl-buttons div.owl-next:hover{
+background-image:url('../img/right1-hover.png');
+}
+
+.car_button3 .owl-buttons {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+}
+.car_button3 .owl-prev {
+    left: 0;
+}
+.car_button3 .owl-next {
+    right: 0;
+}
+
+/********************for practice********************/
+
+.car_button5 .owl-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.car_button5 .owl-prev{
+    left: -100px;
+}
+.car_button5 .owl-next{
+    right: -100px;
+}

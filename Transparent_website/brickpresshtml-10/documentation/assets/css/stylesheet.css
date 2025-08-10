@@ -1,0 +1,238 @@
+/* --------------------------------------------------------------------- */
+
+
+/* DOCUMENT SETUP
+/* --------------------------------------------------------------------- */
+
+body {
+    background: #fff none repeat scroll 0 0;
+    color: #3c3c3b;
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    height: 100%;
+    line-height: 1.7;
+}
+
+::selection {
+    background: #3c3c3b;
+    color: #f5f5f5;
+}
+
+::-moz-selection {
+    background: #3c3c3b;
+    color: #f5f5f5;
+}
+
+
+/* --------------------------------------------------------------------- */
+
+
+/* TYPOGRAPHY
+/* --------------------------------------------------------------------- */
+
+a {
+    color: #1c3254;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p {
+    font-size: 0.8em;
+    margin-bottom: 25px;
+}
+
+p.max-width {
+    max-width: 600px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.4em;
+    margin-bottom: 30px;
+}
+
+h1:after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 10px;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.25)
+}
+
+h2 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+h2:after {
+    display: block;
+    content: '';
+    width: 50px;
+    height: 10px;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.25)
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.color {
+    color: #4FB7FA;
+}
+
+.margin-top {
+    margin-top: 90px;
+}
+
+.margin-top-small {
+    margin-top: 40px;
+}
+
+a.button {
+    background: #033566 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.8em;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #111;
+}
+
+#start h1 img {
+    margin-right: 10px;
+}
+
+
+/* --------------------------------------------------------------------- */
+
+
+/* HEADER
+/* --------------------------------------------------------------------- */
+
+#header {
+    background: #f2f2f2 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 17.9%;
+    z-index: 999;
+}
+
+#header .logo {
+    bottom: 0;
+    color: #fff;
+    display: block;
+    font-size: 23px;
+    font-weight: 700;
+    left: 0;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* === NAVIGATION === */
+
+#main-navigation {
+    left: 0;
+    position: relative;
+    top: 0;
+}
+
+#main-navigation li {
+    border-bottom: 1px solid #d7d7d7;
+    position: relative;
+}
+
+#header #main-navigation a {
+    color: #222;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 8px 20px 8px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#main-navigation a:hover {
+    background: #4a4c57;
+}
+
+#main-navigation a.active {
+    background: #033566;
+    color: #fff !important;
+}
+
+
+/* --------------------------------------------------------------------- */
+
+
+/* WRAPPER
+/* --------------------------------------------------------------------- */
+
+#page-wrapper {
+    left: 0;
+    padding: 0 30px 0 17.9%;
+    position: relative;
+    top: 0;
+}
+
+section {
+    padding: 60px 0 180px 0;
+}
+
+
+/* --------------------------------------------------------------------- */
+
+
+/* RESPONSIVE
+/* --------------------------------------------------------------------- */
+
+@media screen and (max-height: 620px) {
+    #main-navigation a {
+        padding: 8px 20px 8px 30px;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 767px) {
+    #header {
+        display: none;
+    }
+    #page-wrapper {
+        padding: 0 15px;
+    }
+    .row {
+        padding: 0;
+    }
+}

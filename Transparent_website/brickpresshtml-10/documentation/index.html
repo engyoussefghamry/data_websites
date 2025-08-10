@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en" class=" js csstransitions">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Documentation | Brickpress HTML Template</title>
+    <meta name="description" content="a template by Construct">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Construct">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" media="all" href="assets/css/reset.css">
+    <link rel="stylesheet" media="all" href="assets/css/responsive.css">
+    <link rel="stylesheet" media="all" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" media="all" href="assets/css/prettify.css">
+    <script type="text/javascript" src="assets/jquery.1.9.1.min.js"></script>
+    <script type="text/javascript" src="assets/modernizr.custom.97074.js"></script>
+    <script type="text/javascript" src="assets/prettify.js"></script>
+</head>
+
+<body onload="prettyPrint()">
+    <header id="header">
+        <a class="logo" href="#"><img src="assets/logo.png" alt="logo"></a>
+        <ul id="main-navigation">
+            <li><a class="active" href="#start">Start</a></li>
+            <li><a href="#structure" class="">Structure</a></li>
+            <li><a href="#style" class="">CSS Files</a></li>
+            <li><a href="#javascript" class="">JS Files</a></li>
+            <li><a href="#shortcodes" class="">Elements</a></li>
+            <li><a href="#work" class="">Portfolio</a></li>
+            <li><a href="#blog" class="">Blog</a></li>
+            <li><a href="#contact_form" class="">Address &amp;  Contact Form</a></li>
+            <li><a href="#googlemap" class="">Google Map</a></li>
+            <li><a href="#credits" class="">Credits and Sources</a></li>
+        </ul>
+    </header>
+    <div id="page-wrapper">
+        <section id="start">
+            <div class="row">
+                <h1><img src="assets/logo.png" alt="logo">Documentation</h1>
+                <p>
+                    <span class="bold">Created:</span>23.11.2016
+                    <br>
+                    <span class="bold">By:</span> <a href="http://demo.themecanyon.org/" target="_blank">Theme Canyon</a>
+                    <br>
+                    <span class="bold">Email:</span> <a href="mailto:canyontheme@gmail.com">canyontheme@gmail.com</a>
+                </p>
+                <p class="max-width">
+                    Thank you for purchasing our Template. If you have any questions that are beyond the scope of this help file, please feel free to write us an email or contact us via our themeforest user page.
+                </p>
+                <a class="button" href="https://themeforest.net/user/themecanyon">Themeforest Profile</a>
+                <a class="button" href="mailto:support@themecanyon.org">Email</a>
+            </div>
+        </section>
+        <section id="structure">
+            <div class="row">
+                <h1>HTML Structure</h1>
+                <h2>Basic Structure</h2>
+                <pre class="prettyprint">
+&#x3C;!--header--&#x3E;
+&#x3C;header id=&#x22;sp-header&#x22;&#x3E;
+    &#x3C;div class=&#x22;container&#x22;&#x3E;
+        &#x3C;div class=&#x22;row&#x22;&#x3E;
+            &#x3C;div id=&#x22;sp-menu&#x22; class=&#x22;col-sm-12 col-md-12&#x22;&#x3E;
+                &#x3C;div class=&#x22;sp-column &#x22;&#x3E;
+                    &#x3C;div class=&#x27;sp-megamenu-wrapper&#x27;&#x3E;
+                        &#x3C;a id=&#x22;offcanvas-toggler&#x22; href=&#x22;#&#x22;&#x3E;&#x3C;i class=&#x22;fa fa-bars&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/a&#x3E;
+                        &#x3C;ul class=&#x22;sp-megamenu-parent menu-fade-up hidden-xs&#x22;&#x3E;
+                            &#x3C;li class=&#x22;sp-menu-item current-item active&#x22;&#x3E;&#x3C;a href=&#x22;index.html&#x22;&#x3E;Home&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                            &#x3C;li class=&#x22;sp-menu-item sp-has-child&#x22;&#x3E;&#x3C;a href=&#x22;services.html&#x22;&#x3E;services&#x3C;/a&#x3E;
+                                &#x3C;div class=&#x22;sp-dropdown sp-dropdown-main sp-menu-right&#x22;&#x3E;
+                                    &#x3C;div class=&#x22;sp-dropdown-inner&#x22;&#x3E;
+                                        &#x3C;ul class=&#x22;sp-dropdown-items&#x22;&#x3E;
+                                            &#x3C;li class=&#x22;sp-menu-item&#x22;&#x3E;&#x3C;a href=&#x22;single-services.html&#x22;&#x3E;wooden work&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                                            &#x3C;li class=&#x22;sp-menu-item&#x22;&#x3E;&#x3C;a href=&#x22;single-services.html&#x22;&#x3E;metal roofing&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                                            &#x3C;li class=&#x22;sp-menu-item&#x22;&#x3E;&#x3C;a href=&#x22;single-services.html&#x22;&#x3E;architechture &#x26;amp; design&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                                            &#x3C;li class=&#x22;sp-menu-item&#x22;&#x3E;&#x3C;a href=&#x22;single-services.html&#x22;&#x3E;general construction&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                                            &#x3C;li class=&#x22;sp-menu-item&#x22;&#x3E;&#x3C;a href=&#x22;single-services.html&#x22;&#x3E;hardwood flooring&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                                            &#x3C;li class=&#x22;sp-menu-item&#x22;&#x3E;&#x3C;a href=&#x22;single-services.html&#x22;&#x3E;house remodeling&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                                        &#x3C;/ul&#x3E;
+                                    &#x3C;/div&#x3E;
+                                &#x3C;/div&#x3E;
+                            &#x3C;/li&#x3E;
+                            &#x3C;li class=&#x22;sp-menu-item&#x22;&#x3E;&#x3C;a href=&#x22;about.html&#x22;&#x3E;about&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                            &#x3C;li class=&#x22;sp-menu-item&#x22;&#x3E;&#x3C;a href=&#x22;projects.html&#x22;&#x3E;projects&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                            &#x3C;li class=&#x22;sp-menu-item&#x22;&#x3E;&#x3C;a href=&#x22;blog.html&#x22;&#x3E;news&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                            &#x3C;li class=&#x22;sp-menu-item&#x22;&#x3E;&#x3C;a href=&#x22;contact.html&#x22;&#x3E;Contact&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                        &#x3C;/ul&#x3E;
+                    &#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/header&#x3E;
+&#x3C;!--Navigation end--&#x3E;
+
+
+&lt;!-- START SECTIONS --&gt;
+&lt;section id=&quot;section-id&quot; class=&quot;section&quot;&gt;
+    {{ CONTENT }}
+&lt;/section&gt;
+
+.........
+
+
+&lt;section id=&quot;section-id&quot; class=&quot;section&quot;&gt;
+    {{ CONTENT }}
+&lt;/section&gt;
+&lt;!-- END SECTIONS --&gt;
+
+
+&lt;!-- START FOOTER --&gt;
+&lt;footer&gt;
+    {{ FOOTER CONTENT }}
+&lt;/footer&gt;&lt;!-- END FOOTER --&gt;
+
+
+                        </pre>
+                <h2 class="margin-top">Section Headline with description and top sub title </h2>
+                <pre class="prettyprint">
+&#x3C;div class=&#x22;col-sm-12 no-padding main-heading&#x22;&#x3E;
+    &#x3C;h2 class=&#x22;animate-in left-out&#x22;&#x3E;{{Title}}&#x3C;/h2&#x3E;
+    &#x3C;p class=&#x22;animate-in left-out&#x22;&#x3E;{{Sub Ttile}}&#x3C;/p&#x3E;
+&#x3C;/div&#x3E;
+
+
+
+                    </pre>
+                <h2 class="margin-top">Bootstrap 12 Column Grid System</h2>
+                <p class="max-width">
+                    We are using the grid system from <a href="http://www.getbootstrap.com" target="_blank">Bootstrap</a>. For the detailed documentation, Go to their official <a href="http://www.getbootstrap.com" target="_blank">website</a>. Below is the basic example.
+                </p>
+                <pre class="prettyprint prettyprinted">
+    
+&lt;!-- START SECTION --&gt;
+&lt;section id=&quot;section-id&quot; class=&quot;section&quot;&gt;
+    &lt;!-- START CONTAINER --&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;!-- START ROW --&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-md-6&quot;&gt;
+                {{ 6/12 COLUMN PAGE CONTENT }}
+            &lt;/div&gt;
+            &lt;div class=&quot;col-md-6&quot;&gt;
+                {{ 6/12 COLUMN PAGE CONTENT }}
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- END ROW --&gt;
+
+        &lt;!-- START ROW --&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-md-4&quot;&gt;
+                {{ 4/12 COLUMN PAGE CONTENT }}
+            &lt;/div&gt;
+            &lt;div class=&quot;col-md-4&quot;&gt;
+                {{ 4/12 COLUMN PAGE CONTENT }}
+            &lt;/div&gt;
+
+            &lt;div class=&quot;col-md-4&quot;&gt;
+                {{ 4/12 COLUMN PAGE CONTENT }}
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- END ROW --&gt;
+
+    &lt;/div&gt;
+    &lt;!-- END CONTAINER --&gt;
+&lt;/section&gt;
+&lt;!-- END SECTION --&gt;    
+    
+    </pre>
+            </div>
+        </section>
+        <section id="style">
+            <div class="row">
+                <h1>Stylesheets</h1>
+                <h3>Files</h3>
+                <p class="max-width">
+                    All CSS are located in the "css" folder of the template. Each CSS File is well commented and easy to use and customize to your own needs. Here's the list of the CSS files:
+                </p>
+                <p class="max-width">
+                    <span class="bold">1. bootstrap.css</span> - Bootstrap 12 Column Grid System
+                    <br>
+                    <span class="bold">2  font-awesome.min.css</span> - Font Awesome CSS
+                    <br>
+                    <span class="bold">3. iconfont.css</span> iconfont CSS
+                    <br>
+                    <span class="bold">4. owl.carousel.css</span> - OWL Carousel Core
+                    <br>
+                    <span class="bold">5. owl.theme.css</span> - OWL Carousel Theme
+                    <br>
+                    <span class="bold">6. owl.transitions.css</span> - OWL Carousel Transitions
+                    <br>
+                    <span class="bold">7. spsimpleportfolio.css</span> -Portfolio Css
+                    <br>
+                    <span class="bold">8. featherlight.min.css</span> featherlight Css
+                    <br>
+                    <span class="bold">8. flexslider.css</span> flexslider Css
+                    <br>
+                    <span class="bold">8. dynamic-captions.css</span> dynamic-captions Css
+                    <br>
+                    <span class="bold">8. static-captions.css</span> static-captions Css
+                    <br>
+                    <span class="bold">8. animate.min.css</span> animate.min Css
+                    <br>
+                    <span class="bold">9. sp-flickr-gallery.css</span> sp-flickr-gallery Css
+                    <br>
+                    <span class="bold">10. style.css</span> -Style CSS
+                    <br>
+                    <h3 class="margin-top">Style.css includes:</h3>
+                    <pre class="prettyprint">
+1.Fonts
+2. Common css
+   a)button style
+   b)Main heading
+   c)Form style
+   d)center
+   e)Overlay
+   f)Socials
+   g)Pagination
+ 3. Top Info
+ 4. Header
+ 5. Breadcrumb
+ 6. Actions
+ 7. Services
+ 8. Portfolios
+ 9. About
+ 10.Team
+ 11.Counter
+ 12.Blog
+ 13.Testimonials
+ 14.Footer
+ 15.Contact Us
+ 16.Aside
+ 17.Responsive
+
+</pre>
+            </div>
+        </section>
+        <section id="javascript">
+            <div class="row">
+                <h1>Javascript</h1>
+                <h3>Plugins</h3>
+                <p class="max-width">
+                    All JavaScript / jQuery plugins are located in the "js" folder of the template. You dont have to change these files.
+                </p>
+                <p class="max-width">
+                    <span class="bold">1. jQuery.js</span> - jQuery Js
+                    <br>
+                    <span class="bold">2. bootstrap.js</span> - Bootstrap JS
+                    <br>
+                    <span class="bold">3. jquery.flexslider-min.js</span> - jquery.flexslider-min
+                    <br>
+                    <span class="bold">4. appear.js</span> - Appear JS
+                    <br>
+                    <span class="bold">5. owl.carousel.js</span> - Owl Carousel
+                    <br>
+                    <span class="bold">6. sp-flickr-gallery.js</span> - sp-flickr-gallery Plugin
+                    <br>
+                    <span class="bold">7. jquery.parallax-1.1.3.js</span> - jquery.parallax-1.1.3 plugin
+                    <br>
+                    <span class="bold">10. spsimpleportfolio.js</span> - Portfolio Plugin
+                    <br>
+                    <span class="bold">11. smooth-scrol.js</span> - smooth-scrol plugin
+                    <br>
+                    <span class="bold">12. jquery.shuffle.modernizr.min.js</span> - Shuffle Js
+                    <br>
+                    <span class="bold">13. jquery.themepunch.tools.min.js</span> Revolution slilder tool
+                    <br>
+                    <span class="bold">14. jquery.themepunch.revolution.min.js</span> Revolution slilder plugin
+                    <br>
+                    <span class="bold">15. featherlight.min.js</span> - featherlight.min
+                    <br>
+                </p>
+                <h3 class="margin-top">Template Javascript</h3>
+                <p class="max-width">
+                    There are two Themeplate javascript files. The first one contains miscellaneous settings for your template. Second one contains settings for your Google Map.
+                </p>
+                <p class="max-width">
+                    <span class="bold">1. main.js</span> - Template Javascript
+                    <br>
+                </p>
+                <h3 class="margin-top">main.js includes:</h3>
+                <pre class="prettyprint">
+ 
+ 1.Parrallax
+ 2.Header
+ 3.Count Function
+ 4.Testimonoials
+ 5.Tooltip
+ 6.Services Slider
+    </pre>
+            </div>
+        </section>
+        <section id="shortcodes">
+            <div class="row">
+                <h1>ELEMENTS</h1>
+                <h2>Buttons</h2>
+            </div>
+            <div class="row gutters">
+                <div class="col span_6">
+                    <h4>Html</h4>
+                    <pre class="prettyprint">
+&#x3C;a href=&#x22;#&#x22; class=&#x22;sppb-btn&#x22;&#x3E;{{ BUTTON TEXT }}&#x3C;/a&#x3E; 
+        </pre>
+                </div>
+                <div class="col span_6">
+                    <h4>CSS - Style.css</h4>
+                    <pre class="prettyprint">
+        
+
+/*
+===========================================
+button style
+===========================================
+*/
+
+.sppb-btn {
+    border-radius: 3px;
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 8px 35px;
+    text-transform: lowercase;
+}
+
+.sppb-btn.sppb-btn-default {
+    background-color: #023669 !important;
+    border: 2px solid #023669;
+    color: #fff;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.sppb-btn.sppb-btn-primary:hover {
+    background-color: transparent;
+    border-color: #f5dd25 !important;
+    color: #f5dd25;
+}
+
+.sppb-btn.sppb-btn-default:hover {
+    background-color: transparent !important;
+    border-color: #023669 !important;
+    color: #023669;
+}
+
+.sppb-btn.sppb-btn-primary {
+    background-color: #f5dd25;
+    border-color: #f5dd25;
+    border-width: 2px;
+    color: #023669;
+}
+
+.simple {
+    color: #023669;
+    font-family: Poppins;
+    font-weight: 600;
+    padding: 0;
+    text-transform: lowercase;
+}
+
+.simple i {
+    margin-left: 5px;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.btn-primary,
+.sppb-btn-primary {
+    background-color: #023669;
+    border-color: #01274b;
+}
+
+.sppb-btn.sppb-btn-success {
+    background-color: transparent;
+    border: 3px solid #023669;
+    color: #023669;
+}
+
+.sppb-btn.sppb-btn-lg {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 17px 40px;
+}
+
+.sppb-btn.sppb-btn-success:hover {
+    background-color: #023669;
+    color: #f5dd25;
+}
+
+
+
+
+
+        </pre>
+                </div>
+            </div>
+            <section id="work">
+                <div class="row">
+                    <h1>Add Portfolio / Gallery</h1>
+                </div>
+                <div class="row gutters">
+                    <div class="col span_6">
+                        <h4>Html</h4>
+                        <pre class="prettyprint">
+  &#x3C;!--Portfolio--&#x3E;
+&#x3C;section id=&#x22;portfolio&#x22; class=&#x22;space bg-color&#x22;&#x3E;
+    &#x3C;div class=&#x22;container&#x22;&#x3E;
+        &#x3C;!--Main Heading--&#x3E;
+        &#x3C;div class=&#x22;col-sm-12 no-padding main-heading text-center&#x22;&#x3E;
+            &#x3C;h2&#x3E;featured projects&#x3C;/h2&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;row&#x22;&#x3E;
+            &#x3C;div id=&#x22;mod-sp-simpleportfolio&#x22; class=&#x22;sp-simpleportfolio sp-simpleportfolio-view-items layout-gallery-space &#x22;&#x3E;
+                &#x3C;div class=&#x22;sp-simpleportfolio-filter&#x22;&#x3E;
+                    &#x3C;ul&#x3E;
+                        &#x3C;li class=&#x22;active&#x22; data-group=&#x22;all&#x22;&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;Show All&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                        &#x3C;li data-group=&#x22;renovation&#x22;&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;Renovation&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                        &#x3C;li data-group=&#x22;interior&#x22;&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;Interior design&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                        &#x3C;li data-group=&#x22;architechture&#x22;&#x3E;&#x3C;a href=&#x22;#&#x22;&#x3E;Architechture&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                    &#x3C;/ul&#x3E;
+                &#x3C;/div&#x3E;
+                &#x3C;div class=&#x22;sp-simpleportfolio-items sp-simpleportfolio-columns-4&#x22;&#x3E;
+                    &#x3C;div class=&#x22;sp-simpleportfolio-item&#x22; data-groups=&#x27;[&#x22;renovation&#x22;,&#x22;architechture&#x22;]&#x27;&#x3E;
+                        &#x3C;div class=&#x22;sp-simpleportfolio-overlay-wrapper clearfix&#x22;&#x3E;
+                            &#x3C;img class=&#x22;sp-simpleportfolio-img&#x22; src=&#x22;images/portfolio-6-1140x760_600x400.jpg&#x22; alt=&#x22;adipisicing elit&#x22;&#x3E;
+                            &#x3C;div class=&#x22;sp-simpleportfolio-overlay&#x22;&#x3E;
+                                &#x3C;div class=&#x22;sp-vertical-middle&#x22;&#x3E;
+                                    &#x3C;div&#x3E;
+                                        &#x3C;div class=&#x22;sp-simpleportfolio-btns&#x22;&#x3E;
+                                            &#x3C;a class=&#x22;btn-zoom&#x22; href=&#x22;./images/portfolio-6-1140x760_600x400.jpg&#x22; data-featherlight=&#x22;image&#x22;&#x3E;Zoom&#x3C;/a&#x3E;
+                                            &#x3C;a class=&#x22;btn-view&#x22; href=&#x22;single-portfolio.html&#x22;&#x3E;View&#x3C;/a&#x3E;
+                                        &#x3C;/div&#x3E;
+                                        &#x3C;h3 class=&#x22;sp-simpleportfolio-title&#x22;&#x3E;
+                                            &#x3C;a href=&#x22;single-portfolio.html&#x22;&#x3E;
+                                                adipisicing elit                                    &#x3C;/a&#x3E;
+                                        &#x3C;/h3&#x3E;
+                                        &#x3C;div class=&#x22;sp-simpleportfolio-tags&#x22;&#x3E;
+                                            Renovation, Architechture &#x3C;/div&#x3E;
+                                    &#x3C;/div&#x3E;
+                                &#x3C;/div&#x3E;
+                            &#x3C;/div&#x3E;
+                        &#x3C;/div&#x3E;
+                    &#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;sp-simpleportfolio-item&#x22; data-groups=&#x27;[&#x22;interior&#x22;]&#x27;&#x3E;
+                        &#x3C;div class=&#x22;sp-simpleportfolio-overlay-wrapper clearfix&#x22;&#x3E;
+                            &#x3C;img class=&#x22;sp-simpleportfolio-img&#x22; src=&#x22;images/portfolio-7-1140x760_600x400.jpg&#x22; alt=&#x22;Mirum est notare&#x22;&#x3E;
+                            &#x3C;div class=&#x22;sp-simpleportfolio-overlay&#x22;&#x3E;
+                                &#x3C;div class=&#x22;sp-vertical-middle&#x22;&#x3E;
+                                    &#x3C;div&#x3E;
+                                        &#x3C;div class=&#x22;sp-simpleportfolio-btns&#x22;&#x3E;
+                                            &#x3C;a class=&#x22;btn-zoom&#x22; href=&#x22;./images/portfolio-7-1140x760_600x400.jpg&#x22; data-featherlight=&#x22;image&#x22;&#x3E;Zoom&#x3C;/a&#x3E;
+                                            &#x3C;a class=&#x22;btn-view&#x22; href=&#x22;single-portfolio.html&#x22;&#x3E;View&#x3C;/a&#x3E;
+                                        &#x3C;/div&#x3E;
+                                        &#x3C;h3 class=&#x22;sp-simpleportfolio-title&#x22;&#x3E;
+                                            &#x3C;a href=&#x22;single-portfolio.html&#x22;&#x3E;
+                                                Mirum est notare                                    &#x3C;/a&#x3E;
+                                        &#x3C;/h3&#x3E;
+                                        &#x3C;div class=&#x22;sp-simpleportfolio-tags&#x22;&#x3E;
+                                            Interior design &#x3C;/div&#x3E;
+                                    &#x3C;/div&#x3E;
+                                &#x3C;/div&#x3E;
+                            &#x3C;/div&#x3E;
+                        &#x3C;/div&#x3E;
+                    &#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;sp-simpleportfolio-item&#x22; data-groups=&#x27;[&#x22;renovation&#x22;,&#x22;interior&#x22;]&#x27;&#x3E;
+                        &#x3C;div class=&#x22;sp-simpleportfolio-overlay-wrapper clearfix&#x22;&#x3E;
+                            &#x3C;img class=&#x22;sp-simpleportfolio-img&#x22; src=&#x22;images/shutterstock_12727267_600x400.jpg&#x22; alt=&#x22;Nihil imperdiet doming&#x22;&#x3E;
+                            &#x3C;div class=&#x22;sp-simpleportfolio-overlay&#x22;&#x3E;
+                                &#x3C;div class=&#x22;sp-vertical-middle&#x22;&#x3E;
+                                    &#x3C;div&#x3E;
+                                        &#x3C;div class=&#x22;sp-simpleportfolio-btns&#x22;&#x3E;
+                                            &#x3C;a class=&#x22;btn-zoom&#x22; href=&#x22;./images/shutterstock_12727267_600x400.jpg&#x22; data-featherlight=&#x22;image&#x22;&#x3E;Zoom&#x3C;/a&#x3E;
+                                            &#x3C;a class=&#x22;btn-view&#x22; href=&#x22;single-portfolio.html&#x22;&#x3E;View&#x3C;/a&#x3E;
+                                        &#x3C;/div&#x3E;
+                                        &#x3C;h3 class=&#x22;sp-simpleportfolio-title&#x22;&#x3E;
+                                            &#x3C;a href=&#x22;single-portfolio.html&#x22;&#x3E;
+                                                Nihil imperdiet doming                                  &#x3C;/a&#x3E;
+                                        &#x3C;/h3&#x3E;
+                                        &#x3C;div class=&#x22;sp-simpleportfolio-tags&#x22;&#x3E;
+                                            Renovation, Interior design &#x3C;/div&#x3E;
+                                    &#x3C;/div&#x3E;
+                                &#x3C;/div&#x3E;
+                            &#x3C;/div&#x3E;
+                        &#x3C;/div&#x3E;
+                    &#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;sp-simpleportfolio-item&#x22; data-groups=&#x27;[&#x22;renovation&#x22;]&#x27;&#x3E;
+                        &#x3C;div class=&#x22;sp-simpleportfolio-overlay-wrapper clearfix&#x22;&#x3E;
+                            &#x3C;img class=&#x22;sp-simpleportfolio-img&#x22; src=&#x22;images/shutterstock_20049397_600x400.jpg&#x22; alt=&#x22;Feugiat nulla facilisis &#x22;&#x3E;
+                            &#x3C;div class=&#x22;sp-simpleportfolio-overlay&#x22;&#x3E;
+                                &#x3C;div class=&#x22;sp-vertical-middle&#x22;&#x3E;
+                                    &#x3C;div&#x3E;
+                                        &#x3C;div class=&#x22;sp-simpleportfolio-btns&#x22;&#x3E;
+                                            &#x3C;a class=&#x22;btn-zoom&#x22; href=&#x22;./images/shutterstock_20049397_600x400.jpg&#x22; data-featherlight=&#x22;image&#x22;&#x3E;Zoom&#x3C;/a&#x3E;
+                                            &#x3C;a class=&#x22;btn-view&#x22; href=&#x22;single-portfolio.html&#x22;&#x3E;View&#x3C;/a&#x3E;
+                                        &#x3C;/div&#x3E;
+                                        &#x3C;h3 class=&#x22;sp-simpleportfolio-title&#x22;&#x3E;
+                                            &#x3C;a href=&#x22;single-portfolio.html&#x22;&#x3E;
+                                                Feugiat nulla facilisis                                     &#x3C;/a&#x3E;
+                                        &#x3C;/h3&#x3E;
+                                        &#x3C;div class=&#x22;sp-simpleportfolio-tags&#x22;&#x3E;
+                                            Renovation &#x3C;/div&#x3E;
+                                    &#x3C;/div&#x3E;
+                                &#x3C;/div&#x3E;
+                            &#x3C;/div&#x3E;
+                        &#x3C;/div&#x3E;
+                    &#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/section&#x3E;
+
+        </pre>
+                    </div>
+                    <div class="col span_6">
+                        <h4>CSS - style.css</h4>
+                        <pre class="prettyprint">
+
+/*
+===========================================
+Portfolios
+===========================================
+*/
+
+#portfolio.bg-color {
+    background-color: #F2F2F2;
+}
+
+.inner #portfolio.space {
+    padding: 100px 0;
+}
+
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li {
+    border-right: 1px solid #ddd;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+    background-color: transparent !important;
+    color: #023669;
+    text-decoration: underline;
+}
+
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a {
+    background-color: transparent;
+    color: #777;
+    font-weight: 600;
+}
+
+.sp-simpleportfolio-btns a {
+    background: #fff none repeat scroll 0 0 !important;
+    border-radius: 3px !important;
+    color: #023669 !important;
+    font-weight: normal;
+}
+
+.sp-simpleportfolio-overlay-wrapper {
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.sp-simpleportfolio-created h4,
+.sp-simpleportfolio-tags > h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.sp-content.meta div:not(:last-child) {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+#single-project .sp-block img {
+    margin-bottom: 20px;
+}
+
+.sp-content h2 {
+    margin-top: 0;
+}
+
+
+
+......
+......
+        </pre>
+                    </div>
+                </div>
+            </section>
+            <section id="blog">
+                <div class="row">
+                    <h1>Add Blog Article</h1>
+                </div>
+                <div class="row gutters">
+                    <div class="col span_6">
+                        <h4>Html</h4>
+                        <pre class="prettyprint">
+ &#x3C;article class=&#x22;col-sm-12 no-padding blog-block&#x22;&#x3E;
+        &#x3C;img src=&#x22;images/sdrt_medium.jpg&#x22; alt=&#x22;blog&#x22;&#x3E;
+        &#x3C;div class=&#x22;blog-content&#x22;&#x3E;
+            &#x3C;div class=&#x22;icon pull-left&#x22;&#x3E;
+                &#x3C;i class=&#x22;fa fa-thumb-tack&#x22;&#x3E;&#x3C;/i&#x3E;
+            &#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;blog-info&#x22;&#x3E;
+                &#x3C;ul class=&#x22;meta&#x22;&#x3E;
+                    &#x3C;li data-toggle=&#x22;tooltip&#x22; data-placement=&#x22;top&#x22; title=&#x22;&#x22; data-original-title=&#x22;Written by&#x22;&#x3E;
+                        &#x3C;i class=&#x22;fa fa-user&#x22;&#x3E;&#x3C;/i&#x3E;Super User
+                    &#x3C;/li&#x3E;
+                    &#x3C;li&#x3E;
+                        &#x3C;a data-toggle=&#x22;tooltip&#x22; data-placement=&#x22;top&#x22; title=&#x22;&#x22; href=&#x22;#&#x22; data-original-title=&#x22;Article Category&#x22;&#x3E;
+                            &#x3C;i class=&#x22;fa fa-folder-open-o&#x22;&#x3E;&#x3C;/i&#x3E;Capital&#x3C;/a&#x3E;
+                    &#x3C;/li&#x3E;
+                    &#x3C;li data-toggle=&#x22;tooltip&#x22; data-placement=&#x22;top&#x22; title=&#x22;&#x22; data-original-title=&#x22;Published date&#x22;&#x3E;
+                        &#x3C;i class=&#x22;fa fa-calendar-o&#x22;&#x3E;&#x3C;/i&#x3E;02 February 2016
+                    &#x3C;/li&#x3E;
+                &#x3C;/ul&#x3E;
+                &#x3C;h2&#x3E;&#x3C;a href=&#x22;single-blog.html&#x22;&#x3E;Experience and Resources By Your Side. &#x3C;/a&#x3E; &#x3C;/h2&#x3E;
+            &#x3C;/div&#x3E;
+            &#x3C;p&#x3E;Lorem ipsum dolor sit amet, nec in adipiscing purus luctus, urna pellentesque fringilla vel, non sed arcu integer, mauris ullamcorper ante ut non torquent. Justo praesent, vivamus eleifend torquent, suspendisse etiam lorem vestibulum, vestibulum in lorem nec vel, sit curabitur dui ligula vehicula quam.&#x3C;/p&#x3E;
+            &#x3C;a href=&#x22;#&#x22; class=&#x22;btn btn-default readmore&#x22;&#x3E;Read more...&#x3C;/a&#x3E;
+        &#x3C;/div&#x3E;
+ &#x3C;/article&#x3E;
+             
+
+        </pre>
+                    </div>
+                    <div class="col span_6">
+                        <h4>CSS - style.css</h4>
+                        <pre class="prettyprint">       
+/*
+===========================================
+Blog
+===========================================
+*/
+
+.recent-news article .article-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+.recent-news article .article-title a {
+    color: #023669;
+}
+
+article .meta i {
+    color: #999;
+    font-size: 13px;
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+article .meta > li {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    color: #888;
+    font-style: italic;
+}
+
+article .meta > li:not(:last-child) {
+    border-right: 1px solid #999;
+    padding-right: 14px;
+}
+
+article .meta > li:not(:first-child) {
+    padding-left: 14px;
+}
+
+.recent-news .blog-list article h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.recent-news .blog-list article p {
+    -moz-box-orient: vertical;
+    display: -webkit-box;
+    font-size: 14px;
+    max-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recent-news .blog-list .article-thumb {
+    margin-right: 15px;
+}
+
+.blog-list .article-thumb img {
+    border-radius: 4px;
+}
+
+.blog-list article .meta > li {
+    line-height: 16px;
+}
+
+.recent-news .blog-list article:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.inner #blog .icon {
+    border: 1px solid #023669;
+    border-radius: 3px;
+    color: #023669;
+    display: block;
+    font-size: 24px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    top: 0;
+    width: 48px;
+}
+
+.inner #blog .blog-content {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.inner #blog {
+    background-color: #fafafa;
+}
+
+.inner #blog article.blog-block {
+    box-shadow: 1px 2px 7.28px 0.72px rgba(0, 0, 0, 0.08);
+    margin-bottom: 50px;
+}
+
+.inner #blog .blog-info {
+    margin-bottom: 30px;
+    margin-left: 68px;
+}
+
+.inner #blog .blog-info .meta li {
+    border-right: 1px solid #ddd;
+    color: #666;
+    display: inline-block;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 12px;
+    margin: 0;
+    padding: 0 8px;
+    text-transform: uppercase;
+    position: static;
+}
+
+.inner article .meta i {
+    color: #666;
+}
+
+.inner #blog .blog-info h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 8px 0 0;
+    text-transform: capitalize;
+}
+
+.inner #blog .blog-info h2 a {
+    color: #000;
+}
+
+.inner .blog-block .meta {
+    margin-bottom: 15px;
+}
+
+.inner .blog-block a.readmore {
+    background: transparent none repeat scroll 0 0;
+    border-color: #023669;
+    border-radius: 30px;
+    border-width: 2px;
+    color: #023669;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 40px 0 10px;
+    padding: 8px 35px;
+}
+
+.inner .blog-block a.readmore:hover {
+    background: #023669 none repeat scroll 0 0;
+    color: #fff;
+}
+
+.embed-responsive {
+    padding-bottom: 56.25%;
+}
+
+blockquote {
+    border-color: #023669;
+    font-style: italic;
+}
+
+#blog.single-blog p {
+    margin-bottom: 10px;
+}
+
+#blog.single-blog article {
+    background-color: #fff;
+    padding: 30px;
+}
+
+#blog.single-blog .blog-content {
+    padding: 40px 0 0;
+}
+
+
+......
+......
+......
+
+        </pre>
+                    </div>
+                </div>
+            </section>
+            <section id="contact_form">
+                <div class="row">
+                    <h1>PHP Contact Form</h1>
+                </div>
+                <div class="row gutters">
+                    <div class="col span_6">
+                        <h4>PHP - contact.php</h4>
+                        <p>To send emails via the contact form, just replace the value "$to_email" with your email adress in the "contact.php" file. </p>
+                        <pre class="prettyprint">
+#Your e-mail address
+    define("__TO__", "support@themecanyon.com");
+        </pre>
+                    </div>
+                    <div class="col span_6">
+                        <h4>Change Address</h4>
+                        <p>To change the Address, Change the following HTML:</p>
+                        <pre class="prettyprint">
+ &#x3C;!--Contact Us--&#x3E;
+&#x3C;section id=&#x22;contact&#x22; class=&#x22;space&#x22;&#x3E;
+    &#x3C;div class=&#x22;container&#x22;&#x3E;
+        &#x3C;div class=&#x22;row&#x22;&#x3E;
+            &#x3C;div class=&#x22;col-sm-4 contact-block&#x22;&#x3E;
+                &#x3C;div class=&#x22;col-sm-12 main-heading&#x22;&#x3E;
+                    &#x3C;h3&#x3E;Contact us&#x3C;/h3&#x3E;
+                &#x3C;/div&#x3E;
+                &#x3C;ul class=&#x22;address&#x22;&#x3E;
+                    &#x3C;li&#x3E;&#x3C;i class=&#x22;fa fa-map-marker&#x22;&#x3E;&#x3C;/i&#x3E; 14 Tottenham Road, NewYork, USA&#x3C;/li&#x3E;
+                    &#x3C;li&#x3E;&#x3C;a href=&#x22;tel:+0883462543&#x22;&#x3E;&#x3C;i class=&#x22;fa fa-phone&#x22;&#x3E;&#x3C;/i&#x3E;+(088) 3462 543&#x3C;/a&#x3E; &#x3C;/li&#x3E;
+                    &#x3C;li&#x3E;&#x3C;a href=&#x22;mailto:Info@probiz.com &#x22;&#x3E;&#x3C;i class=&#x22;fa fa-envelope&#x22;&#x3E;&#x3C;/i&#x3E;Info@probiz.com &#x3C;/a&#x3E; &#x3C;/li&#x3E;
+                    &#x3C;li&#x3E;&#x3C;i class=&#x22;fa fa-fax&#x22;&#x3E;&#x3C;/i&#x3E;+(088) 3462 543&#x3C;/li&#x3E;
+                    &#x3C;li&#x3E;&#x3C;i class=&#x22;fa fa-clock-o&#x22;&#x3E;&#x3C;/i&#x3E;Mon - Sat: 7:00 - 17:00&#x3C;/li&#x3E;
+                &#x3C;/ul&#x3E;
+                &#x3C;ul class=&#x22;sppb-person-social&#x22;&#x3E;
+                    &#x3C;li&#x3E;&#x3C;a target=&#x22;_parent&#x22; href=&#x22;#&#x22;&#x3E;&#x3C;i class=&#x22;fa fa-facebook&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                    &#x3C;li&#x3E;&#x3C;a target=&#x22;_parent&#x22; href=&#x22;#&#x22;&#x3E;&#x3C;i class=&#x22;fa fa-twitter&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                    &#x3C;li&#x3E;&#x3C;a target=&#x22;_parent&#x22; href=&#x22;#&#x22;&#x3E;&#x3C;i class=&#x22;fa fa-google-plus&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                    &#x3C;li&#x3E;&#x3C;a target=&#x22;_parent&#x22; href=&#x22;#&#x22;&#x3E;&#x3C;i class=&#x22;fa fa-linkedin&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                    &#x3C;li&#x3E;&#x3C;a target=&#x22;_parent&#x22; href=&#x22;#&#x22;&#x3E;&#x3C;i class=&#x22;fa fa-behance&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;
+                &#x3C;/ul&#x3E;
+            &#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;col-sm-8 contact-block&#x22;&#x3E;
+                &#x3C;div class=&#x22;col-sm-12 main-heading&#x22;&#x3E;
+                    &#x3C;h3&#x3E;Contact us&#x3C;/h3&#x3E;
+                &#x3C;/div&#x3E;
+                &#x3C;form id=&#x22;contact-form&#x22;&#x3E;
+                    &#x3C;div class=&#x22;form-group col-sm-6 padding-right&#x22;&#x3E;
+                        &#x3C;input type=&#x22;text&#x22; class=&#x22;form-control&#x22; name=&#x22;name&#x22; id=&#x22;name&#x22; required placeholder=&#x22;Name&#x22;&#x3E;
+                    &#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;form-group col-sm-6 padding-left&#x22;&#x3E;
+                        &#x3C;input type=&#x22;email&#x22; class=&#x22;form-control&#x22; name=&#x22;mail&#x22; id=&#x22;mail&#x22; required placeholder=&#x22;Email&#x22;&#x3E;
+                    &#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;form-group col-sm-12 no-padding&#x22;&#x3E;
+                        &#x3C;input type=&#x22;text&#x22; class=&#x22;form-control&#x22; name=&#x22;website&#x22; id=&#x22;website&#x22; placeholder=&#x22;Subject&#x22;&#x3E;
+                    &#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;form-group col-sm-12 no-padding&#x22;&#x3E;
+                        &#x3C;textarea class=&#x22;form-control&#x22; name=&#x22;comment&#x22; id=&#x22;comment&#x22; placeholder=&#x22;Message&#x22;&#x3E;&#x3C;/textarea&#x3E;
+                    &#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;col-sm-12 button no-padding&#x22;&#x3E;
+                        &#x3C;input type=&#x22;submit&#x22; id=&#x22;submit_contact&#x22; class=&#x22;sppb-btn sppb-btn-default&#x22; value=&#x22;Send Message&#x22;&#x3E;
+                        &#x3C;div id=&#x22;msg&#x22; class=&#x22;message&#x22;&#x3E;&#x3C;/div&#x3E;
+                    &#x3C;/div&#x3E;
+                &#x3C;/form&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/section&#x3E;
+        </pre>
+                    </div>
+                </div>
+            </section>
+            <section id="googlemap">
+                <div class="row">
+                    <h1>Google Map</h1>
+                </div>
+                <div class="row gutters">
+                    <div class="col span_6">
+                        <h4>Html</h4>
+                        <p>
+                            You only need this HTML. Do all settings at the bottom of contact page".
+                        </p>
+                        <pre class="prettyprint">
+        
+   &#x3C;div class=&#x22;sppb-addon-gmap-canvas&#x22; data-lat=&#x22;40.712784&#x22; data-lng=&#x22; -74.055941&#x22; data-maptype=&#x22;ROADMAP&#x22; data-mapzoom=&#x22;15&#x22; data-mousescroll=&#x22;false&#x22;&#x3E;&#x3C;/div&#x3E;
+        
+        </pre>
+                    </div>
+                    <div class="col span_6">
+                        <h4>CSS - custom.js</h4>
+                        <pre class="prettyprint">
+&#x3C;script type=&#x22;text/javascript&#x22;&#x3E;
+  &#x3C;script type=&#x22;text/javascript&#x22;&#x3E;
+    //============================================
+    //map
+    //=============================================
+    google.maps.event.addDomListener(window, &#x27;load&#x27;, function() {
+
+        $(&#x27;.sppb-addon-gmap-canvas&#x27;).each(function(index) {
+            var mapId = &#x27;sppb-addon-gmap&#x27; + (index + 1);
+            var self = this;
+
+            $(this).attr(&#x27;id&#x27;, mapId);
+
+            var zoom = $(self).data(&#x27;mapzoom&#x27;);
+            var mousescroll = $(self).data(&#x27;mousescroll&#x27;);
+
+            var latlng = new google.maps.LatLng($(self).data(&#x27;lat&#x27;), $(self).data(&#x27;lng&#x27;));
+            var mapOptions = {
+                zoom: zoom,
+                center: latlng,
+                scrollwheel: mousescroll
+            };
+            var map = new google.maps.Map(document.getElementById(mapId), mapOptions);
+            var marker = new google.maps.Marker({
+                position: latlng,
+                map: map
+            });
+            map.setMapTypeId(google.maps.MapTypeId[$(self).data(&#x27;maptype&#x27;)]);
+
+        });
+
+    });
+    &#x3C;/script&#x3E;
+
+</pre>
+                    </div>
+                </div>
+            </section>
+            <section id="credits">
+                <div class="row">
+                    <h1>Credits and Sources</h1>
+                    <h4>Javascript / jQuery Plugins</h4>
+                    <p>
+                        <a href="http://jquery.com/">Jquery</a>
+                        <br>
+                        <a href="http://modernizr.com/">Modernizr</a>
+                        <br>
+                        <a href="http://getbootstrap.com">Bootstrap</a>
+                        <br>
+                        <a href="https://rendro.github.io/easy-pie-chart/">jquery.easypiechart</a>
+                        <br>
+                        <a href="https://github.com/mhuggins/jquery-countTo">JQuery countTo</a>
+                        <br>
+                        <a href="http://isotope.metafizzy.co">isotope</a>
+                        <br>
+                        <a href="http://owlgraphic.com/owlcarousel/">Owl Carousel</a>
+                        <br>
+                        <a href="https://github.com/JoomShaper/SP-Simple-Portfolio">Portfolio Plugin</a>
+                        <br>
+                    </p>
+                    <h4>CSS Plugins</h4>
+                    <p>
+                        12 COLUMN : RESPONSIVE GRID SYSTEM - http://www.getbootstrap.com
+                        <br> Font Awesome 4.0.3 by @davegandy - http://fontawesome.io
+                    </p>
+                    <h4>Images</h4>
+                    <p>
+                        <a href="http://www.unsplash.com">unsplash</a>
+                        <br />
+                        <a href="http://www.flickr.com">flickr</a>
+                        <br />
+                        <a href="http://www.designerspics.com">designerspics</a>
+                        <br />
+                        <a href="http://www.pixabay.com">pixabay</a>
+                        <br />
+                        <a href="http://www.pixels.com">pixels</a>
+                        <br />
+                        <a href="http://www.imcreator.com">imcreator</a>
+                        <br />
+                        <a href="http://www.picjumbo.com">picjumbo</a>
+                        <br />
+                        <a href="http://www.stocksnap.io">stocksnap</a>
+                        <br />
+                        <a href="http://www.graphicburger.com">graphicburger</a>
+                        <br />
+                        <a href="https://tookapic.com/">Took a Pic</a>
+                        <br />
+                    </p>
+                    <h4>Icons</h4>
+                    <p>
+                        <a href="http://www.graphicburger.com">graphicburger</a>
+                        <br />
+                        <a href="http://icofont.com/">icofonts</a>
+                        <br />
+                        <a href="http://www.flaticon.com">flaticon</a>
+                        <br />
+                        <a href="http://www.fontawesome.io">fontawesome</a>
+                        <br />
+                    </p>
+                    <h4>Video</h4>
+                    <p>
+                        <a href="https://www.youtube.com/watch?v=PDWvcsTloJo">Youtube Video</a>
+                    </p>
+                    <p class="margin-top max-width">
+                        As we said at the beginning, we are glad to help you if you have any questions relating to this template. No guarantees, but we do our best to assist.
+                        <br>
+                        <span class="bold">Brickpress</span>
+                    </p>
+                    <a class="button" href="mailto:support@themecanyon.com">EMail</a>
+                    <a class="button" href="https://themeforest.net/user/themecanyon">Themeforest Profile</a>
+                </div>
+            </section>
+    </div>
+    <!-- THEME JAVASCRIPT -->
+    <script type="text/javascript" src="assets/respond.min.js"></script>
+    <script type="text/javascript" src="assets/theme.javascript.js"></script>
+</body>
+
+</html>

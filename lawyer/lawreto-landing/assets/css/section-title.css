@@ -1,0 +1,31 @@
+.section-header {
+    position: relative;
+    margin-bottom: var(--space-40);
+}
+.section-header .section-sub-title {
+    font-family: var(--font-family-base);
+    font-size: var(--fs-12);
+    font-weight: var(--fw-normal);
+    line-height: var(--fs-28);
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    color: var(--color-primary);
+}
+
+.section-header .section-title {
+    font-size: var(--fs-40);
+    font-weight: var(--fw-normal);
+    line-height: var(--fs-52);
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    color: #200960;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.section-header .section-desc {
+    font-size: var(--fs-14);
+    font-weight: var(--fw-normal);
+    text-transform: capitalize;
+    line-height: 24px;
+}
