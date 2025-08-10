@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 29 Oct 2022 01:23:05 at https://themerange.net/html/merix/merix-dark/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s /3.x [XR&CO'2014], %s -->" -%l "en, *" https://themerange.net/html/merix/merix-dark/index.html -O1 "C:\My Web Sites\https___themerange.net_html_merix_merix-dark_index.html" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+01:23:08	Warning: 	Note: due to https://themerange.net remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+01:24:43	Error: 	"Not Found" (404) at link https://themerange.net/html/merix/merix-dark/shoping-cart.html (from https://themerange.net/html/merix/merix-dark/index.html)
+01:24:44	Error: 	"Not Found" (404) at link https://themerange.net/html/merix/merix-dark/login.html (from https://themerange.net/html/merix/merix-dark/index.html)
+01:24:44	Error: 	"Not Found" (404) at link https://themerange.net/html/merix/merix-dark/register.html (from https://themerange.net/html/merix/merix-dark/index.html)
+01:24:53	Error: 	"Not Found" (404) at link https://themerange.net/html/merix/merix-dark/services-detail.html (from https://themerange.net/html/merix/merix-dark/index-3.html)
+01:24:53	Warning: 	File not parsed, looks like binary: https://themerange.net/html/merix/merix-dark/fonts/fontawesome-webfont.woff2?v=4.3.0
+01:24:54	Error: 	"Not Found" (404) at link https://themerange.net/html/merix/merix-dark/css/owl.video.play.png (from https://themerange.net/html/merix/merix-dark/css/owl.css)
+01:24:54	Error: 	"Not Found" (404) at link https://themerange.net/html/merix/merix-dark/css/images/ui-icons_777620_256x240.png (from https://themerange.net/html/merix/merix-dark/css/jquery-ui.css)
+01:24:54	Error: 	"Not Found" (404) at link https://themerange.net/html/merix/merix-dark/css/images/ui-icons_cc0000_256x240.png (from https://themerange.net/html/merix/merix-dark/css/jquery-ui.css)
+01:24:54	Error: 	"Not Found" (404) at link https://themerange.net/html/merix/merix-dark/css/images/ui-icons_777777_256x240.png (from https://themerange.net/html/merix/merix-dark/css/jquery-ui.css)
+01:24:54	Error: 	"Not Found" (404) at link https://themerange.net/html/merix/merix-dark/css/mCSB_buttons.html (from https://themerange.net/html/merix/merix-dark/css/jquery.mCustomScrollbar.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 49 seconds : 306 links scanned, 296 files written (9627736 bytes overall) [8740684 bytes received at 80189 bytes/sec], 1485745 bytes transferred using HTTP compression in 46 files, ratio 18%, 7.2 requests per connection
+(9 errors, 2 warnings, 0 messages)
