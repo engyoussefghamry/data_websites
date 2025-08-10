@@ -1,0 +1,498 @@
+@media(max-width: 1400px){
+	h6{
+		font-size: 18px;
+	}
+	h1 {
+    font-size: 50px;
+	}
+	h2 {
+	    font-size: 50px;
+	    line-height: 60px;
+	}
+	h4 {
+    	font-size: 26px;
+	}
+	.location {
+    padding: 60px;
+  }
+	.state h6 {
+    font-size: 17px;
+	}
+	.client-reviews h6 {
+    margin-bottom: 20px;
+  }
+  .clients-review .heading h2 {
+    line-height: 50px;
+	}
+	.we-are-img img {
+    width: 100%;
+	}
+	.performance-count h2,.performance-count {
+	    font-size: 54px;
+	}
+	.we-are p {
+    width: 90%;
+    padding-bottom: 45px;
+    line-height: 32px;
+	}
+	.performance p {
+    line-height: 26px;
+	}
+	.heading {
+    padding-bottom: 30px;
+	}
+	.business-performance h4 {
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 30px;
+	}
+	h5 {
+    font-size: 22px;
+	}
+	.get-a-quote {
+    padding: 40px;
+    margin-left: 0px;
+  }
+  .hero-section:before, .hero-section:after {
+    height: 1482px;
+    width: 2272px;
+    left: -15%;
+	}
+	img.landing-slider {
+   bottom: 22%;
+    left: -19%;
+	}
+	.service img {
+    width: 90%;
+	}
+	.service h5 {
+    padding-bottom: 10px;
+	}
+	.discount-offer h2 {
+    font-size: 38px;
+    line-height: 48px;
+	}
+	.service h5 {
+    padding-bottom: 10px;
+    font-size: 24px;
+    line-height: 32px;
+	}
+  .discount-offer h2 {
+		 margin-bottom: 10px;   
+    font-size: 40px;
+    line-height: 50px;
+	}
+	.creative-design h5 {
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+	}
+  .discount-offer img {
+    width: 40%;
+	}
+	.service h5,.service p {
+  	width: 90%;
+  }
+  .logo ul li {
+    padding-right: 50px;
+	}
+	.line {
+    margin-right: 50px;
+	}
+  .hero-section-text p {
+    padding-bottom: 30px;
+    width: 100%;
+	}
+  .some-features-img img {
+    width: 100%;
+	}
+	.accordion-item .content p {
+    font-size: 16px;
+	}
+	.team-review-star {
+   padding: 20px 40px;
+   }
+	.creative-design {
+    margin-bottom: 60px;
+	}
+	.clients-logo.gap {
+    padding: 80px 0;
+	}
+	.team-expert a {
+    margin-top: 26px;
+	}
+	.team-expert h4{
+		padding-top: 0;
+		font-weight: 600;
+	}
+	.make-the h2 {
+    width: 60%;
+    font-size: 52px;
+  }
+  .clients-review .heading h2 {
+    font-size: 38px;
+   }
+   .client-reviews h6 {
+  	  width: 100%;
+		}
+		.boder-line {
+    	margin: 0 38px;
+		}
+		.client-reviews i {
+    	left: 30%;
+    }
+    .client-reviews.two i {
+    	left: 27%;
+    }
+    .video {
+	    margin-bottom: 52px;
+		}
+    
+}
+@media(max-width: 1200px){
+	.check {
+			flex-wrap: wrap;
+    	justify-content: space-between;
+		}
+		img.landing-slider {
+	    bottom: -27%;
+	    left: -11%;
+		}
+		.check {
+    	padding-top: 30px;
+    }
+		.hero-section:before, .hero-section:after {
+	    height: 1950px;
+	    width: 2272px;
+	    left: -17%;
+		}
+		footer {
+	    padding-top: 220px;
+	    margin-top: -157px;
+		}
+		.book-free {
+    	padding-bottom: 70px;
+    }
+		.state {
+    	margin-bottom: 20px;
+		}
+		.heading h2,.we-are p,.we-are-img img,.how-it-works .heading h2,.service h5,.service p,
+		.some-features .heading h2,.pricing-plans .heading h2 {
+ 			width: 100%;
+		}
+		.pricing-plans-data {
+    	margin-right: 0px;
+		}
+		.creative-design h5{
+			font-size: 20px;
+		}
+		.gap {
+  	  padding: 80px 0;
+		}
+		.no-top{
+    	padding-top: 0;
+		}
+		.no-bottom{
+    	padding-bottom: 0;
+		}
+		.questions-img img {
+	    width: 100%;
+		}
+		.client-reviews{
+			margin-left: 0;
+		}
+		 img.dots{
+		 	width: auto;
+		 }
+		.expert-team  .heading h2 {
+    	width: 80%;
+		}
+		.discount-offer h2 {
+    	font-size: 34px;
+		}
+		.customers-performance{
+			margin-left: 0;
+		}
+		h4 {
+  	  font-size: 24px;
+		}
+		.hero-section-text img.dots,.review{
+			display: none;
+		}
+		 
+}
+@media(max-width: 993px){
+	.we-are-img img,.customers-performance,.discount-offer img {
+    margin-top: 40px;
+	}
+	.address {
+    text-align: center;
+	}
+	.service {
+    margin-bottom: 40px;
+	}
+	.review h2 {
+    font-size: 44px;
+   }
+  ul.star li i {
+    font-size: 12px;
+	} 
+	img.landing-slider {
+    bottom: -29%;
+    left: -15%;
+	}
+	ul.star {
+    padding: 0px 9px;
+    margin-bottom: 12px;
+	}
+	.review span {
+    font-size: 15px;
+    line-height: 15px;
+    padding-top: 6px;
+	}
+	.review {
+	   padding: 24px 16px;
+	    padding-bottom: 24px;
+	    padding-bottom: 4px;
+		}
+	.line,.logo ul{
+		display: none;
+	}
+	.address i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+	}
+	.creative-design {
+    text-align: center;
+	}
+	.address i:before {
+    left: 23%;
+	}
+	.hero-section:before, .hero-section:after {
+    height: 1482px;
+    width: 2272px;
+    left: -17%;
+    transform: rotate(0deg);
+    top: -24%;
+	}
+	img.landing-slider{
+		display: none;
+	}
+	.some-features-img img {
+    margin-bottom: 60px;
+	}
+	.team-review {
+    flex-wrap: wrap;
+	}
+	.make-the h2 {
+    width: 100%;
+    font-size: 44px;
+    margin-top: 10px;
+	}
+	.boder-line{
+		display: none;
+	}
+	.location {
+    flex-wrap: wrap;
+    justify-content: center;
+	}
+	.questions-img img {
+    margin-bottom: 60px;
+	}
+	.team-expert{
+		margin-bottom: 60px;
+	}
+	.expert-team .heading h2{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.address {
+    margin-bottom: 40px;
+	}
+	h2 {
+    font-size: 40px;
+    line-height: 50px;
+	}
+	.discount-offer {
+    flex-wrap: wrap;
+	}
+	.service img {
+    width: auto;
+	}
+	.service img {
+    margin-top: 20px;
+	}
+}
+@media(max-width: 768px){
+	.performance {
+    border-left: 0px solid #9b9b9b;
+    padding-left: 0px;
+	}
+	.customers-performance{
+		flex-wrap: wrap;
+	}
+	h2 {
+    font-size: 36px;
+    line-height: 46px;
+	}
+	.discount-offer img{
+		width: 100%;
+	}
+	.pricing-plans-data.two {
+    margin-top: 45px;
+    margin-bottom: 45px;
+	}
+	.client-reviews {
+    flex-wrap: wrap;
+	}
+	.client-reviews img.clients {
+    margin-right: 0px;
+    margin-bottom: 40px;
+	}
+	.client-reviews img.dots {
+    left: 44%;
+    bottom: 56%;
+	}
+	.client-reviews h6 {
+    margin-bottom: 20px;
+    width: 100%;
+   }
+   .client-reviews i,.client-reviews.two i {
+    	left: 40%;
+		}
+		.team-expert h4 {
+    	font-size: 26px;
+    }
+}
+@media(max-width: 576px){
+	.client-reviews i, .client-reviews.two i {
+    left: 10px;
+	}
+	.asked-questions .headingline{
+		display: none;
+	}
+	.get-a-quote p {
+    font-size: 14px;
+    line-height: 20px;
+	}
+  form.get-a-quote i {
+    margin-right: 15px;
+	}
+	img.landing-slider{
+		display: none;
+	}
+	.get-a-quote:after {
+    right: 5%;
+	}
+	.hero-section:before, .hero-section:after {
+    height: 1261px;
+    left: -17%;
+    top: -27%;
+	}
+	.radio-button {
+    margin-bottom: 10px;
+	}
+	h1 {
+    font-size: 36px;
+	}
+	.video {
+    flex-wrap: wrap;
+	}
+	form.get-a-quote i {
+    margin-bottom: 15px;
+	}
+	.hero-section-text img.dots{
+		display: none;
+	}
+}
+@media(max-width: 500px){
+	.discount-offer h2 {
+    font-size: 30px;
+	}
+	.team-expert {
+    margin-left: 0;
+    width: 100%;
+	}
+	.team-expert img {
+    position: relative;
+    left: 0;
+	}
+	.team-expert {
+    width: 100%;
+    padding-left: 40px;
+	}
+	.team-expert {
+    flex-wrap: wrap;
+	}
+	.make-the h2 {
+    font-size: 34px;
+    line-height: 44px;
+	}
+	.team-expert img {
+    left: 0;
+    margin-bottom: 30px;
+	}
+}
+@media(max-width: 480px){
+	.service img{
+		width: 100%;
+	}
+	.hero-section:before, .hero-section:after {
+    height: 1461px;
+    left: -17%;
+    top: -32%;
+	}
+	.review {
+    margin-top: 40px;
+  }
+	.get-a-quote {
+    padding: 30px;
+    margin-left: 0px;
+	}
+	.client-reviews img.dots {
+    left: 54%;
+    bottom: 56%;
+	}
+	.location:before {
+    width: 84%;
+    left: 8%;
+   }
+}
+@media(max-width: 450px){
+	.discount-offer h2 {
+    font-size: 26px;
+    margin-right: 0;
+    line-height: 36px;
+	}
+	form.get-a-quote i {
+    width: 70px;
+    height: 70px;
+    padding: 17px;
+  }
+	h1 {
+    font-size: 30px;
+	}
+	.callto {
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+	}
+	.discount-offer{
+		padding: 35px;
+	}
+	.location {
+    padding: 49px;
+	}
+	h2 {
+    font-size: 30px;
+    line-height: 40px;
+	}
+}
+@media(max-width: 410px){
+	.state h6 {
+    font-size: 16px;
+	}
+}

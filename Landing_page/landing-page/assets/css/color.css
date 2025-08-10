@@ -1,0 +1,14 @@
+
+
+.heading > span,.team-expert span,.performance-count,.performance-count h2{
+   
+    color: #00c389;
+
+}
+/* Background Color */
+a.batton,.discount-offer:before,.pricing-plans-data:before,.pricing-plans-data.two i,
+.client-reviews i,.location:before,.get-a-quote:before{
+
+    background-color:#00c389 ;
+
+}

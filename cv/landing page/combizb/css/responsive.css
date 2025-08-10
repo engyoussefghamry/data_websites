@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/* Layout: Max 1300px. */
+
+/* Layout: Max 1199px. */
+@media only screen and (max-width: 1199px) {
+	
+}
+/* Layout: Min 992px Max 1199px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/* Large Layout: 991px. */
+@media only screen and (min-width: 992px) {
+	#nav-expander {
+        display: none;
+    }    
+}
+
+/* Medium Layout: 991px. */
+@media only screen and (max-width: 991px) {
+    .header-section-area .mainmenu ul.nav-menu {
+        display: none;
+    }
+    .header-section-area .container {
+        position: relative;
+    }
+    .header-section-area [class*="col-"] {
+        position: initial;
+    }
+    .counter-section-area [class*="col-"] + [class*="col-"] {
+        border: 0;
+    }
+    .counter-section-area .single-counter {
+        margin-bottom: 50px;
+    }
+    .counter-section-area.sec-spacer {
+        padding-bottom: 50px;
+    }
+}
+
+
+/* Mobile Layout: 767px. */
+@media only screen and (max-width: 767px) {
+    .owl-carousel .owl-nav {
+        display: none;
+    }
+    #ps-slider .sl-title {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+    h2 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+    h3 {
+        font-size: 22px;
+        line-height: 1.2;
+    }
+    h4 {
+        font-size: 19px;
+        line-height: 1.2;
+    }
+    h5 {
+        font-size: 17px;
+        line-height: 1.2;
+    }
+    h6 {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    .section-title h2 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+    .ps-pagination {
+        margin-bottom: 50px;
+    }
+    .sidebar-widget {
+        margin-top: 80px;
+    }
+}
+
+/* Small Device : 480px. */
+@media only screen and (max-width: 480px) {
+    #ps-slider .owl-item img {
+        min-height: 300px;
+    }
+	#ps-slider .sl-desc {
+        display: none;
+    }
+    #ps-slider .sl-title {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+	
+}
+
+/* Extra Small Device : 320px. */
+@media only screen and (max-width: 320px) {
+	
+}

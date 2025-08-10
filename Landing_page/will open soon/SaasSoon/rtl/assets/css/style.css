@@ -1,0 +1,562 @@
+/* fonts Noto Kufi Arabic */
+@font-face {
+    font-family: 'Noto Kufi Arabic';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/noto-kufi-400.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC, U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Noto Kufi Arabic';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/noto-kufi-600.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC, U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Noto Kufi Arabic';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(../fonts/noto-kufi-800.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC, U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+html,
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    color: #ED3E45;
+    background-color: #ffffff;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+
+/*===== VARIABLES CSS =====*/
+:root {
+    /*========== Font and typography ==========*/
+    --biggest-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    /*========== Font weight ==========*/
+    --font-semi-bold: 600;
+    --font-bold: 700;
+}
+
+@media screen and (min-width: 968px) {
+    :root {
+        --biggest-font-size: 3rem;
+        --h2-font-size: 1.75rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+    }
+}
+
+
+/* Global Classes */
+* {
+    line-height: 25px;
+}
+
+:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+section {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: .4s ease-in-out;
+    text-decoration: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.title-h2 {
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-bold);
+}
+
+.desc-p {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.m-t-10 {
+    margin-top: 1rem;
+}
+
+.m-t-20 {
+    margin-top: 2rem;
+}
+
+.m-t-30 {
+    margin-top: 3rem;
+}
+
+.m-b-10 {
+    margin-bottom: 1rem;
+}
+
+.m-b-20 {
+    margin-bottom: 2rem;
+}
+
+.m-b-30 {
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 968px) {
+    .m-t-10 {
+        margin-top: .5rem;
+    }
+
+    .m-t-20 {
+        margin-top: 1rem;
+    }
+
+    .m-t-30 {
+        margin-top: 1.5rem;
+    }
+
+    .m-b-10 {
+        margin-bottom: .5rem;
+    }
+
+    .m-b-20 {
+        margin-bottom: 1rem;
+    }
+
+    .m-b-30 {
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+
+
+
+
+/* ======================== START COMING SOON PAGE 01 ======================== */
+.main-01 {
+    background: url(../images/background-01.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #ffffff;
+    position: relative;
+}
+
+.main-01 .title-h2 {
+    text-align: center;
+}
+
+.main-01 .desc-p {
+    text-align: center;
+}
+
+.main-01 #time {
+    text-align: center;
+}
+
+.main-01 #time li {
+    display: inline-block;
+}
+
+.main-01 #time li .timer {
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-bold);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: .5rem;
+    display: block;
+    padding: 1.5rem 2rem;
+    backdrop-filter: blur(10px) saturate(180%);
+    box-shadow: 0 5px 25px 0 rgba(14, 14, 14, 0.5);
+}
+
+.main-01 #time li .name {
+    text-align: center;
+    display: block;
+    padding: .5rem 2rem;
+    position: relative;
+    text-transform: uppercase;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.main-01 .social {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+}
+
+.main-01 .social li {
+    display: inline-block;
+}
+
+.main-01 .social li a {
+    display: block;
+    height: 35px;
+    width: 35px;
+    border-radius: .5rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px) saturate(180%);
+    box-shadow: 0 5px 25px 0 rgba(14, 14, 14, 0.5);
+    line-height: 35px;
+    color: #ffffff;
+    transition: .5s ease-in-out;
+}
+
+.main-01 .social li a:hover {
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 968px) {
+
+    .main-01 .main-02 #time li .timer,
+    .main-01 .main-02 #time li .name {
+        padding: 1rem .5rem;
+    }
+
+    .main-01 .social {
+        bottom: 5%;
+    }
+}
+
+/* ======================== END COMING SOON PAGE 01 ======================== */
+
+
+
+
+
+
+
+
+/* ======================== START COMING SOON PAGE 02 ======================== */
+.main-02 {
+    background: url(../images/background-02.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #ffffff;
+    position: relative;
+    z-index: 0;
+}
+
+.main-02::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.main-02 .title-h2 {
+    text-align: center;
+}
+
+.main-02 .desc-p {
+    text-align: center;
+}
+
+.main-02 #time {
+    text-align: center;
+}
+
+.main-02 #time li {
+    display: inline-block;
+}
+
+.main-02 #time li .timer {
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-bold);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: .5rem;
+    display: block;
+    padding: 1.5rem 2rem;
+    backdrop-filter: blur(10px) saturate(180%);
+    box-shadow: 0 5px 25px 0 rgba(14, 14, 14, 0.5);
+}
+
+.main-02 #time li .name {
+    text-align: center;
+    display: block;
+    padding: .5rem 2rem;
+    text-transform: uppercase;
+    position: relative;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.main-02 .social {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+}
+
+.main-02 .social li {
+    display: inline-block;
+}
+
+.main-02 .social li a {
+    display: block;
+    height: 35px;
+    width: 35px;
+    border-radius: .5rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px) saturate(180%);
+    box-shadow: 0 5px 25px 0 rgba(14, 14, 14, 0.5);
+    line-height: 35px;
+    color: #ffffff;
+    transition: .5s ease-in-out;
+}
+
+.main-02 .social li a:hover {
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 968px) {
+
+    .main-02 #time li .timer,
+    .main-02 #time li .name {
+        padding: 1rem .5rem;
+    }
+
+    .main-02 .social {
+        bottom: 5%;
+    }
+}
+
+/* ======================== END COMING SOON PAGE 02 ======================== */
+
+
+
+
+
+
+
+
+/* ======================== START COMING SOON PAGE 03 ======================== */
+.main-03 {
+    background: #ED3E45;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #ffffff;
+    position: relative;
+    z-index: 0;
+}
+
+.main-03 .title-h2 {
+    text-align: center;
+}
+
+.main-03 .desc-p {
+    text-align: center;
+}
+
+.main-03 #time {
+    text-align: center;
+}
+
+.main-03 #time li {
+    display: inline-block;
+}
+
+.main-03 #time li .timer {
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-bold);
+    text-align: center;
+    background: #ffffff;
+    color: #ED3E45;
+    border-radius: .5rem;
+    display: block;
+    padding: 1.5rem 2rem;
+    backdrop-filter: blur(10px) saturate(180%);
+}
+
+.main-03 #time li .name {
+    text-align: center;
+    display: block;
+    padding: .5rem 2rem;
+    text-transform: uppercase;
+    position: relative;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.main-03 .social {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+}
+
+.main-03 .social li {
+    display: inline-block;
+}
+
+.main-03 .social li a {
+    display: block;
+    height: 35px;
+    width: 35px;
+    border-radius: .5rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px) saturate(180%);
+    line-height: 35px;
+    color: #ffffff;
+    transition: .5s ease-in-out;
+}
+
+.main-03 .social li a:hover {
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 968px) {
+
+    .main-03 #time li .timer,
+    .main-03 #time li .name {
+        padding: 1rem .5rem;
+    }
+
+    .main-03 .social {
+        bottom: 5%;
+    }
+}
+
+/* ======================== END COMING SOON PAGE 03 ======================== */
+
+
+
+
+
+/* ======================== START COMING SOON PAGE 04 ======================== */
+.main-04 {
+    background: url(../images/background-04.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: #ffffff;
+    position: relative;
+    z-index: 0;
+}
+
+.main-04 .title-h2 {
+    text-align: center;
+}
+
+.main-04 .desc-p {
+    text-align: center;
+}
+
+.main-04 #time {
+    text-align: center;
+}
+
+.main-04 #time li {
+    display: inline-block;
+}
+
+.main-04 #time li .timer {
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-bold);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: .5rem;
+    display: block;
+    padding: 1.5rem 2rem;
+    backdrop-filter: blur(10px) saturate(180%);
+    box-shadow: 0 5px 25px 0 rgba(14, 14, 14, 0.5);
+}
+
+.main-04 #time li .name {
+    text-align: center;
+    display: block;
+    padding: .5rem 2rem;
+    text-transform: uppercase;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+    position: relative;
+}
+
+.main-04 .social {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+}
+
+.main-04 .social li {
+    display: inline-block;
+}
+
+.main-04 .social li a {
+    display: block;
+    height: 35px;
+    width: 35px;
+    border-radius: .5rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px) saturate(180%);
+    box-shadow: 0 5px 25px 0 rgba(14, 14, 14, 0.5);
+    line-height: 35px;
+    color: #ffffff;
+    transition: .5s ease-in-out;
+}
+
+.main-04 .social li a:hover {
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 968px) {
+
+    .main-04 #time li .timer,
+    .main-04 #time li .name {
+        padding: 1rem .5rem;
+    }
+
+    .main-04 .social {
+        bottom: 5%;
+    }
+}
+
+/* ======================== END COMING SOON PAGE 04 ======================== */

@@ -1,0 +1,995 @@
+.cinkes_header_quick_info_wrapper.text-end.pl-50 {
+    padding-left: 0;
+    padding-right: 40px;
+}
+div.cinkes_logo_bg_before:before {
+    left: auto;
+    right: -100%;
+}
+.cinkes_border_right-2 {
+    border-right: 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+.cinkes_about_content_wrapper .cinkes_about_title {
+    color: #111;
+}
+.sidebar_input::before {
+    right: auto;
+    left: 20px;
+}
+.sidebar_textarea::before {
+    right: auto;
+    left: 20px;
+}
+.cinkes_sidebar_download a span {
+    float: left;
+}
+.sd_tab_text_right ul li {
+    padding-left: 0;
+    padding-right: 25px;
+}
+.sd_tab_text_right ul li::before {
+    left: auto;
+    right: 0;
+}
+.cinkes_video_thumb_text {
+    left: auto;
+    right: 0;
+}
+.cinkes_service_details_wrapper.mr-30 {
+    margin-right: 0;
+    margin-left: 30px;
+}
+@media (max-width: 1399px) {
+    .cinkes_border_right-2 {
+        border-right: 0;
+        border-left: 0;
+    }
+
+}
+.cinkes_project_media_wrapper.mr-30 {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.cinkes_service_item_2_icon img {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.cinkes_about_2_img_wrapper {
+    right: auto;
+    left: 0;
+}
+.cinkes_about_2_video_img {
+    left: auto;
+    right: -16%;
+}
+.cinkes_service_work::before {
+    left: auto;
+    right: 0;
+}
+.cinkes_free_consultaion_wrapper.ml-50 {
+    margin-left: 0;
+    margin-right: 50px;
+}
+.cinkes_service2_item_icon:before {
+    left: auto;
+    right: calc(100% - 20px);
+}
+.cinkes_benefit_bg_img {
+    left: auto;
+    right: 0;
+}
+.cinkes_progress_single .progress-bar span {
+    right: auto;
+    left: -25px;
+}
+.cinkes_list_benefits li i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.swiper-slide-active .cinkes_testimonial_spage_content:before {
+    right: auto;
+    left: -15px;
+}
+.cinkes_blog2_single_meta {
+    padding-left: 0;
+    padding-right: 30px;
+    margin-right: 0;
+    margin-left: 30px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 15px;
+}
+.cinkes_blog2_meta:not(:last-child) {
+    margin-right: 0px;
+    margin-left: 10px;
+    padding-right: 0px;
+    padding-left: 12px;
+}
+.cinkes_blog2_meta:not(:last-child):before {
+    right: auto;
+    left: 0;
+}
+.cinkes_blog2_meta i {
+	margin-right: 0px;
+	margin-left: 7px;
+}
+.cinkes_blog2_single_meta_author img {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.cinkes_slider_area-2 .cinkes-swiper-pagination {
+    right: auto;
+    left: calc((100% - 1690px) / 2);
+}
+@media only screen and (min-width: 1600px) and (max-width: 1799px)  {
+    
+    .cinkes_slider_area-2 .cinkes-swiper-pagination {
+        left: calc((100% - 1550px) / 2);
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1599px)  {
+    .cinkes_slider_area-2 .cinkes-swiper-pagination {
+        left: calc((100% - 1350px) / 2);
+    }
+    
+}
+@media (max-width: 1399px) {
+    .cinkes_slider_area-2 .cinkes-swiper-pagination {
+        right: 0;
+        left: 0;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
+    .cinkes_quick_contact:before { 
+        position: absolute;
+        left: auto;
+        right: 0;
+        top: 50%;
+        width: 1px;
+        height: calc(100% + 54px);
+        content: "";
+        background-color: #dfe1e1;
+        transform: translateY(-50%);
+
+    }
+    .cinkes_quick_contact {
+        padding-left: 0px;
+        padding-right: 50px;
+    }
+
+}
+
+
+.cinkes_countup_item:not(:last-child) {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.cinkes_countup_number {
+    margin-right: 0px;
+    margin-left: 15px;
+}
+.blog_wrapper.mr-30 {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.cinkes_quick_icon {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.cinkes_main_menu > li:is(.has-menu-children) {
+    margin-right: 0;
+    margin-left: 50px;
+}
+.cinkes_main_menu >  li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 50px;
+}
+.cinkes_main_menu > li.has-menu-children:before {
+    right: auto;
+    left: -18px;
+}
+.cinkes_main_menu li ul.sub-menu {
+    left: auto;
+    right: 0;
+}
+.cinkes_border_right {
+    border-right: 0;
+    border-left: 1px solid #dfe1e1;
+}
+.cinkes_slide:after {
+    right: auto;
+    left: 0;
+}
+.cinkes-swiper-pagination {
+    left: calc((100% - 1805px) / 2 / 2);
+    right: auto;
+}
+.cinkes_services_fullwidth_icon {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.cinkes_about_subtitle:before {
+    left: auto;
+    right: calc(100% + 20px);
+}
+.cinkes_list1_wrapper ul li > i {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.cinkes_about_content_wrapper.cinkes_about1_content_wrapper.pl-70 {
+    padding-left: 0;
+    padding-right: 70px;
+}
+.cinkes_about1_video_img {
+    right: auto;
+    left: 0;
+}
+.swiper-slide.cinkes_project_slide.swiper-slide-active .cinkes_slide_content a {
+    transform-origin: top right;
+    transform: rotate(90deg) translateX(50%);
+    right: -40px;
+    left: auto;
+}
+.cinkes_fullwidth_services_area_img {
+    right: 0;
+    left: auto;
+}
+.cinkes_pricing_plan_content ul li i {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.pricing_tag {
+    right: auto;
+    left: 20px;
+}
+.cinkes_counterup_single:before {
+    right: auto;
+    left: -18px;
+}
+.cinkes_latest_blog_single_content_author {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.cinkes_blog_meta i {
+    margin-right: 0;
+    margin-left: 6px;
+}
+.cinkes_blog_meta:not(:first-child) {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.cinkes_blog_meta:last-child {
+    margin-left: 25px;
+    margin-right: 0;
+}
+
+.cinkes_blog_meta:not(:last-child) {
+    margin-right: 0;
+}
+.cinkes_footer_widget.footer_widget_list.ml-90 {
+    margin-left: 0;
+    margin-right: 90px;
+}
+.cinkes_copyright_menu ul li:not(:first-child) {
+    padding-left: 0;
+    padding-right: 20px;
+    margin-left: 0;
+    margin-right: 15px;
+}
+.cinkes_copyright_menu ul li:not(:first-child):before {
+    left: auto;
+    right: 0;
+}
+button.cinkes-side-admin-panel-close-btn {
+    right: auto;
+    left: 39px;
+}
+.cinkes_main_menu li:not(:first-child) {
+    margin-right: 30px;
+    margin-left: 0;
+}
+.cinkes_main_menu li.has-menu-children:before {
+    right: auto;
+    left: -18px;
+}
+.cinkes_main_menu li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 50px;
+}
+.cinkes_main_menu li.has-menu-children:after {
+    right: auto;
+    left: -18px;
+}
+.cinkes_services_fullwidth_single:first-child {
+    border-right: 1px solid #dfe1e1;
+    border-left: 0;
+}
+.cinkes_single_contact_step > i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.cinkes_about_content_wrapper.cinkes_about1_content_wrapper.mr-50 {
+    margin-right: 0;
+    margin-left: 50px;
+}
+.i_right i {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.contact-list.mobile_contact i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+@media (min-width:  1200px) and (max-width:  1399px) {
+    .cinkes-swiper-pagination {
+        left: 50%;
+        right: auto;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .cinkes_services_fullwidth_single:first-child {
+        border-left: 1px solid #dfe1e1;
+    }
+    .cinkes_about_content_wrapper.cinkes_about1_content_wrapper.pl-70 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cinkes_footer_widget.footer_widget_list.ml-90 {
+        margin-right: 0;
+    }
+    .cinkes_about_2_video_img {
+        right: auto;
+        left: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .cinkes_about_content_wrapper.cinkes_about1_content_wrapper.pl-70 {
+        padding-right: 0;
+    }
+    .cinkes_services_fullwidth_single:first-child {
+        border-left: 1px solid #dfe1e1;
+    }
+    .cinkes_footer_widget.footer_widget_list.ml-90 {
+        margin-right: 0;
+    }
+    .cinkes_about_2_video_img {
+        right: auto;
+        left: 0;
+    }
+    .cinkes_project_media_wrapper.mr-30 {
+        margin-left: 0;
+    }
+}
+@media (max-width: 767px) {
+    .cinkes_services_fullwidth_single:first-child {
+        border-left: 1px solid #dfe1e1;
+    }
+    .cinkes_about_content_wrapper.cinkes_about1_content_wrapper.pl-70 {
+        padding-right: 0;
+    }
+    .cinkes_footer_widget.footer_widget_list.ml-90 {
+        margin-right: 0;
+    }
+    .swiper-slide.cinkes_project_slide.swiper-slide-active .cinkes_slide_content a {
+        right: 0;
+    }
+    .cinkes_logo::before {
+        width: 150%;
+    }
+    .cinkes_about_2_video_img {
+        right: auto;
+        left: 0;
+    }
+    .cinkes_project_media_wrapper.mr-30 {
+        margin-left: 0;
+    }
+}
+.cinkes_list1_wrapper ul li > i {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.menu_bars {
+    text-align: left;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .menu_bars {
+        text-align: left;
+    }
+    .cinkes_services_fullwidth_single_content {
+        margin-right: 0;
+        margin-left: 15px;
+    }
+    .cinkes_services_fullwidth_icon {
+        margin-left: 0;
+    }
+}
+@media (max-width:  767px) {
+    .cinkes_about_content_wrapper.cinkes_about1_content_wrapper.mr-50 {
+        margin-left: 0
+    }
+    .cinkes_service_details_wrapper.mr-30 {
+        margin-left: 0;
+    }
+}
+.breadcrumbs ul li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.breadcrumbs ul li:not(:last-child)::before {
+    right: auto;
+    left:  -20px;
+}
+.footer_social.offset_social a {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.mean-container .mean-nav ul li a {
+    text-align: right;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+    right: auto;
+    left: 0;
+}
+.cinkes_team_member_details_wrap.pl-45 {
+    padding-left: 0;
+    padding-right: 45px;
+}
+.cinkes_bg_img {
+    right: auto;
+    left: 0;
+}
+.cinkes_help_wrap.pr-60 {
+    padding-right: 0;
+    padding-left: 60px;
+}
+.cinkes_help_feature_single_icon {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.cinkes_help_feature_single_icon {
+    margin-right: 0;
+    margin-left: 25px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .cinkes_team_member_details_wrap.pl-45 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cinkes_help_wrap.pr-60 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .cinkes_team_member_details_wrap.pl-45 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (max-width: 767px) {
+    .cinkes_team_member_details_wrap.pl-45 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cinkes_help_wrap.pr-60 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+body .search-modal .search-block form button {
+    right: auto;
+    left: 0;
+}
+.cinkes_faq_single_item_button[aria-expanded="false"]::before {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.cinkes_faq_single_item_button[aria-expanded="true"]::before {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.swiper-slide-next .cinkes_testimonial_spage_content {
+    padding-right: 85px;
+    padding-left: 0;
+}
+.cinkes_testimonial_spage_prev {
+    border-radius: 0 50% 50% 0;
+}
+.cinkes_testimonial_spage_next {
+    border-radius: 50% 0 0 50%;
+}
+.swiper-slide-active .cinkes_testimonial_spage_content {
+    padding-right: 0;
+    padding-left: 85px;
+}
+.cinkes_testimonial_spage_author_img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.cinkes_main_menu li ul.sub-menu li {
+    margin-right: 0;
+}
+.nav-expanded nav {
+    right: auto !important;
+    left: 0;
+}
+ .cinkes_main_menu li ul.sub-menu li {
+    margin-left: 0;
+    margin-right: 0;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .swiper-slide-next .cinkes_testimonial_spage_content {
+        padding-right: 50px;
+        padding-left: 0;
+    }
+    .cinkes_border_right {
+        border-right: 0;
+        border-left: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .swiper-slide-next .cinkes_testimonial_spage_content {
+        padding-right: 50px;
+        padding-left: 0;
+    }
+    .swiper-slide-active .cinkes_testimonial_spage_content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .cinkes_about_content_wrapper .cinkes_about_title.text-sm-white {
+        color: #fff;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .swiper-slide-active .cinkes_testimonial_spage_content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .cinkes_service_details_wrapper.mr-30 {
+        margin-left: 0;
+    }
+    .cinkes_about_content_wrapper .cinkes_about_title.text-sm-white {
+        color: #fff;
+    }
+    .cinkes_benefit_bg_img {
+        height: auto;
+        width: calc(100% - 100px);
+        left: 50px;
+        right: 50px;
+        margin-top: -195px;
+    }
+}
+@media (max-width: 767px) {
+    .swiper-slide-active .cinkes_testimonial_spage_content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .swiper-slide-next .cinkes_testimonial_spage_content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .cinkes_progress_single .progress-bar span {
+        right: auto;
+        left: -15px;
+        padding: 0 6px;
+    }
+    .cinkes_about_content_wrapper .cinkes_about_title.text-sm-white {
+        color: #fff;
+    }
+    .cinkes_benefit_bg_img {
+        height: auto;
+        width: calc(100% - 30px);
+        left: 15px;
+        right: 15px;
+        margin-top: -188px;
+        position: relative;
+        z-index: 1;
+        top: 0;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .swiper-slide-active .cinkes_testimonial_spage_content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+/* blog */
+
+.cinkes_sidebar_title::before {
+    left: auto;
+    right: 0;
+}
+.cinkes_sidebar_title::after {
+    left: auto;
+    right: 0;
+}
+.cinkes_sidebar-search input {
+    padding-right: 25px;
+    padding-left: 60px;
+}
+.cinkes_sidebar-search button[type="submit"] {
+    right: auto;
+    left: 0;
+}
+.cinkes_sidebar-category ul li a i {
+    float: left;
+}
+.cinkes_sidebar-latestnews-img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.cinkes_sidebar-cloudtag a {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.meta_item:not(:last-child) {
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 25px;
+    padding-left: 30px;
+}
+.meta_item:not(:last-child)::before {
+    right: auto;
+    left: 0;
+}
+.blog_user img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.meta_item i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.blog_single_quote_content i {
+    right: auto;
+    left: 30px;
+}
+.quote_author {
+    padding-left: 0;
+    padding-right: 150px;
+}
+.quote_author::before {
+    left: auto;
+    right: 0;
+}
+.team_person_info strong {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.blog_pagination ul li .page-numbers {
+    margin-right: 0;
+    margin-left: 5px;
+}
+@media (max-width: 767px) {
+    .blog_single_quote_content i {
+        left: auto;
+    }
+    .meta_item:not(:last-child) {
+        margin-right: 0;
+        margin-left: 15px;
+    }
+    .quote_author {
+        padding-left: 0;
+        padding-right: 50px;
+    }
+}
+.cinkes_blog_content_share a {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.cinkes_blog_content_tags a {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.cinkes_blog_content_author_img {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.cinkes_blog_content_author_social a {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.comment_list_img {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.comment_list_item.pl-65 {
+    padding-left: 0;
+    padding-right: 65px;
+}
+.cinkes_blog_content_wrapper.mr-30 {
+    margin-right: 0;
+    margin-left: 30px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .cinkes_blog_content_tags a {
+        margin-right: 0;
+        margin-left: 5px;
+        margin-bottom: 9px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .cinkes_blog_content_wrapper.mr-30 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .cinkes_free_consultaion_wrapper.ml-50 {
+        margin-left: 0;
+        margin-right: 0px;
+    }
+}
+@media (max-width: 767px) {
+    .cinkes_blog_content_wrapper.mr-30 {
+        margin-left: 0;
+    }
+    .comment_list_item.pl-65 {
+        padding-right: 0;
+    }
+    .cinkes_free_consultaion_wrapper.ml-50 {
+        margin-left: 0;
+        margin-right: 0px;
+    }
+    .cinkes_countup_item:not(:last-child) {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+.cinkes_blog_content_share a:first-child {
+    margin-right: 0;
+}
+.cinkes_contact_single_icon {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.cinkes_contact_form input {
+    text-align: right;
+}
+.cinkes_contact_form .nice-select span.current {
+    text-align: right !important;
+    display: block;
+}
+.cinkes_contact_form .nice-select::after {
+    right: auto;
+    left: 25px;
+}
+
+.cinkes_project_details_meta_icon {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.cinkes_project-details_meta-single:not(:last-child) {
+    margin-right: 0;
+    margin-left: 40px;
+}
+
+.cinkes_project_details_list ul li i {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.cinkes_project_details_prev i.fal {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.cinkes_project_details_next i.fal {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.cinkes_project_details_list ul li i {
+    margin-right: 0;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .cinkes_project-details_meta-single:not(:last-child) {
+        margin-right: 0;
+        margin-left: 40px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .cinkes_project-details_meta-single:not(:last-child) {
+        margin-right: 0;
+        margin-left: 30px;
+    }
+    .header-transparent .cinkes_quick_contact::before {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    .cinkes_project-details_meta-single:not(:last-child) {
+        margin-right: 0;
+        margin-left: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .cinkes_project-details_meta-single:not(:last-child) {
+        margin-right: 0;
+        margin-left: 25px;
+    }
+}
+.nav-expanded nav {
+    right: auto !important;
+    left: 0;
+}
+.cinkes_slide:before {
+    background-image: url(../../../../img/shape/slide_overlay.png);
+    background-size: cover;
+}
+.cinkes_working_process_step1 .cinkes_working_process_step_icon:before, .cinkes_working_process_step2 .cinkes_working_process_step_icon:before {
+    left: auto;
+    right: calc(100% + 25px);
+}
+.cinkes_footer_social a:not(:first-child) {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .cinkes_main_menu li:last-child {
+        margin-right: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .cinkes_free_consultaion_wrapper.mb-40.ml-50 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .cinkes_main_menu li:last-child {
+        margin-right: 0;
+    }
+    .cinkes_border_right {
+        border-right: 0;
+        border-left: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .cinkes_free_consultaion_wrapper.mb-40.ml-50 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media (max-width: 767px) {
+    .cinkes_free_consultaion_wrapper.mb-40.ml-50 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+.cinkes_faq_wrapper.mr-20 {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.cinkes_faq_wrapper.ml-20 {
+    margin-left: 0;
+    margin-right: 20px;
+}
+nav.right_menu_togle {
+    right: auto !important;
+    transition: all .3s;
+    left: -320px;
+}
+.nav-expanded nav.right_menu_togle {
+    right: auto !important;
+    left: 0;
+}
+.cinkes_count_number {
+    direction: ltr;
+}
+body.nav-expanded .offwrap {
+    left: auto;
+    right: 0;
+}
+.offwrap {
+    left: auto;
+    right: 100%;
+}
+.cinkes_consultation_form .nice-select span.current {
+    display: block;
+    text-align: right;
+}
+
+.cinkes_consultation_form .nice-select::after {
+    right: auto;
+    left: 25px;
+}
+.cinkes_consultation_form .nice-select.open ul.list li {
+    text-align: right;
+}
+.cinkes_latest_blog_sinlge_meta_comments:before {
+    left: auto;
+    right: -18px;
+}
+.cinkes_blog_meta:first-child {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.cinkes_footer_area .cinkes_footer_copyright_area  p a {
+    margin-right: 15px;
+}
+.progress-wrap.active-progress {
+    right: auto;
+    left: 50px;
+}
+
+.cinkes_shape_bg img {
+  transform: rotateY(180deg);
+}
+.cinkes_shape_bg {
+    top: 0;
+    left: auto;
+    right: 0;
+}
+.cinkes_main_menu li a {
+    display: block;
+    padding: 40px 0px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #1a1a1a;
+}
+.cinkes_main_menu li ul.sub-menu li a::before {
+    left: auto;
+    right: 25px;
+}
+.cinkes_main_menu li ul.sub-menu li a:hover {
+    padding-left: auto;
+    padding-right: 40px;
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+    .cinkes-swiper-pagination {
+        left: calc((100% - 1350px) / 2);
+        right: auto;
+    }
+    .cinkes_latest_blog_single_content_author {
+        margin-left: 0;
+    }
+    .cinkes_header_quick_info_wrapper.text-end.pl-50 {
+        padding-left: 0;
+        padding-right: 20px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .cinkes_logo::before {
+        width: 145%;
+    }
+    .cinkes-swiper-pagination {
+        left: 0;
+        right: 0;
+    }
+    .cinkes_latest_blog_single_content_author {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .cinkes-swiper-pagination {
+        left: 0;
+        right: 0;
+    }
+    .cinkes_latest_blog_single_content_author {
+        margin-left: 0;
+    }
+    .cinkes_faq_wrapper.ml-20 {
+        margin-right: 0;
+    }
+    .blog_wrapper.mr-30 {
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .cinkes-swiper-pagination {
+        left: 0;
+        right: 0;
+    }
+    .cinkes_latest_blog_single_content_author {
+        margin-left: 0;
+    }
+    .cinkes_faq_wrapper.ml-20 {
+        margin-right: 0;
+    }
+    .blog_wrapper.mr-30 {
+        margin-left: 0;
+    }
+}

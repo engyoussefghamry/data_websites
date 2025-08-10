@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "flaticon_mycollection";
+  src: url("../fonts/flaticon_mycollection5f23.ttf?1a6de70beaec66c3a4e77cfd68f4d6d5") format("truetype"),
+    url("../fonts/flaticon_mycollection5f23.woff?1a6de70beaec66c3a4e77cfd68f4d6d5") format("woff"),
+    url("../fonts/flaticon_mycollection5f23.woff2?1a6de70beaec66c3a4e77cfd68f4d6d5") format("woff2"),
+    url("../fonts/flaticon_mycollection5f23.eot?1a6de70beaec66c3a4e77cfd68f4d6d5#iefix") format("embedded-opentype"),
+    url("../fonts/flaticon_mycollection5f23.svg?1a6de70beaec66c3a4e77cfd68f4d6d5#flaticon_mycollection") format("svg");
+}
+
+
+i[class^="flaticon-"]:before,
+i[class*=" flaticon-"]:before {
+  font-family: flaticon_mycollection !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+
+.flaticon-web-design:before {
+  content: "\f101";
+}
+
+.flaticon-paint-palette:before {
+  content: "\f102";
+}
+
+.flaticon-uptime:before {
+  content: "\f103";
+}
+
+.flaticon-bootstrap:before {
+  content: "\f104";
+}
+
+.flaticon-document:before {
+  content: "\f105";
+}
+
+.flaticon-mailchimp:before {
+  content: "\f106";
+}
+
+.flaticon-accuracy:before {
+  content: "\f107";
+}
+
+.flaticon-background:before {
+  content: "\f108";
+}
+
+.flaticon-web:before {
+  content: "\f109";
+}
+
+.flaticon-responsive:before {
+  content: "\f10a";
+}
+
+.flaticon-coding:before {
+  content: "\f10b";
+}
+
+.flaticon-website:before {
+  content: "\f10c";
+}
+
+.flaticon-view:before {
+  content: "\f10d";
+}
+
+.flaticon-time-management:before {
+  content: "\f10e";
+}
+
+.flaticon-speed-test:before {
+  content: "\f10f";
+}
+
+.flaticon-type:before {
+  content: "\f110";
+}
+
+.flaticon-translation:before {
+  content: "\f111";
+}
+
+.flaticon-seo:before {
+  content: "\f112";
+}
+
+.flaticon-customer-service:before {
+  content: "\f113";
+}
+
+.flaticon-graphic-design:before {
+  content: "\f114";
+}
+
+.flaticon-blur:before {
+  content: "\f115";
+}
+
+.flaticon-abstract-shape:before {
+  content: "\f116";
+}
+
+.flaticon-star:before {
+  content: "\f117";
+}
+
+.flaticon-abstract-shape-1:before {
+  content: "\f118";
+}
+
+.flaticon-influence:before {
+  content: "\f119";
+}
+
+.flaticon-heptagon:before {
+  content: "\f11a";
+}
+
+.flaticon-pattern:before {
+  content: "\f11b";
+}
+
+.flaticon-marble:before {
+  content: "\f11c";
+}
+
+.flaticon-update:before {
+  content: "\f11d";
+}

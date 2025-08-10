@@ -1,0 +1,155 @@
+/* ================= INDEX OF CSS ====================== 
+1. Import Google Fonts
+2. Css Variables 
+3. Reset Css
+4. Main Container 
+5. Aside Section 
+6. Content Wrapper 
+7. Media Queries
+=======================================================*/
+
+/* ======= 1. Import Google Fonts ======= */
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&amp;display=swap');
+
+/* ======= 2. Css Variables  ======= */
+:root{
+  --bg-color:rgb(26, 24, 24);
+  --txt-color:#fafafa;
+  --font-family:'Luckiest Guy', cursive;
+  --dark--bg: rgb(8, 8, 8);
+  --icon-bg-color: rgb(0, 4, 255);
+  --box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.9);
+
+}
+
+/* ======= 3. Reset Css  ======= */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: var(--font-family);
+  background: var(--bg-color);
+  color:var(--txt-color)
+}
+
+/* ======= 4. Main Container  ======= */
+.container{
+  display: flex;
+}
+
+/* ======= 5. Aside Section  ======= */
+aside{
+  background: var(--dark--bg);
+  width: 22rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+.heading{
+  text-align: center;
+}
+.fa-snowman{
+  font-size: 7rem;
+}
+aside h2{
+  font-size: 2rem;
+  margin: 1rem;
+}
+ul{
+  margin: 1rem 0;
+}
+ul li{
+  list-style: none;
+  font-size: 1.3rem;
+  padding: .3rem;
+}
+ul li a {
+  text-decoration: none;
+  color: var(--txt-color);
+}
+.icon{
+  background: var(--icon-bg-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+/* ======= 6. Content Wrapper  ======= */
+.wrapper{
+  width: 100%;
+  height: 100vh;
+}
+.equation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  font-size: 5.2vw;
+  background: var(--dark--bg);
+  border-radius: 3px;
+  text-align: center;
+  margin: 10px 10px 0px 10px;
+  height: 60%;
+}
+
+.equation h1{
+  display: inline;
+  padding: 20px;
+}
+
+.answer_options{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+   box-shadow: var(--box-shadow);
+  font-size: 5.2vw;
+  background: var(--dark--bg);
+  border-radius: 3px;
+  margin: 10px 10px 0px 10px; 
+  height: 35%
+}
+  
+.options{
+  width:14.45595054095827vw;
+  height:14.45595054095827vw;
+  border-radius:100%;
+  cursor: pointer;
+  color: var(--txt-color);
+  transition: 2s;
+  box-shadow: var(--box-shadow);
+  align-items:center;
+  justify-content:center;
+  display:flex;
+  text-align: center;
+  padding:.4rem;
+}
+
+/* ======= 7. Media Queries  ======= */
+@media only screen and (max-width: 700px){
+  .container{
+    display: block;
+  }
+  aside{
+    width: 100%;
+  }
+  .fa-snowman{
+    font-size: 3rem;
+  }
+  .wrapper{
+    height: 100%;
+  }
+  .equation{
+    padding: 4rem;
+  }
+  .answer_options{
+    padding: 3rem;
+  }
+}
+
+/* ========================================================= */

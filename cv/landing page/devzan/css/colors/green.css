@@ -1,0 +1,36 @@
+.readon, 
+.tc-header .tc-navbar .uk-navbar-nav > li > a:after, 
+.tc-slider .down-arrow a, 
+.filter-style1 ul li.uk-active a, 
+.filter-style1 ul li a:hover, 
+.uk-modal-dialog .uk-close, 
+.uk-slidenav-position .uk-slidenav:after, 
+.post-grid-style1 .post-grid-img .post-date,
+.tc-footer, 
+#tc-offcanvas .uk-offcanvas-bar, 
+.tc-navbar .uk-nav-navbar>li>a:focus, 
+.tc-navbar .uk-nav-navbar>li>a:hover, 
+.tc-tags a {
+    background: #72bf44;
+    background-image: linear-gradient(135deg,#72bf44,#00984a);
+}
+.title1:before, 
+.filter-style1 ul:after {
+    background: #72bf44;
+    background-image: linear-gradient(135deg,#72bf44,#fff);
+}
+.filter-style1 ul:before {
+    background: #72bf44;
+    background-image: linear-gradient(-135deg,#72bf44,#fff);
+}
+.readon:before {
+    background: #009247;
+}
+.tc-header .tc-logo a, 
+.tc-footer .tc-totopscroll, 
+.tc-off-toggle {
+	color: #72bf44;
+}
+.tc-off-toggle:hover, .tc-off-toggle:focus {
+	color: #00ae4d;
+}

@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from thecodude.com/demo/tf/ridexo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Sep 2022 18:48:32 GMT -->
+<head>
+<meta charset="utf-8">
+<meta name="author" content="thecodude">
+<meta name="description" content="">
+
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" type="image/png" href="images/fav.png">
+<title>Rental Bike</title>
+
+<link rel="stylesheet" type="text/css" href="fonts/icofont/icofont.min.css">
+<link rel="stylesheet" type="text/css" href="fonts/flaticon/flaticon.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/progresscircle.css">
+<link rel="stylesheet" type="text/css" href="css/select2.min.css">
+<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/style.css"> 
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    
+    
+    
+</head>
+<body>
+
+<header id="header" class="rid-header-style-1">
+<div class="rid-header-top">
+<div class="container">
+<div class="row">
+<div class="col-sm-9 col-md-10 col-8">
+<div class="rid-contact">
+<div class="business-contact">
+<a href="tel:800-567-8990">
+<i class="flaticon-telephone-call me-2"></i>
+<span class="mr-40">
+800-567-8990
+</span>
+</a>
+</div>
+<div class="business-hour">
+<div class="business-hour-mob">
+<i class="flaticon-clock me-2" data-bs-toggle="tooltip" title="Hours of Operation: 7:00 am - 9:00 pm (Mon - Sun)" data-bs-placement="bottom"></i>
+<span class="d-none"> Hours of Operation: 7:00 am - 9:00 pm (Mon - Sun)</span>
+</div>
+<div class="business-hour-des">
+<i class="flaticon-clock me-2 d-none d-md-inline"></i>
+<span class="d-none d-md-inline">Hours of Operation: 7:00 am - 9:00 pm (Mon - Sun)</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3 col-md-2 col-4 d-flex justify-content-end align-items-center">
+<a href="rentals.html" class="mr-40">
+<i class="flaticon-avatar"></i>
+</a>
+<button class="rid-offcanvas-btn" aria-label="Main Menu Icon">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="rid-header-bottom">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-sm-4 col-md-4 col-4">
+<div class="logo">
+<a href="index-2.html">
+<img src="images/logo.svg" alt="Ridexo Logo">
+</a>
+</div>
+</div>
+ <div class="col-sm-8 col-md-8 col-8 d-flex justify-content-end align-items-center">
+<div class="btn-group">
+<button type="button" class="btn btn-outline-secondary font-size-15" id="CurrencySwitcher" data-bs-toggle="dropdown" aria-expanded="true" data-bs-reference="parent">EUR</button>
+<button type="button" class="rid-drop-dark btn btn-secondary dropdown-toggle dropdown-toggle-split" id="rid_currency" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+<span class="visually-hidden">Toggle Dropdown</span>
+</button>
+<ul class="dropdown-menu rid-currency-menu" aria-labelledby="rid_currency">
+<li><a class="dropdown-item" href="index-2.html">USD</a></li>
+<li><a class="dropdown-item" href="index-2.html">BDT</a></li>
+<li><a class="dropdown-item" href="index-2.html">CAD</a></li>
+<li><a class="dropdown-item" href="index-2.html">AUD</a></li>
+</ul>
+</div>
+<div class="btn-group ms-2">
+<button type="button" class="btn btn-outline-secondary flag" id="languageSwitcher" data-bs-toggle="dropdown" aria-expanded="true" data-bs-reference="parent">
+<img src="images/flag.png" alt="English Language Flag"><span class="ms-1 font-size-15">ENGLISH</span>
+</button>
+<button type="button" class="rid-drop-dark btn btn-secondary dropdown-toggle dropdown-toggle-split" id="rid-language" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+<span class="visually-hidden">Toggle Dropdown</span>
+</button>
+<ul class="dropdown-menu rid-language-menu" aria-labelledby="rid-language">
+<li>
+<a class="dropdown-item" href="index-2.html">
+<img src="images/spnish-flag.png" alt="spanish flag">
+Spanish
+</a>
+</li>
+<li>
+<a class="dropdown-item" href="index-2.html">
+<img src="images/russian-flag.png" alt="russian falg">
+Russian
+</a>
+</li>
+<li>
+<a class="dropdown-item" href="index-2.html">
+<img src="images/japan-flag.png" alt="japan flag">
+Japanese
+</a>
+</li>
+<li>
+<a class="dropdown-item" href="index-2.html">
+<img src="images/france-flag.png" alt="france flag">
+French
+</a>
+</li>
+</ul>
+</div>
+<div class="ms-2 d-flex align-items-center">
+<a href="contact.html" class="btn add-rental-desktop">Add Rental Company</a>
+<a href="contact.html" class="btn add-rental-mobile" data-bs-toggle="tooltip" title="Add Rental Company" data-bs-placement="bottom">
+<i class="icofont-plus"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+ </div>
+</header>
+
+
+<section class="rid-banner-style-1">
+<div class="container">
+<div class="row">
+<div class="col-sm-7 col-md-7 offset-sm-5 offset-md-5">
+<div class="banner-info">
+<h3 class="font-size-65 primary-color">KTM Duke</h3>
+<h1 class="text-white">For Rent <span class="font-size-130">150$/Day</span></h1>
+<a href="contact.html" class="btn">Book Now</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="rid-filter-1">
+<div class="container">
+<h2 class="visually-hidden">Rental Bike Search</h2>
+<div class="filter-box">
+<div class="row">
+<div class="col-md-3 align-items-center align-items-center d-flex">
+<div class="rid-dropdown">
+<label for="bike-brand" class="font-size-17 d-block">Bike Brand</label>
+<select class="rid-bike-brand" id="bike-brand" name="bike-brand">
+<option value="volvo">Any Brand</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+</div>
+</div>
+<div class="col-md-3 align-items-center align-items-cente d-flex">
+<div class="rid-dropdown">
+<label for="bike-type" class="font-size-17 d-block">Bike Type</label>
+<select class="rid-bike-type" id="bike-type" name="bike-type">
+<option value="volvo">Any Brand</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+</div>
+</div>
+<div class="col-md-3 align-items-center align-items-center d-flex">
+<div class="rid-dropdown">
+<label for="bike-price" class="font-size-17 d-block">Bike Price</label>
+<select class="rid-bike-price" id="bike-price" name="bike-price">
+<option value="volvo">Any Brand</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+</div>
+</div>
+<div class="col-md-3 align-self-end">
+<button type="submit" class="btn">SEARCH FOR BIKE</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<div class="rid-how-it-work sec-space">
+<div class="container">
+<h2 class="text-center">How it Works?</h2>
+<div class="row">
+<div class="col-md-4">
+<div class="rid-info-box text-center">
+<i class="flaticon-magnifying-glass-search"></i>
+<h4>Find the Right Bike</h4>
+<p class="text-secondary">Repellendus facilisi ultrices ad culpa qui sit adipiscing! Quidem bibendum quisque. Tempus, maxime repudianda.</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="rid-info-box text-center">
+<i class="flaticon-booking"></i>
+<h4>Book it Online</h4>
+<p class="text-secondary">Sem eget occaecati viverra, corporis aliquam iste laboriosam corrupti tristique. Occaecat tempor! Torquent malesuada.</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="rid-info-box text-center">
+<i class="flaticon-bike"></i>
+<h4>Enjoy your Ride</h4>
+<p class="text-secondary">Blandit modi porro? Sequi sem pharetra duis rhoncus amet ipsum faucibus iusto, labore nisl, porttitor ultrices.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="rid-skill sec-space">
+<div class="row">
+<div class="col-lg-6 col-md-12 bg-bike">
+</div>
+<div class="col-lg-6 col-md-12">
+<div class="skill-info">
+<div class="col-12">
+<div class="skill-info-text">
+<h2 class="text-white">World Top 100 Bike For You</h2>
+<p class="text-white">Fermentum assumenda, nostrud semper tellus reprehenderit, auctor aliquip officia, adipiscing! Sapien consequuntur consectetuer facere potenti? Incididuntmontes praesent, qui. Venenatis, consequuntur nobis pede.</p>
+<p class="text-white"> Harum incidunt mollis natus dui quas, massa irure cursus odit molestias nemo a cursus. Metus. Mollit irure posuere eget, sociis, aliquip, ipsum tempus turpis. Mollitia, sunt, egestas montes! Sollicitudin! Hendrerit rhoncu.
+</p>
+</div>
+
+<div class="rid-progressbar d-flex">
+<div class="circlechart" data-percentage="90">
+<h2>Motorbike</h2>
+</div>
+<div class="circlechart" data-percentage="80">
+<h2>Scooter</h2>
+</div>
+<div class="circlechart" data-percentage="60">
+<h2>Bicycle</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="rid-rentals-1 sec-space">
+<div class="container">
+<h2 class="text-center">Most Popular Destinations</h2>
+<div class="row">
+<div class="col-lg-4 col-md-6">
+<div class="rentals-single">
+<div class="rentals-single-img">
+<a href="rental-details.html">
+<img src="images/destination/destination_01.jpg" alt="GTC Origine Bike">
+</a>
+</div>
+<div class="rentals-single-info">
+<div class="rid-row d-flex justify-content-between align-items-center">
+<div class="rentals-single-info-title">
+<a href="rental-details.html">
+<h4 class="mb-0">GTC Origine Bike</h4>
+</a>
+<i class="icofont-location-pin"></i>
+<span class="font-size-16">London, UK</span>
+</div>
+<div class="rentals-single-info-price">
+ <h4 class="mb-0">$100</h4>
+<span class="font-size-16">DAY</span>
+</div>
+</div>
+<div class="rid-row d-flex justify-content-between align-items-center">
+<div class="rentals-single-info-btn">
+<a href="contact.html" class="btn">Book Now</a>
+</div>
+<div class="rentals-single-info-rating">
+<span class="font-size-14">1555 Reviews</span>
+<i class="icofont-star"></i>
+<span class="font-size-16-sb">4.9</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="rentals-single">
+<div class="rentals-single-img">
+<a href="rental-details.html">
+<img src="images/destination/destination_02.jpg" alt="Tesla Electric Bike">
+</a>
+</div>
+<div class="rentals-single-info">
+<div class="rid-row d-flex justify-content-between align-items-center">
+<div class="rentals-single-info-title">
+<a href="rental-details.html">
+<h4 class="mb-0">Tesla Electric Bike</h4>
+</a>
+<i class="icofont-location-pin"></i>
+<span class="font-size-16">New York, USA</span>
+</div>
+<div class="rentals-single-info-price">
+<h4 class="mb-0">$155</h4>
+<span class="font-size-16">DAY</span>
+</div>
+</div>
+<div class="rid-row d-flex justify-content-between align-items-center">
+<div class="rentals-single-info-btn">
+<a href="contact.html" class="btn">Book Now</a>
+</div>
+<div class="rentals-single-info-rating">
+<span class="font-size-14">991 Reviews</span>
+<i class="icofont-star"></i>
+<span class="font-size-16-sb">5.0</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="rentals-single">
+<div class="rentals-single-img">
+<a href="rental-details.html">
+<img src="images/destination/destination_03.jpg" alt="Men's Race Bike">
+</a>
+</div>
+<div class="rentals-single-info">
+<div class="rid-row d-flex justify-content-between align-items-center">
+<div class="rentals-single-info-title">
+<a href="rental-details.html">
+<h4 class="mb-0">Men's Race Bike</h4>
+</a>
+<i class="icofont-location-pin"></i>
+<span class="font-size-16">San Francisco ,California, USA</span>
+</div>
+ <div class="rentals-single-info-price">
+<h4 class="mb-0">$90</h4>
+<span class="font-size-16">DAY</span>
+</div>
+</div>
+<div class="rid-row d-flex justify-content-between align-items-center">
+<div class="rentals-single-info-btn">
+<a href="contact.html" class="btn">Book Now</a>
+</div>
+<div class="rentals-single-info-rating">
+<span class="font-size-14">1254 Reviews</span>
+<i class="icofont-star"></i>
+<span class="font-size-16-sb">4.2</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="rentals-single">
+<div class="rentals-single-img">
+<a href="rental-details.html">
+<img src="images/destination/destination_04.jpg" alt="BTC Motor Bike">
+</a>
+</div>
+<div class="rentals-single-info">
+<div class="rid-row d-flex justify-content-between align-items-center">
+<div class="rentals-single-info-title">
+<a href="rental-details.html">
+<h4 class="mb-0">BTC Motor Bike</h4>
+</a>
+<i class="icofont-location-pin"></i>
+<span class="font-size-16">Moscow, Russia</span>
+</div>
+<div class="rentals-single-info-price">
+<h4 class="mb-0">$100</h4>
+<span class="font-size-16">DAY</span>
+</div>
+</div>
+<div class="rid-row d-flex justify-content-between align-items-center">
+<div class="rentals-single-info-btn">
+<a href="contact.html" class="btn">Book Now</a>
+</div>
+<div class="rentals-single-info-rating">
+<span class="font-size-14">1555 Reviews</span>
+<i class="icofont-star"></i>
+<span class="font-size-16-sb">5.0</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="rentals-single">
+<div class="rentals-single-img">
+<a href="rental-details.html">
+<img src="images/destination/destination_05.jpg" alt="Yamaha 155cc Bike">
+</a>
+</div>
+<div class="rentals-single-info">
+<div class="rid-row d-flex justify-content-between align-items-center">
+<div class="rentals-single-info-title">
+<a href="rental-details.html">
+<h4 class="mb-0">Yamaha 155cc Bike</h4>
+</a>
+<i class="icofont-location-pin"></i>
+<span class="font-size-16">Barcelona, Spain</span>
+</div>
+ <div class="rentals-single-info-price">
+<h4 class="mb-0">$750</h4>
+<span class="font-size-16">DAY</span>
+</div>
+</div>
+<div class="rid-row d-flex justify-content-between align-items-center">
+<div class="rentals-single-info-btn">
+<a href="contact.html" class="btn">Book Now</a>
+</div>
+<div class="rentals-single-info-rating">
+<span class="font-size-14">853 Reviews</span>
+<i class="icofont-star"></i>
+<span class="font-size-16-sb">5.0</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="rentals-single">
+<div class="rentals-single-img">
+<a href="rental-details.html">
+<img src="images/destination/destination_06.jpg" alt="Ladies Scooter">
+</a>
+</div>
+<div class="rentals-single-info">
+<div class="rid-row d-flex justify-content-between align-items-center">
+<div class="rentals-single-info-title">
+<a href="rental-details.html">
+<h4 class="mb-0">Ladies scooter</h4>
+</a>
+<i class="icofont-location-pin"></i>
+<span class="font-size-16">Amsterdam, Netherlands</span>
+</div>
+<div class="rentals-single-info-price">
+<h4 class="mb-0">$155</h4>
+<span class="font-size-16">DAY</span>
+</div>
+</div>
+<div class="rid-row d-flex justify-content-between align-items-center">
+<div class="rentals-single-info-btn">
+<a href="contact.html" class="btn">Book Now</a>
+</div>
+<div class="rentals-single-info-rating">
+<span class="font-size-14">1214 Reviews</span>
+<i class="icofont-star"></i>
+<span class="font-size-16-sb">4.7</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<section class="testimonial-section sec-space">
+<div class="container">
+<h2 class="text-center">Happy Customer</h2>
+</div>
+<div class="rid-testimonial">
+<div class="container">
+<div class="rid-slider-one-col">
+<div class="rid-single-testimonial">
+<div class="row">
+<div class="col-lg-5 col-md-5">
+<div class="testimonial-photo">
+<img src="images/testimonial/testimonial-01.jpg" alt="Alaina Gillespy">
+</div>
+</div>
+<div class="col-lg-7 col-md-7 align-items-center">
+<div class="testimonial-info">
+ <h4 class="testimonial-name">Backey Tompson</h4>
+<p class="testimonial-designation">Ceo of Atardam</p>
+<p class="rid-test-desc">Maboriosam in a nesciung eget magna dapibus disting tloctio in the find it per odiy.Maboriosam in a nesciung eget magna dapibus disting tloctio in the find it per odiy.Maboriosam in a tloctio in the find it per odiy.</p>
+<div class="rid-rating">
+<i class="icofont-star"></i>
+<i class="icofont-star"></i>
+<i class="icofont-star"></i>
+<i class="icofont-star"></i>
+<i class="icofont-star"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="rid-single-testimonial">
+<div class="row">
+<div class="col-lg-5 col-md-5">
+<div class="testimonial-photo">
+<img src="images/testimonial/testimonial-02.jpg" alt="Lucas Stuart">
+</div>
+</div>
+<div class="col-lg-7 col-md-7">
+<div class="testimonial-info">
+<h4 class="testimonial-name">Lucas Stuart</h4>
+<p class="testimonial-designation">Director</p>
+<p class="rid-test-desc">Lorem ipsum dolor sit amet, ducimus eveniet explicabo consectetur adipisicing elit. Dolorem ducimus eveniet explicabo in ipsum necessitatibus, nisi numquam provident quas quos reiciendis saepe sequi sunt. Adipisci doloribus.</p>
+<div class="rid-rating">
+<i class="icofont-star"></i>
+<i class="icofont-star"></i>
+<i class="icofont-star"></i>
+<i class="icofont-star"></i>
+<i class="icofont-star"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="rid-single-testimonial">
+<div class="row">
+<div class="col-lg-5 col-md-5">
+<div class="testimonial-photo">
+<img src="images/testimonial/testimonial-03.jpg" alt="Himika Rex">
+</div>
+</div>
+<div class="col-lg-7 col-md-7">
+<div class="testimonial-info">
+<h4 class="testimonial-name">Himika Rex</h4>
+<p class="testimonial-designation">Manager</p>
+<p class="rid-test-desc">Maboriosam in a nesciung eget magna dapibus disting tloctio in the find it per odiy.Maboriosam in a nesciung eget magna dapibus disting tloctio in the find it per odiy.Maboriosam in a tloctio in the find it per odiy.</p>
+<div class="rid-rating">
+<i class="icofont-star"></i>
+<i class="icofont-star"></i>
+<i class="icofont-star"></i>
+<i class="icofont-star"></i>
+<i class="icofont-star"></i>
+ </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="rid-gallery sec-space">
+<div class="container">
+<h2 class="text-center">Our Gallery</h2>
+
+<div class="row">
+<div class="col-lg-4 col-md-6" id="image-popups">
+<div class="rid-gallery-single popup-gallery">
+<a href="images/gallery/gallery-1.jpg" class="gallery-img rid-popup-link" data-effect="mfp-zoom-in">
+<img src="images/gallery/gallery-1.jpg" alt="Leox Electic Bike">
+</a>
+</div>
+<div class="rid-gallery-single popup-gallery">
+<a href="images/gallery/gallery-4.jpg" class="gallery-img rid-popup-link" data-effect="mfp-zoom-in">
+<img src="images/gallery/gallery-4.jpg" alt="Women Yellow Scooter">
+</a>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="rid-gallery-single popup-gallery">
+<a href="images/gallery/gallery-5.jpg" class="gallery-img rid-popup-link" data-effect="mfp-zoom-in">
+<img src="images/gallery/gallery-5.jpg" alt="Women Yellow Scooter">
+</a>
+</div>
+<div class="rid-gallery-single popup-gallery">
+<a href="images/gallery/gallery-2.jpg" class="gallery-img rid-popup-link" data-effect="mfp-zoom-in">
+<img src="images/gallery/gallery-2.jpg" alt="Leox Electic Bike">
+</a>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="rid-gallery-single popup-gallery">
+<a href="images/gallery/gallery-3.jpg" class="gallery-img rid-popup-link" data-effect="mfp-zoom-in">
+<img src="images/gallery/gallery-3.jpg" alt="Leox Electic Bike">
+</a>
+</div>
+<div class="rid-gallery-single popup-gallery">
+<a href="images/gallery/gallery-6.jpg" class="gallery-img rid-popup-link" data-effect="mfp-zoom-in">
+<img src="images/gallery/gallery-6.jpg" alt="Women Yellow Scooter">
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="rid-video-1">
+<div class="video-banner">
+<div class="container">
+<h2 class="visually-hidden">Video</h2>
+<div class="rid-video-play text-center">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=FdrNFEbcsRs">
+<i class="flaticon-play"></i>
+</a>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="rid-our-bike sec-space">
+<div class="container">
+<h2 class="text-center">Why Our Bikes?</h2>
+<div class="row">
+<div class="col-lg-6">
+<div class="rid-info-box-2 d-flex align-items-center">
+<div class="rid-info-box-icon ">
+<div class="rid-info-box-icon position-relative">
+<i class="flaticon-history"></i>
+</div>
+</div>
+<div class="rid-info-box-text">
+<h4>Immediate Booking</h4>
+<p>Our calendars are updated in real time. Select your dates and book online.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="rid-info-box-2 d-flex align-items-center">
+<div class="rid-info-box-icon ">
+<div class="rid-info-box-icon position-relative">
+<i class="flaticon-globe"></i>
+</div>
+</div>
+<div class="rid-info-box-text">
+<h4>Online Booking</h4>
+<p>Have your plans changed? Don't worry, you can change the date or cancel your reservation without paying any additional fees.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="rid-info-box-2 d-flex align-items-center">
+<div class="rid-info-box-icon ">
+<div class="rid-info-box-icon position-relative">
+<i class="flaticon-refund"></i>
+</div>
+</div>
+<div class="rid-info-box-text">
+<h4>Refundable Booking</h4>
+<p>You will not find the same vehicle for the same dates at a better price, guaranteed!</p>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="rid-info-box-2 d-flex align-items-center">
+<div class="rid-info-box-icon ">
+<div class="rid-info-box-icon position-relative">
+<i class="flaticon-call-center"></i>
+</div>
+</div>
+<div class="rid-info-box-text">
+<h4>24/7 Assistance Support</h4>
+<p>Our multilingual customer service team is here to help you have a great vacation.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="rid-faq sec-space">
+<div class="container">
+
+<h2 class="text-center">Frequenly Ask & Questions.</h2>
+
+<div class="row">
+<div class="col-lg-6">
+<div class="rid-accordion" id="faqWrap1">
+<div class="accordion-item position-relative">
+<h6 class="accordion-header" id="headingOne">
+<button class="rid-accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+How can i select a car rent?
+</button>
+</h6>
+<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqWrap1">
+<div class="accordion-body">
+<p>Eu do, laudantium suspendisse purus dolore, suscipit aperiam voluptates assumenda adipisci, voluptas aspernatur?</p>
+</div>
+</div>
+</div>
+<div class="accordion-item position-relative">
+<h6 class="accordion-header" id="headingTwo">
+<button class="rid-accordion-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+How to reserved a car here?
+</button>
+</h6>
+<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqWrap1">
+<div class="accordion-body">
+<p>Eu do, laudantium suspendisse purus dolore, suscipit aperiam voluptates assumenda adipisci, voluptas aspernatur?</p>
+</div>
+</div>
+</div>
+<div class="accordion-item position-relative">
+<h6 class="accordion-header" id="headingThree">
+<button class="rid-accordion-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+How can i drop the rental car?
+</button>
+</h6>
+<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqWrap1">
+<div class="accordion-body">
+<p>Eu do, laudantium suspendisse purus dolore, suscipit aperiam voluptates assumenda adipisci, voluptas aspernatur?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="rid-accordion" id="faqWrap2">
+<div class="accordion-item position-relative">
+<h6 class="accordion-header" id="headingFour">
+<button class="rid-accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+What happen if i cridh the car?
+</button>
+</h6>
+<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqWrap2">
+<div class="accordion-body">
+<p>Eu do, laudantium suspendisse purus dolore, suscipit aperiam voluptates assumenda adipisci, voluptas aspernatur?</p>
+</div>
+</div>
+</div>
+<div class="accordion-item position-relative">
+<h6 class="accordion-header" id="headingFive">
+<button class="rid-accordion-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+Do you have VIP access to airport?
+</button>
+</h6>
+<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqWrap2">
+<div class="accordion-body">
+<p>Eu do, laudantium suspendisse purus dolore, suscipit aperiam voluptates assumenda adipisci, voluptas aspernatur?</p>
+</div>
+</div>
+</div>
+<div class="accordion-item position-relative">
+<h6 class="accordion-header" id="headingSix">
+<button class="rid-accordion-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+What happen if i cridh the car?
+</button>
+</h6>
+ <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqWrap2">
+<div class="accordion-body">
+<p>Eu do, laudantium suspendisse purus dolore, suscipit aperiam voluptates assumenda adipisci, voluptas aspernatur?</p>
+</div>
+</div>
+</div>
+<div class="accordion-item position-relative">
+<h6 class="accordion-header" id="headingSeven">
+<button class="rid-accordion-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+What do I need to rent a vehicle on your website?
+</button>
+</h6>
+<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqWrap2">
+<div class="accordion-body">
+<p>Eu do, laudantium suspendisse purus dolore, suscipit aperiam voluptates assumenda adipisci, voluptas aspernatur?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="rid-phone-app sec-space">
+<div class="container">
+<div class="row">
+<div class="col-lg-5 d-none d-lg-block">
+<img src="images/phone-app.png" alt="phone-application">
+</div>
+<div class="col-lg-7 d-flex align-items-center">
+<div class="rid-phone-info">
+<h2>Rent Faster & Easy</h2>
+<div class="rid-info-box3 d-flex">
+<div class="rid-info-box3-number">
+<h3 class="font-size-40">01.</h3>
+</div>
+<div class="rid-info-box3-text">
+<h3 class="font-size-40">Download Our Apps</h3>
+<p>Dapibus eaque quisquam! Exercitation, donec quaerat eleifend voluptate! Doloremque. Volutpat nesciunt.</p>
+</div>
+</div>
+<div class="rid-info-box3 d-flex">
+<div class="rid-info-box3-number">
+<h3 class="font-size-40">02.</h3>
+</div>
+<div class="rid-info-box3-text">
+<h3 class="font-size-40">Instant Rentals, Feel Good</h3>
+<p>Dapibus eaque quisquam! Exercitation, donec quaerat eleifend voluptate! Doloremque. Volutpat nesciunt.</p>
+</div>
+</div>
+<div class="rid-info-box3 d-flex">
+<div class="rid-info-box3-number">
+<h3 class="font-size-40">03.</h3>
+</div>
+<div class="rid-info-box3-text">
+<h3 class="font-size-40">All Time GPS Support</h3>
+<p>Dapibus eaque quisquam! Exercitation, donec quaerat eleifend voluptate! Doloremque. Volutpat nesciunt.</p>
+</div>
+</div>
+<div class="rid-phone-app-btns d-flex">
+<a class="btn d-flex align-items-center me-4" href="index-2.html">
+<i class="flaticon-google-play"></i>
+<h5 class="text-white"><span class="font-size-16-sb d-block">Available On</span>Google Play</h5>
+</a>
+<a class="btn btn-secondary d-flex align-items-center" href="index-2.html">
+<i class="flaticon-apple-logo"></i>
+<h5 class="text-white"><span class="font-size-16-sb d-block">Available On</span>Apple Store</h5>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="rid-posts-1 sec-space">
+<div class="container">
+
+<h2 class="text-center">Latest Posts</h2>
+
+<div class="row">
+<div class="col-lg-4 col-md-6">
+<div class="rid-posts-single">
+<div class="rid-post-img">
+<a href="blog-details.html">
+<img src="images/post/post-01.jpg" alt="Bike lovers deserve better">
+</a>
+</div>
+<div class="rid-post-info">
+<div class="post-meta">
+<a href="blog-details.html">
+<i class="flaticon-user"></i>
+<span>By James Smith</span>
+</a>
+<a href="blog-details.html">
+<i class="flaticon-folder"></i>
+<span>Motorcycle</span>
+</a>
+</div>
+<a href="blog-details.html">
+<h4>Bike lovers deserve better</h4>
+</a>
+<p>Tristique donec sociosqu molestie eleifend donec! Luctus! Eros maxime molestiae. Vero, officiapl corpent.</p>
+<a class="btn rid-post-btn" href="blog-details.html">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="rid-posts-single">
+<div class="rid-post-img">
+<a href="blog-details.html">
+<img src="images/post/post-02.jpg" alt="Enjoy with Roads">
+</a>
+</div>
+<div class="rid-post-info">
+<div class="post-meta">
+<a href="blog-details.html">
+<i class="flaticon-user"></i>
+<span>By James Smith</span>
+</a>
+<a href="blog-details.html">
+<i class="flaticon-folder"></i>
+<span>Motorcycle</span>
+</a>
+</div>
+<a href="blog-details.html">
+<h4>Enjoy with Roads</h4>
+</a>
+<p>Sollicitudin suscipit penatibus leo vero venenatis ipsam occaecati? Irure facilis.</p>
+<a class="btn rid-post-btn" href="blog-details.html">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="rid-posts-single">
+<div class="rid-post-img">
+<a href="blog-details.html">
+<img src="images/post/post-03.jpg" alt="Choose your Favorite Bike">
+</a>
+</div>
+<div class="rid-post-info">
+<div class="post-meta">
+<a href="blog-details.html">
+<i class="flaticon-user"></i>
+<span>By James Smith</span>
+</a>
+<a href="blog-details.html">
+<i class="flaticon-folder"></i>
+<span>Motorcycle</span>
+</a>
+</div>
+<a href="blog-details.html">
+<h4>Choose your Favorite Bike </h4>
+</a>
+<p>Cumque magnam, distinctio class facilisi deleniti! Eos ea sociosqu sit assumenda elit deleniti.</p>
+<a class="btn rid-post-btn" href="blog-details.html">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="rid-posts-single">
+<div class="rid-post-img">
+<a href="blog-details.html">
+<img src="images/post/post-04.jpg" alt="KTM 2021 RC 125">
+</a>
+</div>
+<div class="rid-post-info">
+<div class="post-meta">
+<a href="blog-details.html">
+<i class="flaticon-user"></i>
+<span>By James Smith</span>
+</a>
+<a href="blog-details.html">
+<i class="flaticon-folder"></i>
+<span>Motorcycle</span>
+</a>
+</div>
+<a href="blog-details.html">
+<h4>KTM 2021 RC 125</h4>
+</a>
+<p>Sollicitudin suscipit laboriosam felis penatibus leo vero venenatis ipsam occaecati? Irure facilis.</p>
+<a class="btn rid-post-btn" href="blog-details.html">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="rid-posts-single">
+<div class="rid-post-img">
+<a href="blog-details.html">
+<img src="images/post/post-05.jpg" alt="The Bike is a Half Car">
+</a>
+</div>
+<div class="rid-post-info">
+<div class="post-meta">
+<a href="blog-details.html">
+<i class="flaticon-user"></i>
+<span>By James Smith</span>
+</a>
+<a href="blog-details.html">
+<i class="flaticon-folder"></i>
+<span>Motorcycle</span>
+</a>
+</div>
+<a href="blog-details.html">
+<h4>The Bike is a Half Car</h4>
+</a>
+<p>Conubia libero, proin recusandae cursus dicta labore ratione unde adipisci proin aperiam mollitia.</p>
+<a class="btn rid-post-btn" href="blog-details.html">Read More</a>
+</div>
+ </div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="rid-posts-single">
+<div class="rid-post-img">
+<a href="blog-details.html">
+<img src="images/post/post-06.jpg" alt="Wise Rent with no Dents">
+</a>
+</div>
+<div class="rid-post-info">
+<div class="post-meta">
+<a href="blog-details.html">
+<i class="flaticon-user"></i>
+<span>By James Smith</span>
+</a>
+<a href="blog-details.html">
+<i class="flaticon-folder"></i>
+<span>Motorcycle</span>
+</a>
+</div>
+<a href="blog-details.html">
+<h4>Wise Rent with no Dents</h4>
+</a>
+<p>Perferendis magnam minus viverra! Dictum ex culpa officiis deleniti, assumenda.</p>
+<a class="btn rid-post-btn" href="blog-details.html">Read More</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="rid-statistics sec-space">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-6 col-sm-6">
+<div class="rid-counter d-sm-flex">
+<div class="rid-counter-icon">
+<i class="flaticon-crowd"></i>
+</div>
+<div class="rid-counter-text">
+<h4 class="counter">55991</h4>
+<span>Happy Customers</span>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6">
+<div class="rid-counter d-sm-flex">
+<div class="rid-counter-icon">
+<i class="flaticon-helmet"></i>
+</div>
+<div class="rid-counter-text">
+<h4 class="counter">25469</h4>
+<span>Bike In Garage</span>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6">
+<div class="rid-counter d-sm-flex">
+<div class="rid-counter-icon">
+<i class="flaticon-odometer-for-kilometers-and-speed-control"></i>
+</div>
+<div class="rid-counter-text">
+<h4 class="counter">214561542</h4>
+<span>Total Kilometer/Mil</span>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6">
+<div class="rid-counter d-sm-flex">
+<div class="rid-counter-icon">
+<i class="flaticon-world"></i>
+</div>
+<div class="rid-counter-text">
+<h4 class="counter">47856</h4>
+<span>Online Solutions</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<footer class="rid-footer-1">
+<div class="container">
+<div class="footer-top">
+<div class="row">
+<div class="col-lg-4 col-md-6">
+<a href="index-2.html">
+<img src="images/logo-footer.svg" alt="Ridexo Footer Logo">
+</a>
+<p class="rid-footer-info">Aliquet natoque, dolorum nascetur, commodi varius, rutrum accusamus molestias egestas. Facilisi incidunt? Intege quam consectetur magnisrisus magna! Duis?Facmollitia.</p>
+<div class="rid-social-links">
+<ul class="list-inline">
+<li class="list-inline-item">
+<a href="https://www.facebook.com/" target="_blank"><i class="icofont-facebook"></i></a>
+</li>
+<li class="list-inline-item">
+<a href="https://twitter.com/" target="_blank"><i class="icofont-twitter"></i></a>
+</li>
+<li class="list-inline-item">
+<a href="https://www.instagram.com/" target="_blank"><i class="icofont-instagram"></i></a>
+</li>
+<li class="list-inline-item">
+<a href="https://www.youtube.com/" target="_blank"><i class="icofont-youtube-play"></i></a>
+</li>
+<li class="list-inline-item">
+<a href="https://www.pinterest.com/" target="_blank"><i class="icofont-pinterest"></i></a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="rid-our-location">
+<h3 class="font-size-30">Our Locations</h3>
+<h6 class="font--size-20">New York City</h6>
+<span class="d-block">908 Acacia St. Elizabeth, NJ 07202</span>
+<a href="tel:">+602-215-5874</a>
+<h6>Gentle Park USA</h6>
+<span class="d-block">8191 Lincoln St. Arlington, MA 02474</span>
+<a href="tel:">+802-205-9815</a>
+<h6>Times Square Avenue</h6>
+<span class="d-block">125 Manhattan, NY 10036, USA</span>
+<a href="tel:">+812-192-4569</a>
+</div>
+</div>
+<div class="col-lg-2 col-md-6">
+<h3 class="font-size-30">About Us</h3>
+<ul class="rid-about-us-list">
+<li><a href="contact.html">Contact us</a></li>
+<li><a href="contact.html">Services</a></li>
+<li><a href="index-2.html">Rent a Bike</a></li>
+<li><a href="index-2.html">Read FAQs</a></li>
+<li><a href="home-2.html">Our Pricing</a></li>
+</ul>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="newsletter">
+<h3 class="font-size-30">Newsletter</h3>
+<p>Subscribe us and you won't miss the new arrivals. </p>
+<form class="rid-newsletter-form">
+<input type="email" placeholder="Your Email">
+<button class="rid-newsletter-btn">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px">
+<path fill-rule="evenodd" fill="rgb(244, 54, 79)" d="M0.437,5.932 L0.437,14.183 C0.437,14.903 1.022,15.488 1.743,15.488 L14.426,15.488 C15.147,15.488 15.732,14.903 15.732,14.183 L15.732,6.034 C14.280,7.024 9.951,9.967 8.765,10.693 C8.347,10.948 7.821,10.948 7.404,10.693 C6.296,10.016 2.225,7.180 0.437,5.932 L0.437,5.932 ZM0.760,4.784 L7.987,9.738 C8.047,9.774 8.122,9.774 8.182,9.738 C9.477,8.947 14.522,5.507 15.472,4.859 C15.378,4.734 15.262,4.625 15.126,4.539 L8.824,0.535 C8.399,0.265 7.856,0.264 7.429,0.531 L1.049,4.538 C0.939,4.607 0.842,4.690 0.760,4.784 L0.760,4.784 Z" />
+</svg>
+</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="rid-copyright">
+<div class="row">
+<div class="col-lg-6 col-md-6 copyright-text">
+<p>&copy; 2021 Ridexo - Bikes <a href="index-2.html">Rental.</a> All rights reserved.</p>
+</div>
+<div class="col-lg-6 col-md-6 ">
+<ul class="copyright-links list-inline">
+<li class="list-inline-item"><a href="index-2.html">Trams & Conditions</a></li>
+<li class="list-inline-item"><a href="index-2.html">Privacy Policy</a></li>
+<li class="list-inline-item"><a href="index-2.html">Site Map</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<div class="rid-offcanvas-sidebar">
+<button class="rid-offcanvas-btn" aria-label="Main Menu Icon">
+<span></span>
+<span></span>
+<span></span>
+</button>
+
+<a href="index-2.html">
+<img src="images/logo-footer.svg" alt="ridexo footer logo">
+</a>
+
+<div class="rid-menu d-flex justify-content-center text-center">
+<ul>
+ <li><a class="active" href="index-2.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="rentals.html">Rentals</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+
+<div class="rid-social-links text-center">
+<ul class="list-inline">
+<li class="list-inline-item">
+<a href="https://www.facebook.com/" target="_blank"><i class="icofont-facebook"></i></a>
+</li>
+<li class="list-inline-item">
+<a href="https://twitter.com/" target="_blank"><i class="icofont-twitter"></i></a>
+</li>
+<li class="list-inline-item">
+<a href="https://www.instagram.com/" target="_blank"><i class="icofont-instagram"></i></a>
+</li>
+<li class="list-inline-item">
+<a href="https://www.youtube.com/" target="_blank"><i class="icofont-youtube-play"></i></a>
+</li>
+<li class="list-inline-item">
+<a href="https://www.pinterest.com/" target="_blank"><i class="icofont-pinterest"></i></a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="toTop">
+<i class="icofont-simple-up"></i>
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/progresscircle.js"></script>
+<script src="js/select2.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+<!-- Mirrored from thecodude.com/demo/tf/ridexo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Sep 2022 18:48:32 GMT -->
+</html>

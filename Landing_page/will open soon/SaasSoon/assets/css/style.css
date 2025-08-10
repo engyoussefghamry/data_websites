@@ -1,0 +1,446 @@
+/* fonts Noto Kufi Arabic */
+@font-face {
+    font-family: 'Noto Kufi Arabic';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/noto-kufi-400.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC, U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Noto Kufi Arabic';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/noto-kufi-600.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC, U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Noto Kufi Arabic';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(../fonts/noto-kufi-800.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC, U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html,
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    color: #F86B57;
+    background-color: #ffffff;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+
+/*===== VARIABLES CSS =====*/
+:root {
+    /*========== Font and typography ==========*/
+    --biggest-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    /*========== Font weight ==========*/
+    --font-semi-bold: 600;
+    --font-bold: 700;
+}
+
+@media screen and (min-width: 968px) {
+    :root {
+        --biggest-font-size: 3rem;
+        --h2-font-size: 1.75rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+    }
+}
+
+
+/* Global Classes */
+* {
+    line-height: 25px;
+}
+
+:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+section {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: .4s ease-in-out;
+    text-decoration: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.title-h2 {
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-bold);
+}
+
+.desc-p {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
+    line-height: 2em;
+}
+
+.m-t-10 {
+    margin-top: 1rem;
+}
+
+.m-t-20 {
+    margin-top: 2rem;
+}
+
+.m-t-30 {
+    margin-top: 3rem;
+}
+
+.m-b-10 {
+    margin-bottom: 1rem;
+}
+
+.m-b-20 {
+    margin-bottom: 2rem;
+}
+
+.m-b-30 {
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 968px) {
+    .m-t-10 {
+        margin-top: .5rem;
+    }
+
+    .m-t-20 {
+        margin-top: 1rem;
+    }
+
+    .m-t-30 {
+        margin-top: 1.5rem;
+    }
+
+    .m-b-10 {
+        margin-bottom: .5rem;
+    }
+
+    .m-b-20 {
+        margin-bottom: 1rem;
+    }
+
+    .m-b-30 {
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+
+section {
+    display: block;
+    padding: 5rem 0;
+}
+
+.head-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.head-title h2 {
+    color: #ffffff;
+    background-color: #F86B57;
+    display: inline-block;
+    padding: .4rem 1.5rem;
+    border-radius: 5px;
+    font-size: var(--h2-font-size);
+}
+
+.head-title h2 span {
+    color: #F86B57;
+
+}
+
+/* Start Header */
+
+header {
+    padding: 7rem 0;
+    text-align: center;
+    background: #594F90 url(../images/overlay.svg) no-repeat fixed;
+    background-size: cover;
+    background-position: 100% 100%;
+    color: #fff;
+}
+
+header img {
+    width: 220px;
+}
+
+header h2 {
+    margin-bottom: 1.5rem;
+}
+
+header ul {
+    margin-top: 2rem;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+header ul li a {
+    padding: .7rem 1.5rem;
+    border-radius: 5px;
+    background: #F1F2F3;
+    color: #594F90;
+    display: block;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+header ul li a:hover {
+    color: #ffffff;
+    background: #F86B57;
+}
+
+/* Start Demo */
+
+.demo {
+    background: #F3F1F9;
+    text-align: center;
+}
+
+.demo .item {
+    overflow: hidden;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.demo .item .link-img img {
+    display: block;
+    max-width: 100%;
+    border: 4px solid #FDF3D7;
+    height: auto;
+    transition: .5s ease-in-out;
+}
+
+.demo .item:hover img {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.demo .item .link {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #594F90;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: .8rem 1.5rem;
+    font-weight: var(--font-semi-bold);
+    font-size: var(--normal-font-size);
+    text-transform: capitalize;
+    transition: .5s ease-in-out;
+}
+
+.demo .item .link:hover {
+    background-color: #F86B57;
+}
+
+
+
+
+
+
+
+
+
+/* Start Features */
+
+.features {
+    background: #FAF9FF;
+}
+
+.features h1 {
+    margin-bottom: 2rem;
+}
+
+
+
+.features .info {
+    margin-top: 2rem;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    overflow: hidden;
+    transition: .3s ease;
+    box-shadow: 0 0 25px rgba(42, 42, 42, 0.09);
+}
+
+.features .info i {
+    display: inline-block;
+    font-size: 40px;
+    color: #66DE79;
+}
+
+.features .info img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.features .info h2 {
+    color: #594F90;
+    display: inline-block;
+    margin-right: 15px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* End Features */
+
+
+
+/* documentation-section */
+.documentation-section {
+    background: #F5F5F5;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.documentation-section .right-item {
+    background-color: #594F90;
+    top: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.documentation-section .right-item ul li {
+    display: block;
+}
+
+.documentation-section .right-item ul li a {
+    color: #ffffff;
+    padding: 1rem 15px;
+    border-radius: 5px;
+    display: block;
+}
+
+.documentation-section .right-item ul li a:hover {
+    background: #F5F5F5;
+    color: #594F90;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.documentation-section .left-item {
+    border-radius: 5px;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.documentation-section .left-item .section-docs {
+    background: #ffffff;
+    margin-bottom: 1rem;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.documentation-section .left-item .section-docs .title-section {
+    background: #F3F1F9;
+    color: #594F90;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.documentation-section .left-item .section-docs .daec-section {
+    color: #F86B57;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.documentation-section .left-item .section-docs span {
+    background: #F3F1F9;
+    color: #594F90;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.documentation-section .left-item .section-docs .img-section {
+    border: 5px solid #F3F1F9;
+}
+
+.documentation-section .left-item .section-docs .img-section img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+/* Start CoprRight */
+
+.CoprRight {
+    background: #F3F1F9;
+    padding: 1rem 0;
+}
+
+.CoprRight p {
+    margin: 0;
+    padding: 0;
+    color: #594F90;
+    font-weight: bold;
+
+}
+
+.CoprRight i {
+    color: #F86B57;
+}
+
+.CoprRight a {
+    color: #F86B57;
+    transition: .3s ease;
+    font-weight: bold;
+}
+
+.CoprRight a:hover {
+    color: #594F90;
+}
+
+/* End CoprRight */

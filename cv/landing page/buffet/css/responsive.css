@@ -1,0 +1,540 @@
+
+
+@media only screen and (min-width: 992px) {
+    .tcd-header-1 .mainmenu {
+        display: block !important;
+    }
+
+    .mobile-menu-icon {
+        display: none;
+    }
+
+    .tcd-banner .shape-img.left {
+        max-width: 35%;
+    }
+
+    .tcd-banner .shape-img.right {
+        max-width: 44%;
+    }
+
+}
+
+@media only screen and (max-width: 1366px) {
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .owl-carousel .owl-dots {
+        bottom: 39px;
+        left: 31%;
+    }
+
+    .tcd-contact-part {
+        min-height: auto;
+        padding: 193px 0;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+    .tcd-contact-part {
+        padding: 165px 0;
+    }
+
+    .owl-carousel .owl-dots {
+        left: 27%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .tcd-contact-part {
+        padding: 132px 0;
+    }
+
+    .tcd-features {
+        padding: 170px 0 120px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+
+    .tcd-testimonial .testi-title {
+        margin-bottom: 0;
+    }
+
+    .tcd-contact-part .shape-img.right {
+        max-width: 102%;
+    }
+
+    .owl-carousel .owl-dots {
+        left: 28%;
+    }
+
+    .tcd-banner .shape-img.right {
+        max-width: 37%;
+    }
+
+    .tcd-banner .owl-carousel .owl-dots .owl-dot {
+        width: 20px;
+        height: 20px;
+    }
+
+    .tcd-blog .shape-img.left img {
+        max-width: 60%;
+    }
+
+    .tcd-testimonial .testi-slider .testi-item .testi-img {
+        margin-right: 50px;
+    }
+
+    .tcd-testimonial .testi-slider .testi-item .testi-info .testi-title {
+        font-size: 45px;
+    }
+
+    .owl-carousel .owl-dots {
+        left: 36%;
+    }
+
+    .tcd-partner {
+        padding: 40px 0 110px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .tcd-contact-part .shape-img.right {
+        display: none;
+    }
+
+    .tcd-header-1 .mainmenu .nav-menu li {
+        margin-right: 25px;
+    }
+
+    .tcd-contact-part {
+        padding: 110px 0 90px;
+        background-color: #f4f8fc;
+    }
+
+    .tcd-footer {
+        padding-top: 0;
+        background-color: #f4f8fc;
+    }
+
+    .tcd-footer .footer-content {
+        padding-top: 80px;
+        border-top: 1px solid #dedede;
+    }
+
+    .tcd-contact-part .offset-lg-3 {
+        display: none;
+    }
+
+    .tcd-contact-part .col-lg-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .owl-carousel .owl-dots {
+        left: 34%;
+    }
+
+    .tcd-contact-part .footer-logo img {
+        width: 138px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .testi-title {
+        font-size: 54px;
+        margin-left: 40%;
+        margin-bottom: -7%;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .tcd-food-price .tcd-nav-part {
+        margin-bottom: 70px;
+        background: transparent;
+        margin-top: 20px;
+    }
+
+    .tcd-banner .banner-wrapper .banner-content .banner-title {
+        font-size: 52px;
+    }
+
+    .tcd-features {
+        overflow: hidden;
+    }
+
+    .tcd-testimonial .owl-carousel .owl-stage-outer {
+        margin: 0;
+        padding: 0;
+    }
+
+    .tcd-testimonial .owl-carousel .owl-dots,
+    .tcd-contact-part .footer-logo {
+        display: none;
+    }
+
+    .tcd-contact-part .col-lg-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .tcd-food-price .tcd-nav-tabs li {
+        display: block;
+        width: 23%;
+        margin-right: 2%;
+    }
+
+    .tcd-food-price .tcd-nav-tabs li a {
+        font-size: 14px;
+        padding: 10px 0;
+        margin-top: 13px;
+    }
+
+    .tcd-food-price .tcd-nav-tabs {
+        border-bottom: 0;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .tcd-banner .shape-img.left {
+        left: 0;
+        top: 0;
+        text-align: left;
+        max-width: 45%;
+    }
+
+    .order-last {
+        order: unset;
+    }
+
+    .hidden-md {
+        display: none !important;
+    }
+
+    .md-pt-100 {
+        padding-top: 100px;
+    }
+
+    .md-pb-100 {
+        padding-bottom: 100px;
+    }
+
+    .md-pb-80 {
+        padding-bottom: 80px;
+    }
+
+    .md-pb-50 {
+        padding-bottom: 50px;
+    }
+
+    .md-mt-80 {
+        margin-bottom: 80px;
+    }
+
+    .md-mb-30 {
+        margin-bottom: 30px;
+    }
+
+    .md-mb-50 {
+        margin-bottom: 50px;
+    }
+
+    .md-set-padding {
+        padding: 0 15px !important;
+    }
+
+    .section-gap {
+        padding: 50px 0;
+    }
+
+
+    /*Menu Part Start*/
+    .tcd-header-1 .menu-sticky.sticky {
+        position: unset;
+    }
+
+    .tcd-header-1 .logo {
+        padding: 20px 0;
+    }
+
+    .tcd-header-1 .mainmenu {
+        display: none;
+        background: #152644;
+        top: 0;
+        padding: 20px;
+        text-align: left;
+        padding-right: 0;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .075);
+    }
+
+    .tcd-header-1 .mainmenu .nav-menu li {
+        display: block;
+        margin-right: 0;
+    }
+
+    .tcd-header-1 .mainmenu .nav-menu li a {
+        color: #fff;
+        padding: 5px 0;
+        font-size: 13px;
+    }
+
+    .tcd-header-1 .mainmenu .nav-menu li a .menu-dot {
+        display: none;
+    }
+
+    .tcd-banner .shape-img.right,
+    .tcd-about .shape-img.left {
+        display: none;
+    }
+
+    .tcd-banner .owl-carousel .owl-dots {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .tcd-about {
+        padding: 0 0 90px;
+        margin-top: 85px;
+    }
+
+    .tcd-about .shape-img.right img {
+        max-width: 75%;
+        position: relative;
+        z-index: -1;
+    }
+
+    .tcd-blog .blog-item .blog-content {
+        right: 0;
+        width: 67%;
+    }
+
+    .tcd-testimonial {
+        padding: 100px 0 75px;
+    }
+
+    .tcd-testimonial .shape-img.left img {
+        max-width: 50%;
+    }
+
+    .tcd-testimonial .owl-carousel .owl-dots {
+        bottom: -75px;
+    }
+
+    .tcd-contact-part .footer-logo {
+        position: relative;
+        float: left;
+    }
+
+
+    .footer-logo .fav {
+        max-width: 40px;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    .sm-mb-20 {
+        margin-bottom: 20px;
+    }
+
+    .sm-mb-30 {
+        margin-bottom: 30px;
+    }
+
+    .sec-title .title,
+    .tcd-testimonial .testi-title,
+    .tcd-contact-part .tcd-title .title {
+        font-size: 46px;
+        margin-bottom: 20px;
+    }
+
+    .tcd-testimonial .testi-slider .testi-item .testi-info .testi-content .testi-title-part .title {
+        display: block;
+    }
+
+    .tcd-banner .banner-wrapper {
+        padding-top: 200px;
+    }
+
+    .tcd-banner .owl-carousel .owl-stage-outer {
+        padding: 15px 0;
+        margin: -15px 0;
+    }
+
+    .tcd-about {
+        padding: 70px 0;
+        margin-top: 0;
+        background: #f4f8fc;
+    }
+
+    .tcd-features {
+        background: #fff;
+        padding: 70px 0 0;
+    }
+
+    .tcd-about .shape-img.right {
+        display: none;
+    }
+
+    .tcd-food-price .food-categories {
+        padding: 30px 0;
+    }
+
+    .tcd-food-price .food-categories .subtitle {
+        font-size: 20px;
+    }
+
+    .tcd-blog .blog-item .blog-content {
+        right: 0;
+    }
+
+    .tcd-testimonial {
+        background-color: #f5f5f5;
+    }
+
+    .tcd-testimonial .shape-img.left {
+        display: none;
+    }
+
+    .tcd-food-price {
+        padding-top: 80px;
+    }
+    .tcd-food-price .tcd-tab-content .single-tab {
+        margin-bottom: 30px;
+    }
+
+    .tcd-blog {
+        padding: 50px 0 90px;
+    }
+
+    .tcd-blog .shape-img.left {
+        opacity: 0.1;
+    }
+
+    .tcd-testimonial .testi-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .tcd-testimonial .testi-slider .testi-item .testi-img {
+        margin-right: 0;
+        display: inline-block;
+        max-width: 100px;
+    }
+
+    .tcd-testimonial .testi-slider .testi-item .testi-img .img {
+        min-width: 100px;
+    }
+
+    .tcd-testimonial .testi-slider .testi-item .testi-info .testi-content .quote {
+        display: none;
+    }
+    .tcd-testimonial .testi-slider .testi-item {
+        text-align: center;
+        display: block;
+    }
+
+    .tcd-testimonial .testi-slider .testi-item .testi-info .testi-content {
+        padding-left: 0;
+    }
+
+    .tcd-testimonial {
+        padding: 70px 0 75px;
+    }
+
+    .tcd-partner {
+        padding: 70px 0;
+    }
+
+    .tcd-contact-part {
+        padding: 80px 0 70px;
+    }
+
+    .tcd-food-price .sec-title {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+    .xs-mb-30 {
+        margin-bottom: 30px;
+    }
+
+    .sec-title.text-center .desc {
+        margin: 0 auto 50px;
+    }
+
+    .sec-title .desc br {
+        display: none;
+    }
+
+    .tcd-food-price .tcd-tab-content .single-tab .content-part .title {
+        font-size: 20px;
+    }
+
+    .tcd-blog .blog-item .blog-img img {
+        margin: 0 auto;
+    }
+
+    .tcd-blog .blog-item .blog-content {
+        position: unset;
+        transform: unset;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .tcd-food-price .tcd-tab-content .single-tab {
+        max-width: 300px;
+        margin: 0 auto 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .primary-btn {
+        height: 50px;
+        line-height: 46px;
+    }
+
+    .tcd-banner .banner-wrapper .banner-content .banner-subtitle {
+        font-size: 15px;
+    }
+
+    .tcd-banner .banner-wrapper .banner-content .banner-title {
+        font-size: 44px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .tcd-banner .shape-img.left {
+        max-width: 73%;
+    }
+
+    .tcd-food-price .tcd-nav-tabs li {
+        width: 45%;
+    }
+
+    .sec-title .title, .tcd-testimonial .testi-title, .tcd-contact-part .tcd-title .title {
+        font-size: 40px;
+    }
+
+    .tcd-blog .blog-item .blog-content {
+        width: 100%;
+    }
+
+}
