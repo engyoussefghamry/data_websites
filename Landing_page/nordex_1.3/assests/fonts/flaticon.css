@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("flaticon7251.ttf?b1e64bd9d0599fb4d9d8703145551505") format("truetype"),
+url("flaticon7251.woff?b1e64bd9d0599fb4d9d8703145551505") format("woff"),
+url("flaticon7251.woff2?b1e64bd9d0599fb4d9d8703145551505") format("woff2"),
+url("flaticon7251.eot?b1e64bd9d0599fb4d9d8703145551505#iefix") format("embedded-opentype"),
+url("flaticon7251.svg?b1e64bd9d0599fb4d9d8703145551505#flaticon") format("svg");
+}
+
+span[class^="flaticon-"]:before, span[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-ads:before {
+    content: "\f101";
+}
+.flaticon-background:before {
+    content: "\f102";
+}
+.flaticon-brickwall:before {
+    content: "\f103";
+}
+.flaticon-browser-1:before {
+    content: "\f104";
+}
+.flaticon-browser-2:before {
+    content: "\f105";
+}
+.flaticon-browser-3:before {
+    content: "\f106";
+}
+.flaticon-browser-4:before {
+    content: "\f107";
+}
+.flaticon-browser-5:before {
+    content: "\f108";
+}
+.flaticon-browser-6:before {
+    content: "\f109";
+}
+.flaticon-browser-7:before {
+    content: "\f10a";
+}
+.flaticon-browser-8:before {
+    content: "\f10b";
+}
+.flaticon-browser:before {
+    content: "\f10c";
+}
+.flaticon-brush:before {
+    content: "\f10d";
+}
+.flaticon-controls:before {
+    content: "\f10e";
+}
+.flaticon-development:before {
+    content: "\f10f";
+}
+.flaticon-heart-shape-outline:before {
+    content: "\f110";
+}
+.flaticon-heart-shape-silhouette:before {
+    content: "\f111";
+}
+.flaticon-layers-1:before {
+    content: "\f112";
+}
+.flaticon-layers:before {
+    content: "\f113";
+}
+.flaticon-manufacturing:before {
+    content: "\f114";
+}
+.flaticon-pantone:before {
+    content: "\f115";
+}
+.flaticon-resize:before {
+    content: "\f116";
+}
+.flaticon-responsive-1:before {
+    content: "\f117";
+}
+.flaticon-responsive:before {
+    content: "\f118";
+}
+.flaticon-rule-of-thirds:before {
+    content: "\f119";
+}
+.flaticon-scale:before {
+    content: "\f11a";
+}
+.flaticon-selection:before {
+    content: "\f11b";
+}
+.flaticon-square:before {
+    content: "\f11c";
+}
+.flaticon-stationery:before {
+    content: "\f11d";
+}
+.flaticon-tools:before {
+    content: "\f11e";
+}
+.flaticon-web-browser-1:before {
+    content: "\f11f";
+}
+.flaticon-web-browser-2:before {
+    content: "\f120";
+}
+.flaticon-web-browser:before {
+    content: "\f121";
+}
+.flaticon-windows-1:before {
+    content: "\f122";
+}
+.flaticon-windows:before {
+    content: "\f123";
+}
