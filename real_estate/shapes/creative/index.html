@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+
+<!-- Mirrored from demo.lion-coders.com/html/shapes/creative/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Mar 2023 17:32:44 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Shapes - Multi Purpose Bootstrap Template</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/logo.png">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- owl theme CSS -->
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <!-- Pagepiling CSS -->
+    <link rel="stylesheet" href="css/jquery.pagepiling.css" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font-awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- styles for this template -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Preloader Section -->
+    <div id="loader-wrapper">
+        <div class="load-content">
+            <img src="images/logo.png" alt="">
+            <span>Loading...</span>
+        </div>
+    </div>
+    <!-- Preloader Section End -->
+    <!--     Full Container start  -->
+    <div class="container-fluid nopadding">
+        <div class="row nopadding">
+            <!--     Header start  -->
+            <div class="col-md-1 col-sm-1 col-xs-12 header nopadding text-center">
+                <!--     Logo start  -->
+                <div class="logo">
+                    <a href="index.html"><img class="" src="images/logo.png" alt="">
+                        <h2>SHAPES</h2></a>
+                </div>
+                <!--     logo end  -->
+                <div class="menu_icon" id="mynav">
+                    <p onclick="openNav()">&#9776;</p>
+                </div>
+                <!--     sidenav start  -->
+                <div id="mySidenav" class="sidenav">
+                    <div class="sidenav_left">
+                        <!--     Logo start  -->
+                        <div class="logo_over hidden-xs">
+                            <a href="index.html"><img src="images/logo.png" alt="">
+                                <h2>SHAPES</h2></a>
+                        </div>
+                        <!--     Logo end  -->
+                        <!--   menu start  -->
+                        <ul id="menu">
+                            <li data-menuanchor="page1" class="active"><a onclick="closeNav()" href="#page1">HOME</a></li>
+                            <li data-menuanchor="page2"><a onclick="closeNav()" href="#page2">PORTFOLIO</a></li>
+                            <li data-menuanchor="page3"><a onclick="closeNav()" href="#page3">ABOUT</a></li>
+                            <li data-menuanchor="page4"><a onclick="closeNav()" href="#page4">SERVICES</a></li>
+                            <li data-menuanchor="page5"><a onclick="closeNav()" href="#page5">PRICES</a></li>
+                            <li data-menuanchor="page6"><a onclick="closeNav()" href="#page6">BLOG</a></li>
+                            <li data-menuanchor="page7"><a onclick="closeNav()" href="#page7">CONACT</a></li>
+                        </ul>
+                        <!--   menu end  -->
+                        <div class="menu_close">
+                            <a href="javascript:void(0)" class="closebtn menu_icon" onclick="closeNav()">&times;</a>
+                        </div>
+                    </div>
+                    <div class="sidenav_right hidden-xs">
+                        <div class="slogan_over">
+                            <h5>SHAPES CREATIVE AGENCY</h5>
+                        </div>
+                    </div>
+                </div>
+                <!--     sidenav end  -->
+            </div>
+            <!--     Header end  -->
+            <!--     content start  -->
+            <div class="col-md-11 col-sm-11 col-xs-12 content nopadding">
+                <!-- Pagepilling start -->
+                <div id="pagepiling">
+                    <!-- Section one area start -->
+                    <div class="section" id="section1">
+                        <!-- intro start -->
+                        <div class="intro">
+                            <div class="container-fluid nopadding">
+                                <div class="row nopadding">
+                                    <!-- home class start -->
+                                    <div class="col-md-12 col-sm-12 col-xs-12 home">
+                                        <h1>We Are Shapes</h1>
+                                        <div id="typed-strings">
+                                            <p>Designers</p>
+                                            <p>Developers</p>
+                                            <p>Coffe Addicts!</p>
+                                        </div>
+                                        <h2>We are <span id="typed"></span></h2>
+                                    </div>
+                                    <!-- home class end -->
+                                </div>
+                            </div>
+                            <!-- more_link start -->
+                            <div class="more_link">
+                                <a href="#page2">VIEW PORTFOLIO <br>
+                                <i class="fa fa-angle-down"></i></a>
+                            </div>
+                            <!-- more_link end -->
+                        </div>
+                        <!-- intro end -->
+                    </div>
+                    <!-- Section one area end -->
+                    <!-- Section two area start -->
+                    <div class="section" id="section2">
+                        <!-- intro start -->
+                        <div class="intro">
+                            <div class="container-fluid">
+                                <div class="">
+                                    <div class="col-md-12  col-sm-12 col-xs-12 work_area">
+                                        <h2 class="text-center">Our Work</h2>
+                                        <ul id="filters">
+                                            <li class="active" data-filter="*">All</li>
+                                            <li data-filter=".graphic">Graphic</li>
+                                            <li data-filter=".web">Web</li>
+                                            <li data-filter=".video">Video</li>
+                                            <li data-filter=".apps">Apps</li>
+                                        </ul>
+                                        <div class="portfolio-container isotope" id="portfolio-container">
+                                            <!-- WORK 1 START -->
+                                            <div class="portfolio-item col-md-4  graphic">
+                                                <a href="single-work.html">
+                                                    <div class="portfolio-column">
+                                                        <div class="portfolio-hover ">
+                                                            <div class="portfolio-content">
+                                                                <h4>CEREAL</h4>
+                                                                <hr>
+                                                                <p>View details.</p>
+                                                            </div>
+                                                            <div class="portfolio-overlay"></div>
+                                                        </div>
+                                                        <img src="images/portfolio/1.jpg" alt="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <!-- WORK 1 END -->
+                                            <!-- WORK 2 START -->
+                                            <div class="portfolio-item col-md-4  web">
+                                                <a href="single-work.html">
+                                                    <div class="portfolio-column">
+                                                        <div class="portfolio-hover ">
+                                                            <div class="portfolio-content">
+                                                                <h4>NOTES</h4>
+                                                                <hr>
+                                                                <p>View details.</p>
+                                                            </div>
+                                                            <div class="portfolio-overlay"></div>
+                                                        </div>
+                                                        <img src="images/portfolio/2.jpg" alt="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <!-- WORK 2 END -->
+                                            <!-- WORK 3 START -->
+                                            <div class="portfolio-item col-md-4  web">
+                                                <a href="single-work.html">
+                                                    <div class="portfolio-column">
+                                                        <div class="portfolio-hover ">
+                                                            <div class="portfolio-content">
+                                                                <h4>TIMES</h4>
+                                                                <hr>
+                                                                <p>View details.</p>
+                                                            </div>
+                                                            <div class="portfolio-overlay"></div>
+                                                        </div>
+                                                        <img src="images/portfolio/3.jpg" alt="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <!-- WORK 3 END -->
+                                            <!-- WORK 4 START -->
+                                            <div class="portfolio-item col-md-4  video">
+                                                <a href="single-work.html">
+                                                    <div class="portfolio-column">
+                                                        <div class="portfolio-hover ">
+                                                            <div class="portfolio-content">
+                                                                <h4>STATIONARY</h4>
+                                                                <hr>
+                                                                <p>View details.</p>
+                                                            </div>
+                                                            <div class="portfolio-overlay"></div>
+                                                        </div>
+                                                        <img src="images/portfolio/4.jpg" alt="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <!-- WORK 4 END -->
+                                            <!-- WORK 5 START -->
+                                            <div class="portfolio-item col-md-4  apps">
+                                                <a href="single-work.html">
+                                                    <div class="portfolio-column">
+                                                        <div class="portfolio-hover ">
+                                                            <div class="portfolio-content">
+                                                                <h4>PH.D</h4>
+                                                                <hr>
+                                                                <p>View details.</p>
+                                                            </div>
+                                                            <div class="portfolio-overlay"></div>
+                                                        </div>
+                                                        <img src="images/portfolio/5.jpg" alt="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <!-- WORK 5 END -->
+                                            <!-- WORK 6 START -->
+                                            <div class="portfolio-item col-md-4  graphic">
+                                                <a href="single-work.html">
+                                                    <div class="portfolio-column">
+                                                        <div class="portfolio-hover ">
+                                                            <div class="portfolio-content">
+                                                                <h4>WAG MAGAZINE</h4>
+                                                                <hr>
+                                                                <p>View details.</p>
+                                                            </div>
+                                                            <div class="portfolio-overlay"></div>
+                                                        </div>
+                                                        <img src="images/portfolio/6.jpg" alt="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <!-- WORK 6 END -->
+                                            <!-- WORK 7 START -->
+                                            <div class="portfolio-item col-md-4  web">
+                                                <a href="single-work.html">
+                                                    <div class="portfolio-column">
+                                                        <div class="portfolio-hover ">
+                                                            <div class="portfolio-content">
+                                                                <h4>LOOK</h4>
+                                                                <hr>
+                                                                <p>View details.</p>
+                                                            </div>
+                                                            <div class="portfolio-overlay"></div>
+                                                        </div>
+                                                        <img src="images/portfolio/7.jpg" alt="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <!-- WORK 7 END -->
+                                            <!-- WORK 8 START -->
+                                            <div class="portfolio-item col-md-4  video">
+                                                <a href="single-work.html">
+                                                    <div class="portfolio-column">
+                                                        <div class="portfolio-hover ">
+                                                            <div class="portfolio-content">
+                                                                <h4>IPAD</h4>
+                                                                <hr>
+                                                                <p>View details.</p>
+                                                            </div>
+                                                            <div class="portfolio-overlay"></div>
+                                                        </div>
+                                                        <img src="images/portfolio/8.jpg" alt="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <!-- WORK 8 END -->
+                                            <!-- WORK 9 START -->
+                                            <div class="portfolio-item col-md-4  apps">
+                                                <a href="single-work.html">
+                                                    <div class="portfolio-column">
+                                                        <div class="portfolio-hover ">
+                                                            <div class="portfolio-content">
+                                                                <h4>PAPER MOCKUP</h4>
+                                                                <hr>
+                                                                <p>View details.</p>
+                                                            </div>
+                                                            <div class="portfolio-overlay"></div>
+                                                        </div>
+                                                        <img src="images/portfolio/9.jpg" alt="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <!-- WORK 9 END -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- intro end -->
+                    </div>
+                    <!-- Section two area end -->
+                    <!-- Section three area start -->
+                    <div class="section" id="section3">
+                        <!-- intro start -->
+                        <div class="intro">
+                            <div class="container-fluid nopadding">
+                                <div class="row nopadding">
+                                    <!-- about_left start -->
+                                    <div class="col-md-6 col-sm-12 col-xs-12 about_left">
+                                        <!-- about_content_top start -->
+                                        <div class="about_content_top">
+                                            <h2>We Are <span>Creative</span> Agency</h2>
+                                            <p>Interactive digital experiences are continually becoming more amazing and more complex to produce. Our team is specially designed to create successful, custom, innovative digital products from the initial concept through full product launch. Strategists, researchers, product managers, UX/UI designers, technologists, web and mobile developers all working together, dedicated to your brand and your product. Talk To Our Team.</p>
+                                        </div>
+                                        <!-- about_content_top end -->
+                                        <!-- about_content_bottom start -->
+                                        <div class="about_content_bottom">
+                                            <h1>25</h1>
+                                            <p>Years
+                                                <br>Working
+                                                <br>Experience</p>
+                                        </div>
+                                        <div class="col-md-12 col-xs-12 nopadding">
+                                            <h3 class="progress-title">Design</h3>
+                                            <div class="progress barcolor">
+                                                <div class="progress-bar" style="width: 100%;">
+                                                    <div class="progress-value">95%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-xs-12 nopadding">
+                                            <h3 class="progress-title">Marketing</h3>
+                                            <div class="progress barcolor">
+                                                <div class="progress-bar" style="width: 98%;">
+                                                    <div class="progress-value">98%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-xs-12 nopadding">
+                                            <h3 class="progress-title">Development</h3>
+                                            <div class="progress barcolor">
+                                                <div class="progress-bar" style="width: 100%;">
+                                                    <div class="progress-value">100%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- about_content_bottom end -->
+                                    </div>
+                                    <!-- about_left end -->
+                                    <!-- about_right start -->
+                                    <div class="col-md-6 col-sm-12 col-xs-12 about_right nopadding">
+                                        <img src="images/creative.jpg" alt="">
+                                    </div>
+                                    <!-- about_right end -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- intro end -->
+                    </div>
+                    <!-- Section three area end -->
+                    <!-- Section four area start -->
+                    <div class="section" id="section4">
+                        <!-- intro start -->
+                        <div class="intro">
+                            <div class="container">
+                                <div class="row">
+                                    <!-- service area start -->
+                                    <div class="col-md-12 col-sm-12 col-xs-12 service">
+                                        <h2>Services we offer</h2>
+                                        <ul class="nav nav-tabs">
+                                            <li class="active service_icon"><a data-toggle="tab" href="#home"><i class="fa fa-modx"></i><span>Branding</span></a></li>
+                                            <li class="service_icon"><a data-toggle="tab" href="#menu1"><i class="fa fa-500px"></i><span>Digital Marketin</span></a></li>
+                                            <li class="service_icon"><a data-toggle="tab" href="#menu2"><i class="fa fa-handshake-o"></i><span>Consultancy</span></a></li>
+                                            <li class="service_icon"><a data-toggle="tab" href="#menu3"><i class="fa fa-video-camera"></i><span>VIDEOGRAPHY</span></a></li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div id="home" class="tab-pane fade in active">
+                                                <p>Online ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                                            </div>
+                                            <div id="menu1" class="tab-pane fade">
+                                                <p>Online ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                                            </div>
+                                            <div id="menu2" class="tab-pane fade">
+                                                <p>Online ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                                            </div>
+                                            <div id="menu3" class="tab-pane fade">
+                                                <p>Online ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- service area end -->
+                                    <!-- client_area start -->
+                                    <div class="col-md-12 col-sm-12 col-xs-12 client_area">
+                                        <h2>From Our Great Clients</h2>
+                                        <!-- owl carousel area start -->
+                                        <div id="liontestimonial" class="owl-carousel owl-theme">
+                                            <!-- owl single item start -->
+                                            <div class="item">
+                                                <div class="client_one clients">
+                                                    <img src="images/client/client1.jpg" class="img-circle" alt="Cinque Terre"><i class="quote text-right fa fa-quote-right text-right"></i>
+                                                    <h4>Adam Stone <span>/CEO at Google Inc.</span></h4>
+                                                    <p>Online ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy Online ipsum dolor sit amet, consectetuer </p>
+                                                </div>
+                                            </div>
+                                            <!-- owl single item end -->
+                                            <!-- owl single item start -->
+                                            <div class="item">
+                                                <div class="client_one clients">
+                                                    <img src="images/client/client2.jpg" class="img-circle" alt="Cinque Terre"><i class="quote text-right fa fa-quote-right text-right"></i>
+                                                    <h4>Mark James <span>/CEO at Facebook Inc.</span></h4>
+                                                    <p>Online ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy Online ipsum dolor sit amet, consectetuer </p>
+                                                </div>
+                                            </div>
+                                            <!-- owl single item end -->
+                                            <!-- owl single item start -->
+                                            <div class="item">
+                                                <div class="client_one clients">
+                                                    <img src="images/client/client3.jpg" class="img-circle" alt="Cinque Terre"><i class="quote text-right fa fa-quote-right text-right"></i>
+                                                    <h4>Michel Peter <span>/CEO at Automobile Inc.</span></h4>
+                                                    <p>Online ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy Online ipsum dolor sit amet, consectetuer </p>
+                                                </div>
+                                            </div>
+                                            <!-- owl single item end -->
+                                            <!-- owl single item start -->
+                                            <div class="item">
+                                                <div class="client_one clients">
+                                                    <img src="images/client/client4.jpg" class="img-circle" alt="Cinque Terre"><i class="quote text-right fa fa-quote-right text-right"></i>
+                                                    <h4>Henry Clark <span>/CEO at Netflix Inc.</span></h4>
+                                                    <p>Online ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy Online ipsum dolor sit amet, consectetuer </p>
+                                                </div>
+                                            </div>
+                                            <!-- owl single item end -->
+                                            <!-- owl single item start -->
+                                            <div class="item">
+                                                <div class="client_one clients">
+                                                    <img src="images/client/client2.jpg" class="img-circle" alt="Cinque Terre"><i class="quote text-right fa fa-quote-right text-right"></i>
+                                                    <h4>Steve Jobs <span>/CEO at Apple Inc.</span></h4>
+                                                    <p>Online ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy Online ipsum dolor sit amet, consectetuer </p>
+                                                </div>
+                                            </div>
+                                            <!-- owl single item end -->
+                                        </div>
+                                        <!-- owl carousel area end -->
+                                    </div>
+                                    <!-- client_area end -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- intro end -->
+                    </div>
+                    <!-- Section four area end -->
+                    <!-- Section five area start -->
+                    <div class="section" id="section5">
+                        <!-- intro start -->
+                        <div class="intro">
+                            <div class="container-fluid nopadding">
+                                <div class="row nopadding">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <!-- team_top area start -->
+                                        <div class="team_top text-center">
+                                            <h2>Prices</h2>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="price text-center">
+                                                <h4>Beginner</h4>
+                                                <h3>$100</h3>
+                                                <ul>
+                                                    <li>Half day event</li>
+                                                    <li>10 Printed images</li>
+                                                    <li>1 Framed images</li>
+                                                    <li>2 Outfit changes</li>
+                                                    <li>20 Images on SD</li>
+                                                    <li>1 Photographer</li>
+                                                </ul>
+                                                <button class="btn btn-default">PURCHASE</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="price text-center">
+                                                <h4>Intermediate</h4>
+                                                <h3>$150</h3>
+                                                <ul>
+                                                    <li>Full day event</li>
+                                                    <li>50 Printed images</li>
+                                                    <li>5 Framed images</li>
+                                                    <li>5 Outfit changes</li>
+                                                    <li>50 Images on SD</li>
+                                                    <li>2 Photographer</li>
+                                                </ul>
+                                                <button class="btn btn-primary">PURCHASE</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="price text-center">
+                                                <h4>Expert</h4>
+                                                <h3>$200</h3>
+                                                <ul>
+                                                    <li>Full day event</li>
+                                                    <li>100 Printed images</li>
+                                                    <li>20 Framed images</li>
+                                                    <li>10 Outfit changes</li>
+                                                    <li>100 Images on SD</li>
+                                                    <li>3-5 Photographer</li>
+                                                </ul>
+                                                <button class="btn btn-default">PURCHASE</button>
+                                            </div>
+                                        </div>
+                                        <!-- team_top area end -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- intro end -->
+                    </div>
+                    <!-- Section five area end -->
+                    <!-- Section six area start -->
+                    <div class="section " id="section6">
+                        <!-- intro start -->
+                        <div class="intro">
+                            <div class="container-fluid nopadding">
+                                <div class="row nopadding ">
+                                    <!-- blog news area start -->
+                                    <div class="col-md-12 blog_news">
+                                        <!-- blog title start -->
+                                        <div class="col-md-12 blog_title">
+                                            <h2>Latest News</h2>
+                                            <a href="blog.html">All Article <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                        </div>
+                                        <!-- blog title end -->
+                                        <!-- blog content start -->
+                                        <div class="col-md-12 blog_content">
+                                            <!-- single news area start -->
+                                            <div class="news2">
+                                                <div class="news_img">
+                                                    <img src="images/blog/1.jpg" alt="Avatar" class="image img-responsive">
+                                                    <div class="overlay">
+                                                        <div class="text">
+                                                            <p>Dec 15th, 2016</p>
+                                                            <h3>Discover your CreativiTy</h3>
+                                                            <p>Online ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
+                                                            <a href="post.html">Continue <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- single news area end -->
+                                            <!-- single news area start -->
+                                            <div class="news2">
+                                                <div class="news_img">
+                                                    <img src="images/blog/2.jpg" alt="Avatar" class="image img-responsive">
+                                                    <div class="overlay">
+                                                        <div class="text">
+                                                            <p>Dec 15th, 2016</p>
+                                                            <h3>Discover your CreativiTy</h3>
+                                                            <p>Online ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
+                                                            <a href="post.html">Continue <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- single news area end -->
+                                            <!-- single news area start -->
+                                            <div class="news2">
+                                                <div class="news_img">
+                                                    <img src="images/blog/3.jpg" alt="Avatar" class="image img-responsive">
+                                                    <div class="overlay">
+                                                        <div class="text">
+                                                            <p>Dec 15th, 2016</p>
+                                                            <h3>Discover your CreativiTy</h3>
+                                                            <p>Online ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
+                                                            <a href="post.html">Continue <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- single news area end -->
+                                        </div>
+                                        <!-- blog content end -->
+                                    </div>
+                                    <!-- blog news area end -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- intro end -->
+                    </div>
+                    <!-- Section six area end -->
+                    <!-- Section seven area start -->
+                    <div class="section " id="section7">
+                        <!-- intro start -->
+                        <div class="intro contact">
+                            <div class="container-fluid nopadding">
+                                <div class="row nopadding ">
+                                    <div class="col-md-12 contact_form">
+                                        <h2>Connect With Us</h2>
+                                        <!-- contact form area start -->
+                                        <div class="col-md-6 col-sm-6 nopadding">
+                                            <form id="contactForm" class="shake" data-toggle="validator">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <input id="name" type="text" class="form-control" name="Name" autocomplete="off" placeholder="Name" required data-error="Please enter your name">
+                                                            <div class="help-block with-errors"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <input id="email" type="email" class="form-control" name="email" autocomplete="off" placeholder="E-mail" required data-error="Please enter your email">
+                                                            <div class="help-block with-errors"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <input id="msg_subject" type="text" class="form-control" name="msg_subject" autocomplete="off" placeholder="Subject" required data-error="Please enter your subject">
+                                                            <div class="help-block with-errors"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <textarea id="message" class="form-control textarea" rows="3" name="Message" placeholder="Message" required data-error="Please enter your message subject"></textarea>
+                                                            <div class="help-block with-errors"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <button id="submit" type="submit" class="btn btn-contact">Send a message</button>
+                                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <!-- contact form area end -->
+                                        <!-- office address area start -->
+                                        <div class="col-md-5 col-sm-6 office">
+                                            <div class="office-details">
+                                                <i class="fa fa-map-marker"></i>
+                                                <span>Shapes Agency, 12 Abc Street, <br>Brooklyn, Newyork.</span>
+                                            </div>
+                                            <div class="office-details">
+                                                <i class="fa fa-phone"></i>
+                                                <span>+12345678, +12345678</span>
+                                            </div>
+                                            <div class="office-details">
+                                                <i class="fa fa-envelope"></i>
+                                                <span>shout@shapescreative.com</span>
+                                            </div>
+                                        </div>
+                                        <!-- office address area end -->
+                                        <!-- social icon start -->
+                                        <div class="col-md-1 col-sm-12 social_icon text-right">
+                                            <ul class="member-social">
+                                                <li><a href="#"><i class=" fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class=" fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class=" fa fa-google"></i></a></li>
+                                                <li><a href="#"><i class=" fa fa-linkedin"></i></a></li>
+                                                <li><a href="#"><i class=" fa fa-behance"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- social icon end -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <iframe class="maps_only" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAAkRJ7l3C5gDn22RTC-vJL3TwUwm7XJz4&amp;q=Space+Needle,Seattle+WA" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <p>&copy; 2017. <strong>Shapes Creative</strong></p>
+                            </div>
+                        </div>
+                        <!-- intro end -->
+                    </div>
+                    <!-- Section seven area end -->
+                </div>
+                <!-- Pagepiling end -->
+            </div>
+            <!-- content end -->
+        </div>
+    </div>
+    <!--   end:  Full Container  -->
+    <!-- Javascripts
+    ================================================== -->
+    <!-- Jquery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Contact JS -->
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Isotop JS -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Pagepiling JS -->
+    <script src="js/jquery.pagepiling.min.js"></script>
+    <!-- Typed Js -->
+    <script src="js/typed.js"></script>
+    <!-- Custom functions for this template -->
+    <script src="js/main.js"></script>
+</body>
+
+
+<!-- Mirrored from demo.lion-coders.com/html/shapes/creative/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Mar 2023 17:32:53 GMT -->
+</html>
